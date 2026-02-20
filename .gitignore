@@ -180,3 +180,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 Scripts/keys.py
+.idea/rGraphicsSettings.xml
+.idea/rSettings.xml
