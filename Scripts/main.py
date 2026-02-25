@@ -2,6 +2,11 @@ import os
 import sys
 import PyQt6.QtWidgets as qw
 from PyQt6.QtWidgets import QTextEdit
+import unpaywall as upw
+import doi_lookup as doi
+import numpy as np
+import pandas as pd
+from db import Database
 
 CITATION_STYLES = ["MLA", "APA", "Chicago", "Harvard", "Vancouver"]
 
@@ -80,9 +85,15 @@ class MainWindow(qw.QMainWindow):
         if style is None:
             self.send_error_message("Please select a citation style.")
             return
-        print("Citation style:", style)
-        print("Paragraph:", paragraph)
-        print("Citations:", citations)
+
+        cits = [cit.strip() for cit in citations.split("\n") if cit.strip()]
+        citation_infos = self.get_citation_infos(cits)
+        if not citation_infos:
+            self.send_error_message("No valid citations found. Please check your input.")
+            return
+
+        self.save_citations(citation_infos)
+        qw.QMessageBox.information(self, "Success", "Paragraph and citations saved successfully!")
 
     def add_paper_section(self):
         paper_frame = qw.QFrame()
@@ -107,7 +118,7 @@ class MainWindow(qw.QMainWindow):
         central_widget = qw.QTabWidget()
 
         central_widget.addTab(self.add_paper_section(), "Add Paragraph")
-        central_widget.addTab(qw.QPushButton("GenerateCitations"), "Generate Citations")
+        central_widget.addTab(qw.QPushButton("Generate Citations"), "Generate Citations")
 
         self.setCentralWidget(central_widget)
 
@@ -121,9 +132,51 @@ class MainWindow(qw.QMainWindow):
         print("Open preferences action triggered")
 
 
+    def lookup_doi(self, citation):
+        doi_lookup = doi.DOILookup()
+        result = doi_lookup.lookup(citation)
+        return result
+
+    def lookup_unpaywall(self, dois):
+        upw_lookup = upw.Unpaywall()
+        result = upw_lookup.lookup(dois)
+        return result
+
+    def get_citation_infos(self, citations):
+        citation_infos = []
+        dois = []
+        for citation in citations:
+            doi_result = self.lookup_doi(citation)
+            if doi_result:
+                dois.append(doi_result[0]["DOI"])
+
+        unpaywall_results = self.lookup_unpaywall(dois)
+        for result in unpaywall_results:
+            if result:
+                citation_infos.append({
+                    "DOI": result.get("doi"),
+                    "Title": result.get("title"),
+                    "Authors": result.get("authors"),
+                    "Journal": result.get("journal_name"),
+                    "Year": result.get("year"),
+                    "Open Access": result.get("is_oa"),
+                    "OA Standard": result.get("oa_status"),
+                    "URL": result.get("url_for_pdf") if result.get("is_oa") else None
+                })
+
+        return citation_infos
+
+    @staticmethod
+    def save_citations(citations):
+        db = Database()
+        db.insert_papers(citations)
+
 
 
 if __name__ == "__main__":
     app = qw.QApplication(sys.argv)
     window = MainWindow()
+
     sys.exit(app.exec())
+
+

@@ -182,3 +182,5 @@ cython_debug/
 Scripts/keys.py
 .idea/rGraphicsSettings.xml
 .idea/rSettings.xml
+Scripts/unpaywall_cache
+/.idea
