@@ -8,6 +8,7 @@ class Claude(LLMCommunicator):
         self.client = Anthropic(api_key=CLAUDE_API_KEY)
 
     def generate_response(self, query):
+        return "Placeholder response for: " + query + " (Claude model: " + self.model + ")"
         response = self.client.messages.create(
             model = self.model,
             max_tokens = 150,
@@ -21,6 +22,6 @@ class Claude(LLMCommunicator):
     def save_response(self, response):
         pass
 
-test = Claude()
-response = test.request("Explain how AI works in a few words")
-print(response)
+#test = Claude()
+#response = test.request("Explain how AI works in a few words")
+#print(response)

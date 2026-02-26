@@ -12,7 +12,6 @@ class ChatGPT(LLMCommunicator):
             model = self.model,
             input = query,
             store = self.store,
-            temperature = self.temperature,
         )
         return response.output_text
 
@@ -20,6 +19,6 @@ class ChatGPT(LLMCommunicator):
       pass
 
 
-test = ChatGPT()
-response = test.request("Explain how AI works in a few words")
-print(response)
+#test = ChatGPT()
+#response = test.request("Explain how AI works in a few words")
+#print(response)
