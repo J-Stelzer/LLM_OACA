@@ -10,7 +10,6 @@ class Gemini(LLMCommunicator):
         self.config.temperature = self.temperature
 
     def generate_response(self, query):
-        return "Placeholder response for: " + query + " (Gemini model: " + self.model + ")"
         response = self.client.models.generate_content(
             model = self.model,
             contents = query,

@@ -17,15 +17,7 @@ class Database:
 
     def insert_papers(self, papers_data):
         collection = self.db["papers"]
-        # only insert if oid is not already in the collection
-        existing_oids = collection.distinct("DOI")
-        if not existing_oids:
-            result = collection.insert_many(papers_data)
-            return result.inserted_ids
-        new_papers_data = [paper for paper in papers_data if paper["DOI"] not in existing_oids]
-        if not new_papers_data:
-            return []
-        result = collection.insert_many(new_papers_data)
+        result = collection.insert_many(papers_data)
         return result.inserted_ids
 
     def get_source_papers(self):
@@ -67,6 +59,13 @@ class Database:
         collection = self.db["paragraphs"]
         paragraph = collection.find_one({"SourceID": source_id})
         return paragraph
+
+    def insert__all_input_data(self, source_data, paragraph_data, citations_data):
+        source_id = self.insert_paper(source_data)
+        paragraph_id = self.insert_paragraph({**paragraph_data, "SourceID": source_id})
+        citation_ids = self.insert_papers(citations_data)
+        self.insert_references([{"SourceID": source_id, "CitationID": cit_id} for cit_id in citation_ids])
+        return source_id, paragraph_id, citation_ids
 
 
 #db = Database()

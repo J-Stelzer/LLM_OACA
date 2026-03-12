@@ -1,17 +1,16 @@
-import os
 import sys
 import PyQt6.QtWidgets as qw
-import unpaywall as upw
-import doi_lookup as doi
-import numpy as np
-import pandas as pd
+
 from db import Database
-import re
+import citation_processor as cip
+import paragraph_processor as pap
+import generation_processor as gep
 
 from llm_communicator import LLMCommunicator
 import chat_gpt
 import claude
 import gemini
+import my_perplexity
 
 class MainWindow(qw.QMainWindow):
     def __init__(self):
@@ -49,6 +48,14 @@ class MainWindow(qw.QMainWindow):
         paragraph_layout.addWidget(paragraph_text_field)
         return paragraph_layout
 
+
+    @staticmethod
+    def clearInputFields(paragraph_layout, citations_layout):
+        paragraph_layout.itemAt(1).widget().clear()
+        paragraph_layout.itemAt(2).widget().clear()
+        citations_layout.itemAt(1).widget().clear()
+
+
     @staticmethod
     def add_citations_section():
         citation_layout = qw.QVBoxLayout()
@@ -78,36 +85,40 @@ class MainWindow(qw.QMainWindow):
             self.send_error_message("Please enter citations.")
             return
 
-        cit_pro = CitationProcessor()
-        ref = [cit_pro.split_citation(source_ref)]
-        ref = cit_pro.get_citation_infos(ref, True)
-        if not ref:
+        pro_paragraph, pro_citations = pap.replace_citations_with_indices(paragraph, citations)
+        pro_citations = cip.has_apa_dois(pro_citations)
+
+
+        source = [cip.split_citation(source_ref)]
+        source = cip.get_citation_infos(source, True)
+
+        if not source:
             self.send_error_message("Error occurred. Please check your source reference input.")
             return
-        ref_id = cit_pro.save_citation(ref[0])
 
-        # print(citations.strip().split("\n"))
-        cits = list(cit_pro.split_citations(citations))
+        citation_infos = cip.get_citation_infos_from_dois(pro_citations, False)
         #print(cits)
-        citation_infos = cit_pro.get_citation_infos(cits)
+        #citation_infos = cip.get_citation_infos(cits)
         if not citation_infos:
             self.send_error_message("Error occurred. Please check your citation input.")
             return
 
-        cit_ids = cit_pro.save_citations(citation_infos)
-        para_id = cit_pro.save_paragraph(paragraph, ref_id)
 
-        cit_pro.save_reference_citation_links(ref_id, cit_ids)
-
+        ref_id = cip.save_citation(source[0])
+        cit_ids = cip.save_citations(citation_infos)
+        para_id = cip.save_paragraph(pro_paragraph, ref_id)
+        cip.save_reference_citation_links(ref_id, cit_ids)
+        # cip.save_all_input_data(source[0], para_id, cit_ids)
 
         qw.QMessageBox.information(self, "Success", "Paragraph and citations saved successfully!")
+        self.clearInputFields(paragraph_layout, citations_layout)
 
     def add_paper_section(self):
         paper_frame = qw.QFrame()
         paper_layout = qw.QVBoxLayout()
         paper_layout.addLayout(self.add_paragraph_section())
         paper_layout.addLayout(self.add_citations_section())
-        print(paper_layout.itemAt(0).layout().itemAt(1).widget())
+        # print(paper_layout.itemAt(0).layout().itemAt(1).widget())
         paper_submit = qw.QPushButton("Add Paragraph and Citations")
         paper_submit.clicked.connect(lambda:
                                      self.on_paper_submit(
@@ -151,19 +162,29 @@ class MainWindow(qw.QMainWindow):
         try:
             for llm in llm_choice:
                 for paper in papers:
-                    query = f"Generate {paper['Count']} citations for the following paragraph: {paper['Paragraph']}"
+                    query = (f"Generate {paper['Count']} citations for the 'R[Number]' placeholders according to APA standards for the following paragraph: {paper['Paragraph']} "
+                             f"\n Just return the citations and indication for the placeholder 'R[Number] without any additional text.")
                     if llm == "ChatGPT":
                         communicator = chat_gpt.ChatGPT()
                     elif llm == "Claude":
                         communicator = claude.Claude()
                     elif llm == "Gemini":
                         communicator = gemini.Gemini()
+                    elif llm == "Perplexity":
+                        communicator = my_perplexity.Perplexity()
                     else:
                         communicator = LLMCommunicator()
-                        # communicator = perplexity.Perplexity()
                     response = communicator.generate_response(query)
-                    print(response)
-                    cit_pro = CitationProcessor()
+                    generated_refs = list(gep.split_response(response))
+                    print(generated_refs)
+                    dois = cip.get_apa_dois(response)
+                    if dois:
+                        unpaywall_results = cip.lookup_unpaywall(dois)
+                        print(unpaywall_results)
+                    else:
+                        titles = cip.get_citation_infos(response)
+                        dois = cip.lookup_doi(titles)
+                        print(titles)
 
                     print(f"Generated citations for {paper['Title']} using {llm}: {response}")
 
@@ -214,104 +235,6 @@ class MainWindow(qw.QMainWindow):
         print("Open preferences action triggered")
 
 
-
-class CitationProcessor:
-    def __init__(self):
-        pass
-
-
-    def split_citations(self, citations):
-        cits = citations.strip().split("\n")
-        for cit in cits:
-            yield self.split_citation(cit)
-
-    def split_citation(self, citation):
-        full_citation = citation
-        # use a regex to split the title ( [A-Za-z ]{15,}\. )
-        title_match = re.search(r"\. [A-Za-z ]{15,}\.", citation)
-        title = title_match.group(0).strip(' .').strip('. ') if title_match else "Unknown"
-        return {
-            "full_citation": full_citation,
-            "title": title
-        }
-
-    def lookup_doi(self, citation, title):
-        doi_lookup = doi.DOILookup()
-        result = doi_lookup.lookup(citation, title)
-        return result
-
-    def lookup_unpaywall(self, dois):
-        upw_lookup = upw.Unpaywall()
-        result = upw_lookup.lookup(dois)
-        return result
-
-    def get_citation_infos(self, citations, source = False):
-        try:
-            citation_infos = []
-            dois = []
-            for citation in citations:
-                full_citation = citation["full_citation"]
-                title = citation["title"]
-                doi_result = self.lookup_doi(citation, title)
-                if doi_result:
-                    dois.append(doi_result[0]["DOI"])
-
-            unpaywall_results = self.lookup_unpaywall(dois)
-            print(unpaywall_results)
-            # this is a pd dataframe, we need to iterate over the rows
-            for index, row in unpaywall_results.iterrows():
-                result = row.to_dict()
-                print(result)
-                if result:
-                    authors = []
-                    for author in result["z_authors"]:
-                        authors.append(author["raw_author_name"])
-                    print(authors)
-                    citation_infos.append({
-                        "DOI": result["doi"],
-                        "Title": result["title"],
-                        "Authors": authors,
-                        "Journal": result["journal_name"],
-                        "Published": result["published_date"],
-                        "Open Access": result["is_oa"],
-                        "OA Standard": result["oa_status"],
-                        "URL": result["doi_url"],
-                        "Source": source
-                    })
-
-            #print(citation_infos)
-            return citation_infos
-        except Exception as e:
-            print(f"Error during citation info retrieval: {e}")
-            return None
-
-    def save_citations(self, citations):
-        db = Database()
-        return db.insert_papers(citations)
-
-    def save_citation(self, citation):
-        db = Database()
-        return db.insert_paper(citation)
-
-    def save_reference_citation_links(self, ref_id, cit_ids):
-        # Ref_id is the id of the source paper, cit_ids is a list of ids of the cited papers
-        db = Database()
-        links = [{"SourceID": ref_id, "CitationID": cit_id} for cit_id in cit_ids]
-        return db.insert_references(links)
-
-    def save_paragraph(self, paragraph, source_id):
-        db = Database()
-        return db.insert_paragraph({
-            "Paragraph": paragraph,
-            "SourceID": source_id,
-        })
-
-    def process_generated_citations(self, generated_citations):
-        processed_citations = []
-        for citation in generated_citations:
-            processed_citation = self.split_citation(citation)
-            processed_citations.append(processed_citation)
-        return processed_citations
 
 if __name__ == "__main__":
     app = qw.QApplication(sys.argv)
