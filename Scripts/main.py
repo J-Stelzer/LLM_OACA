@@ -89,8 +89,8 @@ class MainWindow(qw.QMainWindow):
         pro_citations = cip.has_apa_dois(pro_citations)
 
 
-        source = [cip.split_citation(source_ref)]
-        source = cip.get_citation_infos(source, True)
+        source = cip.get_apa_dois_from_text(source_ref)
+        source = cip.get_citation_infos_from_doi(source, True)
 
         if not source:
             self.send_error_message("Error occurred. Please check your source reference input.")
@@ -153,7 +153,8 @@ class MainWindow(qw.QMainWindow):
                         "Title": source["Title"],
                         "DOI": source["DOI"],
                         "Paragraph": paragraph,
-                        "Count": ref_count
+                        "Count": ref_count,
+                        "SourceID": source["_id"]
                     })
         except Exception as e:
             print(f"Error retrieving paper information: {e}")
@@ -177,14 +178,8 @@ class MainWindow(qw.QMainWindow):
                     response = communicator.generate_response(query)
                     generated_refs = list(gep.split_response(response))
                     print(generated_refs)
-                    dois = cip.get_apa_dois(response)
-                    if dois:
-                        unpaywall_results = cip.lookup_unpaywall(dois)
-                        print(unpaywall_results)
-                    else:
-                        titles = cip.get_citation_infos(response)
-                        dois = cip.lookup_doi(titles)
-                        print(titles)
+                    references = cip.get_apa_dois(response)
+                    gep.save_generated_citations(generated_refs, paper["SourceID"], llm)
 
                     print(f"Generated citations for {paper['Title']} using {llm}: {response}")
 

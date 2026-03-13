@@ -68,6 +68,11 @@ class Database:
         return source_id, paragraph_id, citation_ids
 
 
+    def insert_generated(self, generated_citations_data):
+        collection = self.db["generated"]
+        result = collection.insert_many(generated_citations_data)
+        return result.inserted_ids
+
 #db = Database()
 #print(db.get_source_papers())
 

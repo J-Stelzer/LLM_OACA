@@ -184,6 +184,15 @@ def save_paragraph(paragraph, source_id):
         "SourceID": source_id,
     })
 
+def save_generated_citations(generated_citations, source_id, llm):
+    db = Database()
+    citations_data = []
+    for citation in generated_citations:
+        citation.add("LLM", llm)
+        citation.add("SourceID", source_id)
+        citations_data.append(citation)
+    return db.insert_generated(citations_data)
+
 def process_generated_citations(generated_citations):
     processed_citations = []
     for citation in generated_citations:
@@ -198,10 +207,25 @@ def find_apa_citations_in_paragraph(paragraph):
     return citations
 
 
-def get_apa_dois(input_text):
+def get_apa_dois_from_text(input_text:str):
     doi_pattern = r"10.\d{4,9}\/[-._;()\/:A-Za-z0-9]+"
     dois = re.findall(doi_pattern, input_text, re.IGNORECASE)
     return dois
+
+def get_apa_dois(references: list):
+    # references is a list of dicts, where each dict has an index and reference field
+    # I want to add a field to each dict indicating if there is a doi and a second field containing the doi
+    doi_pattern = r"10.\d{4,9}\/[-._;()\/:A-Za-z0-9]+"
+    for ref in references:
+        dois = re.findall(doi_pattern, ref["reference"], re.IGNORECASE)
+        if dois:
+            ref["has_doi"] = True
+            ref["doi"] = dois[0]
+        else:
+            ref["has_doi"] = False
+            ref["doi"] = None
+
+    return references
 
 
 def has_apa_dois(references):

@@ -8,7 +8,7 @@ def replace_citations_with_indices(paragraph, references):
     refs = convert_to_ref_list(references)
     ref_index = build_reference_index(refs)
     linked = match_citations(cits, ref_index)
-
+    print(linked)
     for cit, ref in linked.items():
         if ref:
             index = refs.index(ref) + 1
@@ -59,10 +59,10 @@ def build_reference_index(references):
 
 def parse_citation(citation):
 
-    citation = citation.lower()
+    c = citation.lower()
 
-    author = re.match(r'([a-zA-Z\-]+)', citation)
-    year = re.search(r'(\d{4}[a-z]?)', citation)
+    author = re.match(r'([a-z\-]+)', c)
+    year = re.search(r'(\d{4}[a-z]?)', c)
 
     if author and year:
         return author.group(1), year.group(1)
@@ -73,11 +73,27 @@ def parse_citation(citation):
 def match_citations(citations, ref_index):
     results = {}
 
-    for c in citations:
-        key = parse_citation(c)
+    for citation in citations:
+        print(citation.lower())
+        key = parse_citation(citation)
 
-        if key:
-            results[c] = ref_index.get(key)
+        if not key:
+            results[citation] = None
+            continue
+
+        name, year = key
+        match = None
+
+        for ref, item in ref_index.items():
+            print(name)
+            print(item)
+            print("---")
+            item_l = item.lower()
+            if item_l.startswith(name) and f"({year})" in item_l:
+                match = item
+                break
+
+        results[citation] = match
 
     return results
 
@@ -92,8 +108,19 @@ def convert_to_ref_list(citations):
     splits = re.split(pattern, citations, flags=re.MULTILINE)
     refs = []
     for i in range(2, len(splits), 2):
-        refs.append(splits[i].replace('-\n', '').replace('\n', ' '))
+        refs.append(replacer(splits[i]))
     return refs
+
+
+def replacer(citation):
+    cit = citation.replace('-\n', '-')
+    cit = cit.replace('\n.', '.')
+    cit = cit.replace('/\n', '/')
+    cit = cit.replace(')\n', ')')
+    cit = re.sub(r'(\d)\n(\d)', r'\1\2', cit)
+    cit = re.sub(r'(/[a-zA-Z0-9]*)\n([a-zA-Z0-9]*/)', r'\1\2', cit)
+    cit = cit.replace('\n', ' ')
+    return cit.strip()
 
 #text = """abid, g., contreras, F., ahmed, s., & Qazi, t. (2019). contextual factors and organizational commitment: examining
 #the mediating role of thriving at work. Sustainability, 11(17), 4686. https://doi.org/10.3390/su11174686
