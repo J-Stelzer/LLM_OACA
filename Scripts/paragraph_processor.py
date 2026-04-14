@@ -101,10 +101,16 @@ def convert_to_flow(paragraph):
 
 
 def convert_to_ref_list(citations):
-    pattern = r'(?=^([a-zA-Z -]{3,}, [a-zA-Z]{1}\.+))'
+    pattern = r'(?=^([\w -]{3,}, [a-zA-Z]{1}\.+))|(?=^([\w ]{6,}\. (\(\d{4}[a-g]?\))))'
     splits = re.split(pattern, citations, flags=re.MULTILINE)
+    #print(splits)
+    while splits.count(None) > 0:
+        splits.remove(None)
+    #print(splits)
     refs = []
-    for i in range(2, len(splits), 2):
+    for i in range(len(splits)):
+        if not splits[i] or len(splits[i]) <= 40:
+            continue
         refs.append(replacer(splits[i]))
     return refs
 
@@ -410,3 +416,7 @@ finals, links = replace_citations_with_indices(test, text)
 
 print(finals)
 print(links)
+
+# print(text2)
+# for i in convert_to_ref_list(text2):
+#     print(i)
