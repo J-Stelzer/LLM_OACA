@@ -1,5 +1,5 @@
 import re
-
+import difflib
 
 def replace_citations_with_indices(paragraph, references):
     final_paragraph = replacer(paragraph).lower()
@@ -101,18 +101,59 @@ def convert_to_flow(paragraph):
 
 
 def convert_to_ref_list(citations):
-    pattern = r'(?=^([\w -]{3,}, [a-zA-Z]{1}\.+))|(?=^([\w ]{6,}\. (\(\d{4}[a-g]?\))))'
+    citations = re.sub(r'-\n\s*', '', citations)
+    citations = re.sub(r'\n+', '\n', citations)
+    pattern = r'(?=^([a-zA-Z_\u00C0-\u02AF\u00B4 \-]+,\s+[a-zA-Z_\u00C0-\u02A0\u00B4]\.|[a-zA-Z_\u00C0-\u02AF\u00B4 ]{3,}\.\s+\(\d{4}\)))'
+
     splits = re.split(pattern, citations, flags=re.MULTILINE)
-    #print(splits)
-    while splits.count(None) > 0:
-        splits.remove(None)
-    #print(splits)
+    print(len(splits))
     refs = []
-    for i in range(len(splits)):
-        if not splits[i] or len(splits[i]) <= 40:
-            continue
-        refs.append(replacer(splits[i]))
+    for i in range(1, len(splits), 2):
+        refs.append(replacer(splits[i+1]))
+    x = 0
+    print_each(refs)
+    while x < len(refs):
+        if refs[x] and refs[x].endswith(('.,', '-', '., &', '., & the')):
+            refs[x] = refs[x] + " " + refs[x+1]
+            del refs[x+1]
+        else:
+            x += 1
     return refs
+
+
+def combine_refs(refs):
+    i = 0
+    while i < len(refs) - 1:
+        ref = refs[i]
+
+        if ref.endswith(('.,\n', '-\n', '., &\n', '., & the\n')):
+            refs[i] = ref + refs[i + 1]
+            del refs[i + 1]
+            # stay on same index to re-check merged result
+        else:
+            i += 1
+
+    return refs
+
+
+def remove_duplicate_refs(ref, refs):
+    i = refs.index(ref)
+
+    while i > 0:
+        prev = refs[i - 1]
+
+        # Only merge if prev is literally a prefix of ref
+        if ref.startswith(prev[:30]):  # stricter than last-10-chars
+            if prev not in ref:
+                ref = prev + ref[len(prev):]
+                refs[i] = ref
+            del refs[i - 1]
+            i -= 1
+        else:
+            break
+
+    return refs
+
 
 
 def replacer(citation):
@@ -123,6 +164,7 @@ def replacer(citation):
     cit = re.sub(r'(\d)\n(\d)', r'\1\2', cit)
     cit = re.sub(r'(/[a-zA-Z0-9]*)\n([a-zA-Z0-9]*/)', r'\1\2', cit)
     cit = cit.replace('\n', ' ')
+    cit = re.sub(r'([a-zA-Z0-9]*-[a-zA-Z0-9]*) ([a-zA-Z0-9]*-[a-zA-Z0-9]*)', r'\1\2', cit)
     cit = cit.replace('  ', '\n')
     return cit.strip()
 
@@ -412,11 +454,405 @@ work serves as a self-regulatory mediating mechanism between antecedents (i.e. m
 prosocial motivation) and consequences (i.e. affective organizational commitment)."""
 
 
-finals, links = replace_citations_with_indices(test, text)
+text3 = """cossman, J. s., & street, d. (2009). Mississippi burnout. Part i: Personal characteristics and practice context. Journal
+of the Mississippi State Medical Association, 50(9), 306–310.
+El-hashash, E., & shiekh, R. (2022). a comparison of the Pearson, spearman rank and Kendall tau correlation coeffi-
+cients using quantitative variables. Asian Journal of Probability and Statistics, 20(3), 36–48. https://doi.org/10.9734/ajpas/2022/v20i3425
+Elo, a., leppänen, a., & Jahkola, a. (2003). Validity of a single-item measure of stress symptoms. Scandinavian Journal
+of Work, Environment & Health, 29(6), 444–451. https://doi.org/10.5271/sjweh.752
+Fernández-arata, M., dominguez-lara, s. a., & Merino-soto, c. (2017). Ítem único de burnout académico y su relación
+con autoeficacia académica en estudiantes universitarios. Enfermería Clínica, 27(1), 60–61. https://doi.org/10.1016/j.enfcli.2016.07.001
+Kendall, M. g., & gibbons, J. d. (1990). Rank correlation methods (5th ed.). Edward arnold.
+Kilic, R., nasello, J. a., Melchior, V., & triffaux, J. M. (2021). academic burnout among medical students: Respective
+importance of risk and protective factors. Public Health, 198, 187–195. https://doi.org/10.1016/j.puhe.2021.07.025
+Koropets, o., Fedorova, a., & Kacane, i. (2019). Emotional and academic burnout of students combining education
+and work. in Proceedings of EdulEaRn19 11th International Conference on Education and New Learning Technologies
+(pp. 8227–8232). iatEd. https://doi.org/10.21125/edulearn.2019.2038
+Koutsimani, P., Montgomery, a., & georganta, K. (2019). the relationship between burnout, depression, and anxiety:
+a systematic review and meta-analysis. Frontiers in Psychology, 10, 284. https://doi.org/10.3389/fpsyg.2019.00284
+Kristensen, t. s., Borritz, M., Villadsen, E., & christensen, K. B. (2005). the copenhagen burnout inventory: a new tool
+for the assessment of burnout. Work & Stress, 19(3), 192–207. https://doi.org/10.1080/02678370500297720
+Kroenke, K., spitzer, R. l., & Williams, J. B. (2003). the patient health questionnaire-2: Validity of a two-item depression
+screener. Medical Care, 41(11), 1284–1292. https://doi.org/10.1097/01.MlR.0000093487.78664.3c
+Kroenke, K., spitzer, R. l., Williams, J. B., & löwe, B. (2009). an ultra-brief screening scale for anxiety and depression:
+the PhQ-4. Psychosomatics, 50(6), 613–621. https://doi.org/10.1016/s0033-3182(09)70864-3
+Kroenke, K., spitzer, R. l., Williams, J. B., Monahan, P. o., & löwe, B. (2007). anxiety disorders in primary care:
+Prevalence, impairment, comorbidity, and detection. Annals of Internal Medicine, 146(5), 317–325. https://doi.org/10.7326/0003-4819-146-5-200703060-00004
+lin, s.-h., & huang, y.-c. (2014). life stress and academic burnout. Active Learning in Higher Education, 15(1), 77–90.
+https://doi.org/10.1177/1469787413514651
+Maslach, c., & leiter, M. P. (2016). understanding the burnout experience: Recent research and its implications for
+psychiatry. World Psychiatry, 15(2), 103–111. https://doi.org/10.1002/wps.20311
+Menacho-Rivera, J., castro-Ramirez, l., yarasca-Berrocal, E., huamani-Echaccaya, J., hernández-Vergara, c.,
+ladera-castañeda, M., & cayo-Rojas, c. (2025). academic burnout syndrome associated with anxiety, stress, depres-
+sion, and quality of life in Peruvian dentistry students: an analysis using a multivariable regression model. BMC
+Medical Education, 25(1), 998. https://doi.org/10.1186/s12909-025-07604-x
+Merino-soto, c., & Fernández-arata, J. M. (2020). Ítem único de burnout académico: correlato con MBi-s en el nivel
+de los ítems. Educación Médica, 21(1), 61–62. https://doi.org/10.1016/j.edumed.2018.10.004
+Merino-soto, c., & Fernández-arata, M. (2017). Ítem único de burnout en estudiantes de educación superior: Estudio
+de validez de contenido. Educación Médica, 18(3), 195–198. https://doi.org/10.1016/j.edumed.2016.06.019
+Merino-soto, c., angulo-Ramos, M., llaja-Rojas, V., & chans, g. M. (2024). academic performance, emotional intelli-
+gence, and academic burnout: a cross-sectional study of a mediational effect in nursing students. Nurse Education
+Today, 139, 106221. https://doi.org/10.1016/j.nedt.2024.106221
+Merino-soto, c., Juárez-garcía, a., salinas-Escudero, g., & toledano-toledano, F. (2022). item-level psychometric anal-
+ysis of the Psychosocial Processes at Work scale (PRoPsit) in workers. International Journal of Environmental
+Research and Public Health, 19(13), 7972. https://doi.org/10.3390/ijerph1907972
+Popa-Velea, o., stoian-Bǎlǎşoiu, i. R., Mihai, a., Mihǎilescu, a. i., & diaconescu, l. V. (2025). Prevention strategies
+against academic burnout: the perspective of Romanian health sciences students in the aftermath of the coVid-19
+pandemic. Frontiers in Psychology, 16, 1465807. https://doi.org/10.3389/fpsyg.2025.1465807
+Puig-lagunes, a. a., Mendez-lara, l. a., & ortiz-cruz, F. (2025). academic burnout in Mexican medical students: a
+critical review of prevalence, risk factors, and gaps in intervention. International Journal of Medical Students, 13(1),
+73–86. https://doi.org/10.5195/ijms.2025.2461
+Puth, M., neuhäuser, M., & Ruxton, g. (2015). Effective use of spearman’s and Kendall’s correlation coefficients for
+association between two measured traits. Animal Behaviour, 102, 77–84. https://doi.org/10.1016/j.anbehav.2015.01.010
+Reyna-castillo, M., Pulgarín-Rodríguez, M. a., Ríos-serna, a. h., & santiago, a. (2022). Pls-sEM validation for burnout
+measures in latino college students: a socially sustainable educational return. Sustainability, 14(21), 14635. https://doi.org/10.3390/su142114635
+Rohland, B. M., Kruse, g. R., & Rohrer, J. E. (2004). Validation of a single‐item measure of burnout against the Maslach
+Burnout inventory among physicians. Stress and Health, 20(2), 75–79. https://doi.org/10.1002/smi.1002
+samejima, F. (1980). Research on the multiple-choice test item in Japan: Toward the validation of mathematical models
+(Technical Report No. 79-4). department of the navy, office of naval Research. https://apps.dtic.mil/sti/citations/tr/ada087127
+schaufeli, W. B., & taris, t. W. (2005). the conceptualization and measurement of burnout: common ground and
+worlds apart. Work & Stress, 19(3), 256–262. https://doi.org/10.1080/02678370500385913
+Wilson, E. B. (1927). Probable inference, the law of succession, and statistical inference. Journal of the American
+Statistical Association, 22(158), 209–212. https://doi.org/10.1080/01621459.1927.10502953
+schaufeli, W. B., leiter, M. P., & Maslach, c. (2009). Burnout: 35 years of research and practice. Career Development
+International, 14(3), 204–220. https://doi.org/10.1108/13620430910966406
+schaufeli, W. B., Martínez, i. M., Pinto, a. M., salanova, M., & Bakker, a. B. (2002). Burnout and engagement in univer-
+sity students: a cross-national study. Journal of Cross-Cultural Psychology, 33(5), 464–481. https://doi.org/10.1177/0022022102033005003
+World health organization. (2019). Burn-out an “occupational phenomenon”: International classification of diseases.
+https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classificati
+on-of-diseases
+Xu, W., hou, y., hung, y. s., & Zou, y. (2013). a comparative analysis of spearman’s rho and Kendall’s tau in normal
+and contaminated normal models. Signal Processing, 93(1), 261–276. https://doi.org/10.1016/j.sigpro.2012.08.005"""
 
-print(finals)
-print(links)
+text4 = """Akram, M., Cerin, E., Lamb, K. E., & White, S. R. (2023). Modelling count,
+bounded and skewed continuous outcomes in physical activity research:
+Beyond linear regression models. International Journal of Behavioral
+Nutrition and Physical Activity, 20(1), Article 57. https://doi.org/10.1186/
+s12966-023-01460-y
+Alviarez-Schulze, V., Cattaneo, G., Pacho´n-García, C., Solana-Sánchez, J.,
+Tormos, J. M., Pascual-Leone, A., & Bartrés-Faz, D. (2022). Validation
+and normative data of the Spanish version of the Rey Auditory Verbal
+Learning Test and associated long-term forgetting measures in middle-
+aged adults. Frontiers in Aging Neuroscience, 14, Article 809019. https://
+doi.org/10.3389/fnagi.2022.809019
+Arango-Lasprilla, J. C., Rivera, D., Ramos-Usuga, D., Vergara-Moragues, E.,
+Montero-Lo´pez, E., Adana Díaz, L. A., Aguayo Arelis, A., García-
+Guerrero, C. E., García de la Cadena, C., Llerena Espezúa, X., Lara, L.,
+Padilla-Lo´pez, A., Rodriguez-Irizarry, W., Alcazar Tebar, C., Irías Escher,
+M. J., Llibre Guerra, J. J., Torales Cabrera, N., Rodríguez-Agudelo, Y., &
+Ferrer-Cascales, R. (2017). Trail Making Test: Normative data for the Latin
+American Spanish-speaking pediatric population. NeuroRehabilitation,
+41(3), 627–637. https://doi.org/10.3233/NRE-172247
+Austin, P. C., & Steyerberg, E. W. (2015). The number of subjects per
+variable required in linear regression analyses. Journal of Clinical
+Epidemiology, 68(6), 627–636. https://doi.org/10.1016/j.jclinepi.2014
+.12.014
+Bonete-Lo´pez, B., Oltra-Cucarella, J., Marín, M., Anto´n, C., Balao, N.,
+Lo´pez, E., & Macià, E. S. (2021). Validation and norms for a recognition
+task for the Spanish version of the Free and Cued Selective Reminding
+Test. Archives of Clinical Neuropsychology, 36(6), 954–964. https://
+doi.org/10.1093/arclin/acaa117
+Caldero´n-Rubio, E., Oltra-Cucarella, J., Bonete-Lo´pez, B., Iñesta, C., &
+Sitges-Maciá, E. (2021). Regression-based normative data for independent
+and cognitively active Spanish older adults: Free and Cued Selective
+Reminding Test, Rey-Osterrieth Complex Figure Test and Judgement of
+Line Orientation. International Journal of Environmental Research and
+Public Health, 18(24), Article 12977. https://doi.org/10.3390/ijerph1824
+12977
+Campo, P., & Morales, M. (2004). Normative data and reliability for a Spanish
+version of the verbal Selective Reminding Test. Archives of Clinical
+Neuropsychology, 19(3), 421–435. https://doi.org/10.1016/S0887-6177(03)
+00075-1
+Campos-Magdaleno, M., Nieto-Vieites, A., Frades-Payo, B., Montenegro-
+Peña, M., Facal, D., Lojo-Seoane, C., & Delgado-Losada, M. L. (2024).
+Normative data for the Spanish versions of the CVLT, WMS-Logical
+Memory, and RBMT from a sample of middle-aged and old participants.
+Psychological Assessment, 36(2), 114–123. https://doi.org/10.1037/
+pas0001292
+Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational
+and Psychological Measurement, 20(1), 37–46. https://doi.org/10.1177/
+001316446002000104
+Crawford, J. R., & Garthwaite, P. H. (2007). Using regression equations built
+from summary data in the neuropsychological assessment of the individual
+case. Neuropsychology, 21(5), 611–620. https://doi.org/10.1037/0894-
+4105.21.5.611
+Crawford, J. R., & Garthwaite, P. H. (2012). Single-case research in neu-
+ropsychology: A comparison of five forms of t-test for comparing a case to
+controls. Cortex, 48(8), 1009–1016. https://doi.org/10.1016/j.cortex.2011
+.06.021
+Crawford, J. R., Garthwaite, P. H., Denham, A. K., & Chelune, G. J. (2012).
+Using regression equations built from summary data in the psychological
+assessment of the individual case: Extension to multiple regression.
+Psychological Assessment, 24(4), 801–814. https://doi.org/10.1037/
+a0027699
+Crawford, J. R., Garthwaite, P. H., & Slick, D. J. (2009). On percentile norms
+in neuropsychology: Proposed reporting standards and methods for
+quantifying the uncertainty over the percentile ranks of test scores. The
+Clinical Neuropsychologist, 23(7), 1173–1195. https://doi.org/10.1080/
+13854040902795018
+De Andrade Moral, R., Díaz-Orueta, U., & Oltra-Cucarella, J. (2022).
+Logistic versus linear regression-based reliable change index: A simu-
+lation study with implications for clinical studies with different sample
+sizes. Psychological Assessment, 34(8), 731–741. https://doi.org/10.1037/
+pas0001138
+delCacho-Tena, A., Christ, B. R., Arango-Lasprilla, J. C., Perrin, P. B.,
+Rivera, D., & Olabarrieta-Landa, L. (2024). Normative data estimation
+in neuropsychological tests: A systematic review. Archives of Clinical
+Neuropsychology, 39(3), 383–398. https://doi.org/10.1093/arclin/
+acad084
+Delgado-Losada, M. L., Lo´pez-Higes, R., Rubio-Valdehita, S., Facal, D.,
+Lojo-Seoane, C., Montenegro-Peña, M., Frades-Payo, B., & Fernández-
+Blázquez, M. A. (2021). Spanish consortium for ageing normative data
+(SCAND): Screening tests (MMSE, GDS-15 and MFE). Psicothema,
+33(1), 70–76. https://doi.org/10.7334/psicothema2020.304
+Demétrio, C. G. B., Hinde, J., & Moral, R. A. (2014). Models for over-
+dispersed data in entomology. In C. P. Ferreira & W. A. C. Godoy (Eds.),
+Ecological modelling applied to entomology (pp. 219–259). Springer.
+https://doi.org/10.1007/978-3-319-06877-0_9
+Dubois, B., Feldman, H. H., Jacova, C., Hampel, H., Molinuevo, J. L.,
+Blennow, K., DeKosky, S. T., Gauthier, S., Selkoe, D., Bateman, R.,
+Cappa, S., Crutch, S., Engelborghs, S., Frisoni, G. B., Fox, N. C., Galasko,
+D., Habert, M.-O., Jicha, G. A., Nordberg, A., … Cummings, J. L. (2014).
+Advancing research diagnostic criteria for Alzheimer’s disease: The IWG-
+2 criteria. The Lancet Neurology, 13(6), 614–629. https://doi.org/10.1016/
+S1474-4422(14)70090-0
+Duff, K., Hammers, D. B., Dalley, B. C. A., Suhrie, K. R., Atkinson, T. J.,
+Rasmussen, K. M., Horn, K. P., Beardmore, B. E., Burrell, L. D., Foster,
+N. L., & Hoffman, J. M. (2017). Short-term practice effects and amyloid
+deposition: Providing information above and beyond baseline cognition.
+The Journal of Prevention of Alzheimer’s Disease, 4(2), 87–92. https://
+doi.org/10.14283/jpad.2017.9
+Ehrenreich, J. H. (1995). Normative data for adults on a short form of the
+Selective Reminding Test. Psychological Reports, 76(2), 387–390. https://
+doi.org/10.2466/pr0.1995.76.2.387
+Fleiss, J. L., Levin, B., & Paik, M. C. (2003). Statistical methods for rates
+and proportions (3rd ed.). Wiley. https://doi.org/10.1002/0471445428
+Folstein, M. F., Folstein, S. E., & McHugh, P. R. (1975). “Mini-mental
+state”: A practical method for grading the cognitive state of patients for the
+clinician. Journal of Psychiatric Research, 12(3), 189–198. https://
+doi.org/10.1016/0022-3956(75)90026-6
+Gamer, M., Lemon, J., Fellows, I., & Singh, P. (2019). irr: Various coef-
+ficients of interrater reliability and agreement (Version 0.84.1) [Computer
+software]. https://CRAN.R-project.org/package=irr
+García-Herranz, S., Díaz-Mardomingo, M. D. C., Suárez-Falco´n, J. C.,
+Rodríguez-Fernández, R., Peraita, H., & Venero, C. (2022). Normative
+data for the Spanish version of the California Verbal Learning Test
+(TAVEC) from older adults. Psychological Assessment, 34(1), 91–97.
+https://doi.org/10.1037/pas0001070
+Girtler, N., De Carli, F., Amore, M., Arnaldi, D., Bosia, L. E., Bruzzaniti, C.,
+Cappa, S. F., Cocito, L., Colazzo, G., Ghio, L., Magi, E., Mancardi, G. L.,
+Nobili, F., Pardini, M., Picco, A., Rissotto, R., Serrati, C., & Brugnolo, A.
+(2015). A normative study of the Italian printed word version of the Free
+and Cued Selective Reminding Test. Neurological Sciences, 36(7), 1127–
+1134. https://doi.org/10.1007/s10072-015-2237-7
+Grau-Guinea, L., Pérez Enríquez, C., García-Escobar, G., Arrondo Elizarán, C.,
+Pereira Cutiño, B., Florido Santiago, M., Piqué Candini, J., Planas, A., Paez,
+M., Peña Casanova, J., & Sánchez-Benavides, G. (2021). Development,
+equivalence study, and normative data of version B of the Spanish-language
+Free and Cued Selective Reminding Test. Neurologia, 36(5), 353–360.
+https://doi.org/10.1016/j.nrleng.2018.02.001
+Guàrdia-Olmos, J., Pero´-Cebollero, M., Rivera, D., & Arango-Lasprilla, J. C.
+(2015). Methodology for the development of normative data for ten
+Spanish-language neuropsychological tests in eleven Latin American
+countries. NeuroRehabilitation, 37(4), 493–499. https://doi.org/10.3233/
+NRE-151277
+Harrington, K. D., Lim, Y. Y., Ames, D., Hassenstab, J., Rainey-Smith, S.,
+Robertson, J., Salvado, O., Masters, C. L., Maruff, P., & the AIBL Research
+Group. (2017). Using robust normative data to investigate the neuropsy-
+chology of cognitive aging. Archives of Clinical Neuropsychology, 32(2),
+142–154. https://doi.org/10.1093/arclin/acw106
+Iñesta, C., Oltra-Cucarella, J., Bonete-Lo´pez, B., Caldero´n-Rubio, E., &
+Sitges-Maciá, E. (2021). Regression-based normative data for inde-
+pendent and cognitively active Spanish older adults: Digit Span, Letters
+and Numbers, Trail Making Test and Symbol Digit Modalities Test.
+International Journal of Environmental Research and Public Health,
+18(19), Article 9958. https://doi.org/10.3390/ijerph18199958
+Iñesta, C., Oltra-Cucarella, J., & Sitges-Maciá, E. (2022). Regression-based
+normative data for independent and cognitively active Spanish older
+adults: Verbal fluency tests and Boston Naming Test. International
+Journal of Environmental Research and Public Health, 19(18), Article
+11445. https://doi.org/10.3390/ijerph191811445
+Ivnik, R. J., Malec, J. F., Smith, G. E., Tangalos, E. G., & Petersen, R. C.
+(1996). Neuropsychological tests’ norms above age 55: COWAT, BNT,
+MAE token, WRAT-R reading, AMNART, STROOP, TMT, and JLO.
+The Clinical Neuropsychologist, 10(3), 262–278. https://doi.org/10.1080/
+13854049608406689
+Ivnik, R. J., Malec, J. F., Smith, G. E., Tangalos, E. G., Petersen, R. C.,
+Kokmen, E., & Kurland, L. T. (1992a). Mayo’s older Americans
+normative studies: Updated AVLT norms for ages 56 to 97. Clinical
+Neuropsychologist, 6(Suppl. 1), 83–104. https://doi.org/10.1080/1385
+4049208401880
+Ivnik, R. J., Malec, J. F., Smith, G. E., Tangalos, E. G., Petersen, R. C.,
+Kokmen, E., & Kurland, L. T. (1992b). Mayo’s older Americans
+normative studies: WAIS-R norms for ages 56 to 97. Clinical Neuro-
+psychologist, 6(Suppl. 1), 1–30. https://doi.org/10.1080/13854049208
+401877
+Ivnik, R. J., Smith, G. E., Lucas, J. A., Tangalos, E. G., Kokmen, E., &
+Petersen, R. C. (1997). Free and Cued Selective Reminding Test: MOANS
+norms. Journal of Clinical and Experimental Neuropsychology, 19(5),
+676–691. https://doi.org/10.1080/01688639708403753
+Karstens, A. J., Christianson, T. J., Lundt, E. S., Machulda, M. M., Mielke,
+M. M., Fields, J. A., Kremers, W. K., Graff-Radford, J., Vemuri, P., Jack,
+C. R., Jr., Knopman, D. S., Petersen, R. C., & Stricker, N. H. (2024). Mayo
+normative studies: Regression-based normative data for ages 30–91 years
+with a focus on the Boston Naming Test, Trail Making Test and Category
+Fluency. Journal of the International Neuropsychological Society, 30(4),
+389–401. https://doi.org/10.1017/S1355617723000760
+Kéry, M., & Hatfield, J. S. (2003). Normality of raw data in general linear
+models: The most widespread myth in statistics. Bulletin of the Ecological
+Society of America, 84(2), 92–94. https://doi.org/10.1890/0012-9623(2003)
+84[92:NORDIG]2.0.CO;2
+Kiselica, A. M., Kaser, A. N., Webber, T. A., Small, B. J., & Benge, J. F.
+(2020). Development and preliminary validation of standardized regression-
+based change scores as measures of transitional cognitive decline. Archives
+of Clinical Neuropsychology, 35(7), 1168–1181. https://doi.org/10.1093/
+arclin/acaa042
+Klein, N. (2024). Distributional regression for data analysis. Annual Review
+of Statistics and Its Application, 11(1), 321–346. https://doi.org/10.1146/
+annurev-statistics-040722-053607
+Koo, T. K., & Li, M. Y. (2016). A guideline of selecting and reporting
+intraclass correlation coefficients for reliability research. Journal of
+Chiropractic Medicine, 15(2), 155–163. https://doi.org/10.1016/j.jcm
+.2016.02.012
+Larrabee, G. J., Trahan, D. E., & Levin, H. S. (2000). Normative data for a
+six-trial administration of the Verbal Selective Reminding Test. The
+Clinical Neuropsychologist, 14(1), 110–118. https://doi.org/10.1076/
+1385-4046(200002)14:1;1-8;FT110
+Lucas, J. A., Ivnik, R. J., Smith, G. E., Ferman, T. J., Willis, F. B., Petersen,
+R. C., & Graff-Radford, N. R. (2005). Mayo’s older African Americans
+normative studies: Norms for Boston Naming Test, Controlled Oral Word
+Association, Category Fluency, Animal Naming, Token Test, WRAT-3
+Reading, Trail Making Test, Stroop Test, and Judgment of Line Orientation.
+The Clinical Neuropsychologist, 19(2), 243–269. https://doi.org/10.1080/
+13854040590945337
+McCullagh, P., & Nelder, J. A. (1989). Generalized linear models. Chapman
+& Hall.
+McKhann, G. M., Knopman, D. S., Chertkow, H., Hyman, B. T., Jack, C. R.,
+Jr., Kawas, C. H., Klunk, W. E., Koroshetz, W. J., Manly, J. J., Mayeux, R.,
+Mohs, R. C., Morris, J. C., Rossor, M. N., Scheltens, P., Carrillo, M. C.,
+Thies, B., Weintraub, S., & Phelps, C. H. (2011). The diagnosis of dementia
+due to Alzheimer’s disease: Recommendations from the National Institute
+on Aging-Alzheimer’s Association workgroups on diagnostic guidelines for
+Alzheimer’s disease. Alzheimer’s & Dementia, 7(3), 263–269. https://
+doi.org/10.1016/j.jalz.2011.03.005
+Morlett Paredes, A., Tarraf, W., Gonzalez, K., Stickel, A. M., Graves,
+L. V., Salmon, D. P., Kaur, S. S., Gallo, L. C., Isasi, C. R., Lipton, R. B.,
+Lamar, M., Goodman, Z. T., & González, H. M. (2024). Normative data
+for the Digit Symbol Substitution for diverse Hispanic/Latino adults:
+Results from the Study of Latinos-Investigation of Neurocognitive
+Aging (SOL-INCA). Alzheimer’s & Dementia: Diagnosis, Assessment
+& Disease Monitoring, 16(2), Article e12573. https://doi.org/10.1002/
+dad2.12573
+Mungas, D., Marshall, S. C., Weldon, M., Haan, M., & Reed, B. R. (1996).
+Age and education correction of Mini-Mental State Examination for
+English and Spanish-speaking elderly. Neurology, 46(3), 700–706. https://
+doi.org/10.1212/WNL.46.3.700
+Oltra-Cucarella, J. (2025). Research files. Universidad Miguel Hernández
+de Elche. https://sabiex.umh.es/lineas-de-investigacion/neuropsicologia-y-
+envejecimiento-files/
+Oltra-Cucarella, J., Sánchez-SanSegundo, M., Ferrer-Cascales, R., & the
+Alzheimer Disease Neuroimaging Initiative. (2022). Predicting Alzheimer’s
+disease with practice effects, APOE genotype and brain metabolism.
+Neurobiology of Aging, 112, 111–121. https://doi.org/10.1016/j.neurobio
+laging.2021.12.011
+Pek, J., Wong, O., & Wong, C. M. (2017). Data transformations for inference
+with linear regression: Clarifications and recommendations. Practical
+Assessment, Research, and Evaluation, 22(1), Article 9. https://doi.org/10
+.7275/2w3n-0f07
+Peña-Casanova, J., Blesa, R., Aguilar, M., Gramunt-Fombuena, N., Go´mez-
+Anso´n, B., Oliva, R., Molinuevo, J. L., Robles, A., Barquero, M. S.,
+Antúnez, C., Martínez-Parra, C., Frank-García, A., Fernández, M., Alfonso,
+V., Sol, J. M., & the NEURONORMA Study Team. (2009). Spanish
+multicenter normative studies (NEURONORMA project): Methods and
+sample characteristics. Archives of Clinical Neuropsychology, 24(4), 307–
+319. https://doi.org/10.1093/arclin/acp027
+Peña-Casanova, J., Gramunt-Fombuena, N., Quiñones-Ubeda, S., Sánchez-
+Benavides, G., Aguilar, M., Badenes, D., Molinuevo, J. L., Robles, A.,
+Barquero, M. S., Payno, M., Antúnez, C., Martínez-Parra, C., Frank-
+García, A., Fernández, M., Alfonso, V., Sol, J. M., Blesa, R., & the
+NEURONORMA Study Team. (2009). Spanish multicenter normative
+studies (NEURONORMA project): Norms for the Rey-Osterrieth com-
+plex figure (copy and memory), and Free and Cued Selective Reminding
+Test. Archives of Clinical Neuropsychology, 24(4), 371–393. https://
+doi.org/10.1093/arclin/acp041
+Peña-Casanova, J., Quiñones-Ubeda, S., Gramunt-Fombuena, N., Aguilar, M.,
+Casas, L., Molinuevo, J. L., Robles, A., Rodríguez, D., Barquero, M. S.,
+Antúnez, C., Martínez-Parra, C., Frank-García, A., Fernández, M., Molano,
+A., Alfonso, V., Sol, J. M., Blesa, R., & the NEURONORMA Study Team.
+(2009). Spanish multicenter normative studies (NEURONORMA project):
+Norms for Boston Naming Test and Token Test. Archives of Clinical
+Neuropsychology, 24(4), 343–354. https://doi.org/10.1093/arclin/acp039
+Petersen, R. C. (2004). Mild cognitive impairment as a diagnostic entity.
+Journal of Internal Medicine, 256(3), 183–194. https://doi.org/10.1111/j.1365-2796.2004.01388.x
+R Core Team. (2024). R: A language and environment for statistical com-
+puting. R Foundation for Statistical Computing. https://www.R-project.org/
+Rivera, D., & Arango-Lasprilla, J. C. (2017). Methodology for the devel-
+opment of normative data for Spanish-speaking pediatric populations.
+NeuroRehabilitation, 41(3), 581–592. https://doi.org/10.3233/NRE-
+172275
+Schmidt, A. F., & Finan, C. (2018). Linear regression and the normality
+assumption. Journal of Clinical Epidemiology, 98, 146–151. https://doi.org/
+10.1016/j.jclinepi.2017.12.006
+Shirk, S. D., Mitchell, M. B., Shaughnessy, L. W., Sherman, J. C.,
+Locascio, J. J., Weintraub, S., & Atri, A. (2011). A web-based nor-
+mative calculator for the uniform data set (UDS) neuropsychological
+test battery. Alzheimer’s Research & Therapy, 3(6), Article 32. https://
+doi.org/10.1186/alzrt94
+Steinberg, B. A., Bieliauskas, L. A., Smith, G. E., Langellotti, C., & Ivnik,
+R. J. (2005). Mayo’s older Americans normative studies: Age- and IQ-
+adjusted norms for the Boston Naming Test, the MAE Token Test, and the
+Judgment of Line Orientation Test. The Clinical Neuropsychologist,
+19(3–4), 280–328. https://doi.org/10.1080/13854040590945229
+Strauss, E., Sherman, E. M. S., Spreen, O., & Spreen, O. (2006). A com-
+pendium of neuropsychological tests: Administration, norms, and com-
+mentary (3rd ed.). Oxford University Press.
+Stricker, N. H., Christianson, T. J., Lundt, E. S., Alden, E. C., Machulda,
+M. M., Fields, J. A., Kremers, W. K., Jack, C. R., Jr., Knopman, D. S.,
+Mielke, M. M., & Petersen, R. C. (2021). Mayo normative studies:
+Regression-based normative data for the Auditory Verbal Learning Test
+for ages 30–91 years and the importance of adjusting for sex. Journal of
+the International Neuropsychological Society, 27(3), 211–226. https://
+doi.org/10.1017/S1355617720000752
+Tabachnick, B. G., & Fidell, L. S. (2013). Using multivariate statistics
+(6th ed.). Pearson.
+Uttl, B. (2005). Measurement of individual differences: Lessons from memory
+assessment in research and clinical practice. Psychological Science, 16(6),
+460–467. https://doi.org/10.1111/j.0956-7976.2005.01557.x
+Weisberg, S. (2014). Applied linear regression (4th ed.). Wiley.
+Williams, M. N., Go´mez Grajales, C. A., & Kurkiewicz, D. (2013).
+Assumptions of multiple regression: Correcting two misconceptions.
+Practical Assessment, Research, and Evaluation, 18(1), Article 11.
+https://doi.org/10.7275/55hn-wk47
+Williamson, M., Maruff, P., Schembri, A., Cummins, H., Bird, L., Rosenich,
+E., & Lim, Y. Y. (2022). Validation of a Digit Symbol Substitution Test
+for use in supervised and unsupervised assessment in mild Alzheimer’s
+disease. Journal of Clinical and Experimental Neuropsychology, 44(10),
+768–779. https://doi.org/10.1080/13803395.2023.2179977
+Winblad, B., Palmer, K., Kivipelto, M., Jelic, V., Fratiglioni, L., Wahlund,
+L.-O., Nordberg, A., Bäckman, L., Albert, M., Almkvist, O., Arai, H.,
+Basun, H., Blennow, K., de Leon, M., DeCarli, C., Erkinjuntti, T.,
+Giacobini, E., Graff, C., Hardy, J., … Petersen, R. C. (2004). Mild
+cognitive impairment—Beyond controversies, towards a consensus:
+Report of the International Working Group on Mild Cognitive Impairment.
+Journal of Internal Medicine, 256(3), 240–246. https://doi.org/10.1111/j.1365-2796.2004.01380.x"""
 
-# print(text2)
-# for i in convert_to_ref_list(text2):
-#     print(i)
+
+#finals, links = replace_citations_with_indices(test, text)
+
+#print(finals)
+#print(links)
+
+def print_each(in_text):
+    for i in range(len(in_text)):
+        if in_text[i]:
+            print(str(i) + ": " + in_text[i])
+        else:
+            print(str(i) + ": NONE")
+
+print(text3)
+x = 0
+for i in convert_to_ref_list(text3):
+     x += 1
+     print(str(x) + ":  " + i)
+
+print(x)
