@@ -8,13 +8,14 @@ def replace_citations_with_indices(paragraph, references):
     refs = convert_to_ref_list(references)
     ref_index = build_reference_index(refs)
     linked = match_citations(cits, ref_index)
-    print(linked)
+    #print(linked)
     for cit, ref in linked.items():
         if ref:
-            index = refs.index(ref) + 1
-            final_paragraph = final_paragraph.replace(f'{cit.lower()}', f'R{index}')
-            # add the index to the linked dict
-            linked[cit] = {"reference": ref, "index": index}
+            if cit.lower() in final_paragraph:
+                index = refs.index(ref) + 1
+                final_paragraph = final_paragraph.replace(f'{cit.lower()}', f'R{index}')
+                # add the index to the linked dict
+                linked[cit] = {"reference": ref, "index": index}
 
     return final_paragraph, linked
 
@@ -42,7 +43,7 @@ def extract_individual_citations(paragraph):
 
 def build_reference_index(references):
 
-    index = {}
+    index = []
 
     for ref in references:
 
@@ -50,15 +51,17 @@ def build_reference_index(references):
 
         year_match = re.search(r'\((\d{4}[a-z]?)\)', ref_l)
         if not year_match:
+            print("no year match: " + ref_l)
             continue
 
         year = year_match.group(1)
 
         authors_part = ref_l.split("(")[0]
-        authors = re.findall(r'([a-z\-]+)\s*,', authors_part)
+        authors = re.findall(r'([a-z\u00C0-\u02AF\u00B4\-]+)\s*,', authors_part)
 
         if not authors:
             continue
+
 
         if len(authors) == 1:
             key = f"{authors[0]}, {year}"
@@ -66,10 +69,15 @@ def build_reference_index(references):
         elif len(authors) == 2:
             key = f"{authors[0]} & {authors[1]}, {year}"
 
+        elif len(authors) == 3:
+            key = f"{authors[0]}, {authors[1]} & {authors[2]}, {year}"
+
         else:
+            #print(authors)
             key = f"{authors[0]} et al., {year}"
 
-        index[key] = ref
+        index.append(ref)
+    print(len(index))
 
     return index
 
@@ -84,13 +92,9 @@ def parse_citation(citation):
 
 
 def match_citations(citations, ref_index):
-
     results = {}
-
-    for citation in citations:
-
-        key = parse_citation(citation)
-        results[citation] = ref_index.get(key)
+    for i in range(len(citations)):
+        results[citations[i]] = ref_index[i]
 
     return results
 
@@ -106,12 +110,11 @@ def convert_to_ref_list(citations):
     pattern = r'(?=^([a-zA-Z_\u00C0-\u02AF\u00B4 \-]+,\s+[a-zA-Z_\u00C0-\u02A0\u00B4]\.|[a-zA-Z_\u00C0-\u02AF\u00B4 ]{3,}\.\s+\(\d{4}\)))'
 
     splits = re.split(pattern, citations, flags=re.MULTILINE)
-    print(len(splits))
     refs = []
     for i in range(1, len(splits), 2):
         refs.append(replacer(splits[i+1]))
     x = 0
-    print_each(refs)
+
     while x < len(refs):
         if refs[x] and refs[x].endswith(('.,', '-', '., &', '., & the')):
             refs[x] = refs[x] + " " + refs[x+1]
@@ -129,7 +132,7 @@ def combine_refs(refs):
         if ref.endswith(('.,\n', '-\n', '., &\n', '., & the\n')):
             refs[i] = ref + refs[i + 1]
             del refs[i + 1]
-            # stay on same index to re-check merged result
+
         else:
             i += 1
 
@@ -142,8 +145,7 @@ def remove_duplicate_refs(ref, refs):
     while i > 0:
         prev = refs[i - 1]
 
-        # Only merge if prev is literally a prefix of ref
-        if ref.startswith(prev[:30]):  # stricter than last-10-chars
+        if ref.startswith(prev[:30]):
             if prev not in ref:
                 ref = prev + ref[len(prev):]
                 refs[i] = ref
@@ -841,18 +843,18 @@ Journal of Internal Medicine, 256(3), 240–246. https://doi.org/10.1111/j.1365-
 
 #print(finals)
 #print(links)
-
-def print_each(in_text):
-    for i in range(len(in_text)):
-        if in_text[i]:
-            print(str(i) + ": " + in_text[i])
-        else:
-            print(str(i) + ": NONE")
-
-print(text3)
-x = 0
-for i in convert_to_ref_list(text3):
-     x += 1
-     print(str(x) + ":  " + i)
-
-print(x)
+#
+#def print_each(in_text):
+#    for i in range(len(in_text)):
+#        if in_text[i]:
+#            print(str(i) + ": " + in_text[i])
+#        else:
+#            print(str(i) + ": NONE")
+#
+#print(text3)
+#x = 0
+#for i in convert_to_ref_list(text3):
+#     x += 1
+#     print(str(x) + ":  " + i)
+#
+#print(x)

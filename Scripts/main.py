@@ -106,7 +106,7 @@ class MainWindow(qw.QMainWindow):
 
         ref_id = cip.save_citation(source[0])
         cit_ids = cip.save_citations(citation_infos)
-        para_id = cip.save_paragraph(pro_paragraph, ref_id)
+        para_id = cip.save_paragraph(pro_paragraph, ref_id, paragraph, citations)
         cip.save_reference_citation_links(ref_id, cit_ids)
         # cip.save_all_input_data(source[0], para_id, cit_ids)
 

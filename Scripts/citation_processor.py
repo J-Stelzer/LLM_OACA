@@ -97,7 +97,8 @@ def get_citation_infos_from_doi(dois, source = False):
                 if result["z_authors"]:
                     for author in result["z_authors"]:
                         authors.append(author["raw_author_name"])
-                    # print(authors)
+                    print(authors)
+
                 citation_infos.append({
                     "DOI": result["doi"],
                     "Title": result["title"] if result["title"] else "Unknown",
@@ -113,7 +114,7 @@ def get_citation_infos_from_doi(dois, source = False):
         #print(citation_infos)
         return citation_infos
     except Exception as e:
-        print(f"Error during citation info retrieval: {e}")
+        print(f"Error during citation info retrieval (get_citation_infos_from_doi): {e}")
         return None
 
 
@@ -177,11 +178,13 @@ def save_reference_citation_links( ref_id, cit_ids):
     links = [{"SourceID": ref_id, "CitationID": cit_id} for cit_id in cit_ids]
     return db.insert_references(links)
 
-def save_paragraph(paragraph, source_id):
+def save_paragraph(paragraph, source_id, raw, refs):
     db = Database()
     return db.insert_paragraph({
         "Paragraph": paragraph,
         "SourceID": source_id,
+        "Raw": raw,
+        "ReferenceList": refs,
     })
 
 def save_generated_citations(generated_citations, source_id, llm):
