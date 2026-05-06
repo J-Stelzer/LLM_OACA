@@ -1,5 +1,7 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+import numpy as np
+import pandas as pd
 
 from keys import DB_KEY
 
@@ -72,6 +74,23 @@ class Database:
         collection = self.db["generated"]
         result = collection.insert_many(generated_citations_data)
         return result.inserted_ids
+
+
+    def get_all_ref_papers(self):
+        collection = self.db["papers"]
+        papers = pd.DataFrame(collection.find({"Source": False, "DOI": {"$exists": True}}))
+        return papers
+
+
+    def get_all_ref_papers_grouped_by_source(self):
+        collection = self.db["papers"]
+        papers = pd.DataFrame(collection.find({"Source": False, "DOI": {"$exists": True}}))
+        reference_ids = papers["_id"].tolist()
+        collection2 = self.db["references"]
+        source_ids = pd.DataFrame(collection2.find({"CitationID": {"$in": reference_ids}}))
+        papers = papers.merge(source_ids, left_on="_id", right_on="CitationID")
+        grouped = papers.groupby("SourceID").apply(lambda x: x.to_dict(orient="records"))
+        return grouped
 
 #db = Database()
 #print(db.get_source_papers())

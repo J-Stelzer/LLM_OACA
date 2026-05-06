@@ -1,29 +1,44 @@
 import re
-import difflib
+
 
 def replace_citations_with_indices(paragraph, references):
     final_paragraph = replacer(paragraph).lower()
+    final_paragraph = replace_multi_citations(final_paragraph)
 
     cits = extract_individual_citations(final_paragraph)
     refs = convert_to_ref_list(references)
     ref_index = build_reference_index(refs)
     linked = match_citations(cits, ref_index)
-    #print(linked)
+
+    final_links = {}
+
     for cit, ref in linked.items():
         if ref:
             if cit.lower() in final_paragraph:
                 index = refs.index(ref) + 1
                 final_paragraph = final_paragraph.replace(f'{cit.lower()}', f'R{index}')
                 # add the index to the linked dict
-                linked[cit] = {"reference": ref, "index": index}
+                final_links[cit] = {"reference": ref, "index": index}
 
-    return final_paragraph, linked
+    return final_paragraph, final_links
+
+
+def replace_multi_citations(paragraph):
+    # for patterns like (Farias et al., 2006, 2008, 2017), replace it with (Farias et al., 2006; Farias et al., 2008; Farias et al., 2017) and then replace with indices
+    def repl(match):
+        authors = match.group(1)
+        years = match.group(2).split(", ")
+        return "(" + "; ".join(f"{authors}, {y}" for y in years) + ")"
+
+    pattern = r"\(([^()]+?), ([0-9]{4}(?:, [0-9]{4})+)\)"
+    return re.sub(pattern, repl, paragraph)
 
 
 def find_in_text_citations(paragraph):
     pattern = re.compile(r'\([a-zA-Z,.;&0-9 ]*[0-9]{4}[a-g]?\)')
     matches = pattern.findall(paragraph)
     return matches
+
 
 def extract_individual_citations(paragraph):
     matches = find_in_text_citations(paragraph)
@@ -838,6 +853,61 @@ cognitive impairment—Beyond controversies, towards a consensus:
 Report of the International Working Group on Mild Cognitive Impairment.
 Journal of Internal Medicine, 256(3), 240–246. https://doi.org/10.1111/j.1365-2796.2004.01380.x"""
 
+
+
+multi_test = """Late-life changes in cognitive ability can vary considerably
+between individuals, with rate of change being heavily dependent
+upon brain atrophy rates (Fletcher et al., 2018) and resilience to the
+cognitive sequelae of neurodegeneration (Bettcher et al., 2019;
+McKenzie et al., 2020; Reed et al., 2010). Although direct mea-
+surement of cognitive functioning remains the standard for
+quantifying cognitive ability and its change over time, questions
+have been raised about the relevance of neuropsychological assess-
+ment measures to real-world functioning (Royall et al., 2007). Often,
+research evaluating the ecological validity of neuropsychological
+assessment has used informant-reported independent functioning as
+the criterion standard (Mcalister et al., 2016), as these measures have
+well-documented associations with quality of life and functional
+assistance requirements (Andersen et al., 2004). In addition, the
+functional nature of informant-rated everyday functioning ques-
+tionnaires is highly relevant to making diagnostic decisions regarding
+an individual’s level of functional independence, which is critical
+for distinguishing between mild cognitive impairment (MCI) and
+dementia (Albert et al., 2011).
+The loss of independent functioning as a consequence of
+neurodegenerative changes—and mediated by cognitive decline—
+is generally an insidious process that evolves chronically over years or
+decades. Although MCI is defined in part by the absence of functional
+impairment, research has shown that subtle functional limitations are
+present in individuals diagnosed with MCI, and these subtle func-
+tional changes are predictive of future conversion to dementia (Farias
+et al., 2009). Therefore, it is important to understand how everyday
+cognitively mediated functional abilities change during late life, how
+these changes depend on underlying brain changes, and how these
+changes manifest differently depending on clinical diagnosis. The
+current article will address these questions in an ethnoracially,
+educationally, and diagnostically diverse cohort of older adults
+who have been assessed longitudinally (at a rate of approximately
+one evaluation per year) using the Everyday Cognition scale (ECog;
+Farias et al., 2006, 2008), a commonly used and well-validated
+measure of change in everyday cognitive activities.
+The ECog is an informant-based measure specifically designed to
+be sensitive to mild functional changes in early disease through
+moderate dementia (Farias et al., 2006, 2008, 2017). The ECog
+measures functioning relevant to six cognitive domains, including
+everyday memory, language, visuospatial functioning, and three
+executive domains related to planning, organization, and divided
+attention; this structure has been supported by confirmatory factor
+analysis (Farias et al., 2008). In previous research, we have shown
+that a global composite scale based on all of the ECog items changed
+slowly when participants were cognitively normal or early in the
+clinical disease process (normal to MCI or stable MCI) but showed
+an accelerated worsening in those converting to dementia (Farias,
+Chou, et al., 2013)."""
+
+
+print(multi_test)
+print(replace_multi_citations(replacer(multi_test)))
 
 #finals, links = replace_citations_with_indices(test, text)
 

@@ -1,18 +1,36 @@
 import re
+import db
 
 def split_response(response):
     generated_refs = response.split("\n")
+    final_refs = []
     for ref in generated_refs:
         if ref.strip() and ref.startswith("R"):
             content = ref.split(" ", maxsplit=1)
             index = re.sub(r'\D', '', content[0])
             ref = content[1]
-            "test".strip()
-            yield {
-                "index": index,
-                "reference": ref
-            }
+            final_refs.append({"index": index, "reference": ref})
+    return final_refs
 
+
+def save_generated_citations(generated_refs, source_id, llm):
+    citations_data = []
+    for ref in generated_refs:
+        citation = {
+            "SourceID": source_id,
+            "LLM": llm,
+            "DOI": ref["DOI"],
+            "Title": ref["Title"],
+            "Authors": ref["Authors"],
+            "Journal": ref["Journal"],
+            "Open Access": ref["Open Access"],
+            "OA Standard": ref["OA Standard"],
+            "Index": ref["Index"],
+            "Reference": ref["Reference"]
+        }
+        citations_data.append(citation)
+    database = db.Database()
+    return database.insert_generated(citations_data)
 
 
 #res = """R1 Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human biases. Science, 356(6334), 183–186.

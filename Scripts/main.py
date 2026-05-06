@@ -163,8 +163,8 @@ class MainWindow(qw.QMainWindow):
         try:
             for llm in llm_choice:
                 for paper in papers:
-                    query = (f"Generate {paper['Count']} citations for the 'R[Number]' placeholders according to APA standards for the following paragraph: {paper['Paragraph']} "
-                             f"\n Just return the citations and indication for the placeholder 'R[Number] without any additional text.")
+                    query = (f"Generate {paper['Count']} citations (incl. DOI) for the 'R[Number]' placeholders according to APA standards for the following paragraph: \n\n {paper['Paragraph']} "
+                             f"\n\n Just return the citations and indication for the placeholder 'R[Number] without any additional text.")
                     if llm == "ChatGPT":
                         communicator = chat_gpt.ChatGPT()
                     elif llm == "Claude":
@@ -176,10 +176,14 @@ class MainWindow(qw.QMainWindow):
                     else:
                         communicator = LLMCommunicator()
                     response = communicator.generate_response(query)
-                    generated_refs = list(gep.split_response(response))
+                    print(response)
+                    generated_refs = gep.split_response(response)
                     print(generated_refs)
-                    references = cip.get_apa_dois(response)
-                    gep.save_generated_citations(generated_refs, paper["SourceID"], llm)
+                    references = cip.get_apa_dois(generated_refs)
+                    print(references)
+                    generated_infos = cip.get_citation_infos_from_dois(references, False)
+                    print(generated_infos)
+                    gep.save_generated_citations(generated_infos, paper["SourceID"], llm)
 
                     print(f"Generated citations for {paper['Title']} using {llm}: {response}")
 

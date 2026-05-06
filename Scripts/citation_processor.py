@@ -219,16 +219,26 @@ def get_apa_dois(references: list):
     # references is a list of dicts, where each dict has an index and reference field
     # I want to add a field to each dict indicating if there is a doi and a second field containing the doi
     doi_pattern = r"10.\d{4,9}\/[-._;()\/:A-Za-z0-9]+"
+    new_refs = {}
     for ref in references:
         dois = re.findall(doi_pattern, ref["reference"], re.IGNORECASE)
         if dois:
-            ref["has_doi"] = True
-            ref["doi"] = dois[0]
-        else:
-            ref["has_doi"] = False
-            ref["doi"] = None
+            new_refs["R"+ref["index"]] = {
+                "index": ref["index"],
+                "reference": ref["reference"],
+                "has_doi": True,
+                "doi": dois[0]
+            }
 
-    return references
+        else:
+            new_refs["R"+ref["index"]] = {
+                "index": ref["index"],
+                "reference": ref["reference"],
+                "has_doi": False,
+                "doi": None
+            }
+
+    return new_refs
 
 
 def has_apa_dois(references):
@@ -247,6 +257,7 @@ def has_apa_dois(references):
                 "doi": None
             }
             continue
+        print(info)
         dois = re.findall(doi_pattern, info["reference"], re.IGNORECASE)
         if dois:
             new_refs[cit] = {
