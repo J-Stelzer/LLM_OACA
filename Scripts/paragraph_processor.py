@@ -906,8 +906,8 @@ an accelerated worsening in those converting to dementia (Farias,
 Chou, et al., 2013)."""
 
 
-print(multi_test)
-print(replace_multi_citations(replacer(multi_test)))
+#print(multi_test)
+#print(replace_multi_citations(replacer(multi_test)))
 
 #finals, links = replace_citations_with_indices(test, text)
 

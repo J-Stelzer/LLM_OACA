@@ -181,7 +181,7 @@ class MainWindow(qw.QMainWindow):
                     print(generated_refs)
                     references = cip.get_apa_dois(generated_refs)
                     print(references)
-                    generated_infos = cip.get_citation_infos_from_dois(references, False)
+                    generated_infos = cip.get_citation_infos_from_dois(references, False, True)
                     print(generated_infos)
                     gep.save_generated_citations(generated_infos, paper["SourceID"], llm)
 

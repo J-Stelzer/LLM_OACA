@@ -30,7 +30,6 @@ class DOILookup:
         except RuntimeError as e:
             print(f"Error during DOI lookup: {e}")
         # except Exception as e:
-            print(f"Error during DOI lookup: {e}")
             if rep < 10:
                 self.lookup(full_cit, title, author, year, doi, rep+1)
         return None

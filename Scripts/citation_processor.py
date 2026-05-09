@@ -33,7 +33,7 @@ def lookup_unpaywall(dois):
     return result
 
 
-def get_citation_infos_from_dois(references, source = False):
+def get_citation_infos_from_dois(references, source = False, generated = False):
     # references is a dict containing the reference and the full citation; we want to add 2 fields, one indicating if there is a doi and a second one containing the doi
     try:
         citation_infos = []
@@ -42,9 +42,10 @@ def get_citation_infos_from_dois(references, source = False):
             if info["has_doi"]:
                 doi = info["doi"]
                 unpaywall_result = lookup_unpaywall([doi])
-                #print(unpaywall_result)
                 result = unpaywall_result.to_dict()
-                #print(result)
+                if generated and result["oa_status"] == "UNPAYWALL API ERROR":
+                    citation_infos.append(try_doi_workaround(info, source))
+                    continue
                 authors = []
                 if result["z_authors"]:
                     for author in result["z_authors"][0]:
@@ -62,26 +63,68 @@ def get_citation_infos_from_dois(references, source = False):
                     "Index": info["index"],
                     "Reference": info["reference"]
                 })
-            else:
-                citation_infos.append({
-                    "DOI": None,
-                    "Title": None,
-                    "Authors": None,
-                    "Journal": None,
-                    "Published": None,
-                    "Open Access": None,
-                    "OA Standard": None,
-                    "URL": None,
-                    "Source": source,
-                    "Index": info["index"],
-                    "Reference": info["reference"]
-                })
+                continue
+            elif generated:
+                citation_infos.append(try_doi_workaround(info))
+                continue
+
+            citation_infos.append({
+                "DOI": None,
+                "Title": None,
+                "Authors": None,
+                "Journal": None,
+                "Published": None,
+                "Open Access": None,
+                "OA Standard": None,
+                "URL": None,
+                "Source": source,
+                "Index": info["index"],
+                "Reference": info["reference"]
+            })
         return citation_infos
     except Exception as e:
         print(f"Error during citation info retrieval: {e}")
         return None
 
 
+
+def try_doi_workaround(info, source = False):
+    potential_doi = lookup_doi(info["reference"], info["title"])
+    if potential_doi:
+        unpaywall_result = lookup_unpaywall(potential_doi["DOI"])
+        result = unpaywall_result.to_dict()
+
+        authors = []
+        if result["z_authors"]:
+            for author in result["z_authors"][0]:
+                authors.append(author["raw_author_name"])
+        return {
+            "DOI": result["doi"][0],
+            "Title": result["title"][0] if result["title"] else "Unknown",
+            "Authors": authors if authors else "Unknown",
+            "Journal": result["journal_name"][0],
+            "Published": result["published_date"][0],
+            "Open Access": result["is_oa"][0],
+            "OA Standard": result["oa_status"][0],
+            "URL": result["doi_url"][0],
+            "Source": source,
+            "Index": info["index"],
+            "Reference": info["reference"]
+        }
+    else:
+        return {
+            "DOI": None,
+            "Title": None,
+            "Authors": None,
+            "Journal": None,
+            "Published": None,
+            "Open Access": None,
+            "OA Standard": None,
+            "URL": None,
+            "Source": source,
+            "Index": info["index"],
+            "Reference": info["reference"]
+        }
 #@deprecated("Early version of the function, use get_citation_infos_from_dois instead")
 def get_citation_infos_from_doi(dois, source = False):
     try:
@@ -226,6 +269,7 @@ def get_apa_dois(references: list):
             new_refs["R"+ref["index"]] = {
                 "index": ref["index"],
                 "reference": ref["reference"],
+                "title": ref["reference"].replace(dois[0], "").strip(),
                 "has_doi": True,
                 "doi": dois[0]
             }
@@ -234,6 +278,7 @@ def get_apa_dois(references: list):
             new_refs["R"+ref["index"]] = {
                 "index": ref["index"],
                 "reference": ref["reference"],
+                "title": ref["reference"],
                 "has_doi": False,
                 "doi": None
             }
