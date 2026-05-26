@@ -11,7 +11,7 @@ class Claude(LLMCommunicator):
 
         response = self.client.messages.create(
             model = self.model,
-            max_tokens = 150,
+            max_tokens = 5_000,
             messages = [{"role": "user", "content": query}]
         )
         return response.content[0].text

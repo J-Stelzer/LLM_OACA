@@ -16,6 +16,7 @@ EMPTY_RESULT["published_date"] = "Unknown"
 EMPTY_RESULT["oa_status"] = "UNPAYWALL API ERROR"
 EMPTY_RESULT["doi_url"] = "Unknown"
 EMPTY_RESULT["z_authors"] = [[{"raw_author_name": "Unknown"}]]
+EMPTY_RESULT["doi_url"] = "Unknown"
 
 class Unpaywall:
     def __init__(self):
@@ -28,7 +29,7 @@ class Unpaywall:
             result = self.client.doi(doi, errors='ignore')
             if isinstance(result, NoneType):
                 result = EMPTY_RESULT
-                result['doi'] = [doi]
+                result['doi'] = doi
 
             return result
         except Exception as e:

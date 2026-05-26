@@ -47,6 +47,63 @@ class Database:
         sources = list(collection.find({"Source": True}))
         return sources
 
+    def get_existing_sources(self, source_ref):
+        collection = self.db["papers"]
+        # if source ref in DOI or URL and Source is true
+        sources = list(collection.find({"$or": [{"DOI": source_ref}, {"URL": source_ref}], "Source": True}))
+        return sources
+
+
+    def get_missing_doi_papers(self):
+        collection = self.db["papers"]
+        # Get all papers where DOI is <null>
+        papers = list(collection.find({"DOI": {"$exists": True, "$eq": None}}))
+        return papers
+
+
+    def update_missing_doi_papers(self, papers):
+        collection = self.db["papers"]
+        for paper in papers:
+            collection.update_one({"_id": paper["_id"]}, {"$set": {"DOI": paper["DOI"]}})
+
+
+    def get_unknown_authors(self):
+        collection = self.db["papers"]
+        authors = list(collection.find({"Authors": ['Unknown']}))
+        return authors
+
+
+    def update_missing_authors(self, papers):
+        collection = self.db["papers"]
+        # set the author to null, change type of DOI to string and set the new DOI
+        for paper in papers:
+            collection.update_one({"_id": paper["_id"]}, {"$set": {"Authors": paper["Authors"], "DOI": str(paper["DOI"])}})
+
+
+    def get_missing_information_papers(self):
+        collection = self.db["papers"]
+        papers = list(collection.find({"$and": [{"DOI": {"$exists": True}}, {"Authors": {"$exists": True, "$eq": None}}]}))
+        return papers
+
+
+    def update_missing_information_papers(self, papers):
+        collection = self.db["papers"]
+        for paper in papers:
+            collection.update_one({"_id": paper["_id"]},
+                                  {"$set":
+                                       {"DOI": str(paper["DOI"]),
+                                        "Authors": paper["Authors"],
+                                        "Title": str(paper["Title"]),
+                                        "Journal": str(paper["Journal"]),
+                                        "Published": str(paper["Published"]),
+                                        "Open Access": bool(paper["Open Access"]),
+                                        "OA Standard": str(paper["OA Standard"]),
+                                        "URL": str(paper["URL"])
+                                       }
+                                   })
+
+
+
     def get_paper_by_doi(self, doi):
         collection = self.db["papers"]
         paper = collection.find_one({"DOI": doi})
@@ -84,12 +141,19 @@ class Database:
 
     def get_all_ref_papers_grouped_by_source(self):
         collection = self.db["papers"]
-        papers = pd.DataFrame(collection.find({"Source": False, "DOI": {"$exists": True}}))
+        papers = pd.DataFrame(collection.find({"Source": False}))
         reference_ids = papers["_id"].tolist()
         collection2 = self.db["references"]
         source_ids = pd.DataFrame(collection2.find({"CitationID": {"$in": reference_ids}}))
         papers = papers.merge(source_ids, left_on="_id", right_on="CitationID")
         grouped = papers.groupby("SourceID").apply(lambda x: x.to_dict(orient="records"))
+        return grouped
+
+
+    def get_all_gen_papers_grouped_by_source_and_llm(self):
+        collection = self.db["generated"]
+        papers = pd.DataFrame(collection.find())
+        grouped = papers.groupby(["SourceID", "LLM"]).apply(lambda x: x.to_dict(orient="records"))
         return grouped
 
 #db = Database()

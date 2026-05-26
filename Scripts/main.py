@@ -85,6 +85,11 @@ class MainWindow(qw.QMainWindow):
             self.send_error_message("Please enter citations.")
             return
 
+        if self.duplication_check(source_ref):
+            qw.QMessageBox.information(self, "Warning", "Paper is already in the database")
+            self.clearInputFields(paragraph_layout, citations_layout)
+            return
+
         pro_paragraph, pro_citations = pap.replace_citations_with_indices(paragraph, citations)
         pro_citations = cip.has_apa_dois(pro_citations)
 
@@ -148,6 +153,9 @@ class MainWindow(qw.QMainWindow):
                 source = db.get_paper_by_title(paper)
                 if source:
                     ref_count = db.get_citation_count(source["_id"])
+                    if ref_count == 0:
+                        print(f"Paper '{source['Title']}' has {ref_count} citations.")
+                        continue
                     paragraph = db.get_paragraph_by_source_id(source["_id"])['Paragraph']
                     papers.append({
                         "Title": source["Title"],
@@ -179,9 +187,9 @@ class MainWindow(qw.QMainWindow):
                     print(response)
                     generated_refs = gep.split_response(response)
                     print(generated_refs)
-                    references = cip.get_apa_dois(generated_refs)
+                    references = gep.get_reference_parts(generated_refs)
                     print(references)
-                    generated_infos = cip.get_citation_infos_from_dois(references, False, True)
+                    generated_infos = gep.get_citation_infos_from_dois(references)
                     print(generated_infos)
                     gep.save_generated_citations(generated_infos, paper["SourceID"], llm)
 
@@ -233,6 +241,11 @@ class MainWindow(qw.QMainWindow):
     def open_preferences(self):
         print("Open preferences action triggered")
 
+    @staticmethod
+    def duplication_check(source_ref):
+        db = Database()
+        existing_sources = db.get_existing_sources(source_ref)
+        return len(existing_sources) > 0
 
 
 if __name__ == "__main__":

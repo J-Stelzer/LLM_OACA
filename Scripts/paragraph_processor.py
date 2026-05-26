@@ -121,6 +121,7 @@ def convert_to_flow(paragraph):
 
 def convert_to_ref_list(citations):
     citations = re.sub(r'-\n\s*', '', citations)
+    citations = re.sub(r'\n\.', '.', citations)
     citations = re.sub(r'\n+', '\n', citations)
     pattern = r'(?=^([a-zA-Z_\u00C0-\u02AF\u00B4 \-]+,\s+[a-zA-Z_\u00C0-\u02A0\u00B4]\.|[a-zA-Z_\u00C0-\u02AF\u00B4 ]{3,}\.\s+\(\d{4}\)))'
 
