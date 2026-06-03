@@ -101,7 +101,7 @@ class MainWindow(qw.QMainWindow):
             self.send_error_message("Error occurred. Please check your source reference input.")
             return
 
-        citation_infos = cip.get_citation_infos_from_dois(pro_citations, False)
+        citation_infos = cip.get_citation_infos_from_dois(pro_citations)
         #print(cits)
         #citation_infos = cip.get_citation_infos(cits)
         if not citation_infos:

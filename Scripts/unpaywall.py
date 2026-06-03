@@ -23,8 +23,13 @@ class Unpaywall:
         self.client = Unpywall()
 
 
-
     def lookup(self, doi):
+        """
+        This function looks up a DOI in the Unpaywall database and returns the result as a dictionary.
+        If the DOI is not found, it returns a dictionary with the DOI and "Unknown" values for all other fields.
+        :param doi: the DOI to look up
+        :return: the result from the Unpaywall API
+        """
         try:
             result = self.client.doi(doi, errors='ignore')
             if isinstance(result, NoneType):

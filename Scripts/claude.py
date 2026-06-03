@@ -8,16 +8,17 @@ class Claude(LLMCommunicator):
         self.client = Anthropic(api_key=CLAUDE_API_KEY)
 
     def generate_response(self, query):
-
+        """
+        Sends a query to the claude API and returns the response.
+        :param query: The query to send to the claude API.
+        :return: The response from the claude API.
+        """
         response = self.client.messages.create(
             model = self.model,
             max_tokens = 5_000,
             messages = [{"role": "user", "content": query}]
         )
         return response.content[0].text
-
-    def save_response(self, response):
-        pass
 
 #test = Claude()
 #response = test.request("Explain how AI works in a few words")

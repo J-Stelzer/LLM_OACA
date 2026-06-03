@@ -9,13 +9,3 @@ class LLMCommunicator:
         # Placeholder for generating response using the specified model
         response = f"Generated response for: {query}"
         return response
-
-    @staticmethod
-    def save_response(response):
-        # Placeholder for saving the response
-        print(f"Saving response: {response}")
-
-    def request(self, query):
-        response = self.generate_response(query)
-        self.save_response(response)
-        return response
