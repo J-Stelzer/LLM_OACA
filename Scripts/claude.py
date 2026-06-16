@@ -1,5 +1,5 @@
 from llm_communicator import LLMCommunicator
-from anthropic import Anthropic
+from anthropic import Anthropic, Stream
 from keys import CLAUDE_API_KEY
 
 class Claude(LLMCommunicator):
@@ -13,11 +13,13 @@ class Claude(LLMCommunicator):
         :param query: The query to send to the claude API.
         :return: The response from the claude API.
         """
-        response = self.client.messages.create(
+        with self.client.messages.stream(
             model = self.model,
-            max_tokens = 5_000,
-            messages = [{"role": "user", "content": query}]
-        )
+            max_tokens = 10_000,
+            messages = [{"role": "user", "content": query}],
+            temperature = self.temperature
+        ) as stream:
+            response = stream.get_final_message()
         return response.content[0].text
 
 #test = Claude()

@@ -184,3 +184,4 @@ Scripts/keys.py
 .idea/rSettings.xml
 Scripts/unpaywall_cache
 /.idea
+/DB_BackUp

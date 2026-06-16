@@ -177,14 +177,14 @@ class Database:
         paper = collection.find_one({"DOI": doi})
         return paper
 
-    def get_paper_by_title(self, title):
+    def get_source_paper_by_title(self, title):
         """
         Retrieves a single paper from the database based on Title
         :param title: The title of the paper
         :return: The paper matching the given title, or None if no such paper exists
         """
         collection = self.db["papers"]
-        paper = collection.find_one({"Title": title})
+        paper = collection.find_one({"Title": title, "Source": True})
         return paper
 
     def get_paragraph_by_source_id(self, source_id):
@@ -258,18 +258,7 @@ class Database:
         grouped = papers.groupby(["SourceID", "LLM"]).apply(lambda x: x.to_dict(orient="records"))
         return grouped
 
-#db = Database()
-#print(db.get_source_papers())
 
-## Create a new client and connect to the server
-#client = MongoClient(uri, server_api=ServerApi('1'))
-#
-## Send a ping to confirm a successful connection
-#try:
-#    # insert a dummy query to the test and test2 collection to confirm the connection is working
-#    db = client["oaca"]
-#    collection = db["test"]
-#
-#    print("Pinged your deployment. You successfully connected to MongoDB!")
-#except Exception as e:
-#    print(e)
+    def update_paragraph_info(self, paragraph):
+        collection = self.db["paragraphs"]
+        collection.update_one({"_id": paragraph["_id"]}, {"$set": {"Paragraph": paragraph["Paragraph"]}})

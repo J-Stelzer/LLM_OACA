@@ -1,6 +1,6 @@
 import re
 from types import NoneType
-
+import datetime
 import db
 import doi_lookup as doi
 import unpaywall as upw
@@ -38,9 +38,6 @@ def get_reference_parts(references: list):
         for ref in references:
             # First, the authors
             authors = ref["reference"].split("(", maxsplit=1)[0].strip()
-            author_list = []
-            for author in authors.split(","):
-                author_list.append(author.strip())
             #print("Authors done")
 
             # Second, the year
@@ -48,19 +45,28 @@ def get_reference_parts(references: list):
             #print("Year done")
 
             # Third, the title and the journal name
+            # I use the fact that the title always comes after the year and a dot "(9999)."
+            # and that the title and journal are usually split by a dot or question mark
             title_journal_part = ref["reference"].split(").", maxsplit=1)[1].strip()
             title = title_journal_part.split(".")[0].strip()
             #print("Title done")
-            journal = title_journal_part.split(".")[1].strip().split(",", maxsplit=1)[0].strip()
+            if "?" in title_journal_part:
+                journal = title_journal_part.split("?")[1].strip().split(",", maxsplit=1)[0].strip()
+            else:
+                journal = title_journal_part.split(".")[1].strip().split(",", maxsplit=1)[0].strip()
             #print("Journal done")
 
-            # Fourth, the DOI
-            dois = re.findall(doi_pattern, ref["reference"], re.IGNORECASE)
-
-            if dois:
-                fin_doi = dois[0]
+            # Fourth, check for DOI
+            # If the LLM does not specifically indicate that a paper does not have a DOI, it is assumed that it should have one
+            # In this case, the crossref API will be used to identify the correct DOI later on
+            if "NO DOI" not in ref["reference"]:
+                dois = re.findall(doi_pattern, ref["reference"], re.IGNORECASE)
+                if dois:
+                    fin_doi = dois[0]
+                else:
+                    fin_doi = None
             else:
-                fin_doi = None
+                fin_doi = "NO DOI"
 
             # Finally, I store all the data in a dictionary
             new_refs["R"+ref["index"]] = {
@@ -71,7 +77,7 @@ def get_reference_parts(references: list):
                 "journal": journal,
                 "year": year,
                 "doi": fin_doi,
-                "has_doi": True if dois else False,
+                "has_doi": True if fin_doi and fin_doi != "NO DOI" else False,
             }
 
         return new_refs
@@ -127,14 +133,30 @@ def get_citation_infos_from_dois(references):
                         "Open Access": result["is_oa"][0],
                         "OA Standard": result["oa_status"][0],
                         "URL": result["doi_url"][0],
-                        "Source": False,
                         "Index": info["index"],
                         "Reference": info["reference"],
                         "Hallucination": hallucination_score,
+                        "StoreDate" : datetime.date.today().isoformat()
                     })
                     continue
                 # If there was no DOI, try workaround
-                citation_infos.append(try_doi_workaround(info))
+                if info["doi"] != "NO DOI":
+                    citation_infos.append(try_doi_workaround(info))
+                else:
+                    citation_infos.append({
+                        "DOI": info["doi"],
+                        "Title": info["title"],
+                        "Authors": info["authors"],
+                        "Journal": info["journal"],
+                        "Published": None,
+                        "Open Access": None,
+                        "OA Standard": None,
+                        "URL": None,
+                        "Index": info["index"],
+                        "Reference": info["reference"],
+                        "Hallucination": -1,
+                        "StoreDate" : datetime.date.today().isoformat()
+                    })
             except Exception as e:
                 # If any errors occur during the process, try workaround
                 print(f"Error while extracting information: {e}")
@@ -164,8 +186,8 @@ def lookup_unpaywall(doi):
     :param doi: the DOI to look up
     :return: the result from the Unpaywall API
     """
-    upw_lookup = upw.Unpaywall()
-    result = upw_lookup.lookup(doi)
+    upw_lookup = upw
+    result = upw_lookup.lookup_api(doi)
     return result
 
 
@@ -221,7 +243,8 @@ def try_doi_workaround(info):
                 "Source": False,
                 "Index": info["index"],
                 "Reference": info["reference"],
-                "Hallucination": hallucination_score
+                "Hallucination": hallucination_score,
+                "StoreDate" : datetime.date.today().isoformat()
             }
         # If DOI lookup workaround not successful, return blank reference info
         return return_blank_ref(info)
@@ -249,7 +272,8 @@ def return_blank_ref(info):
         "Source": False,
         "Index": info["index"],
         "Reference": info["reference"],
-        "Hallucination": 4
+        "Hallucination": 4,
+        "StoreDate" : datetime.date.today().isoformat()
     }
 
 def get_hallucination_score(generated_info, comparison_info):
@@ -269,29 +293,58 @@ def get_authors_distance(gen_authors, comp_authors):
     """
     Calculates the hallucination distance between the generated information and the information from the API result for the authors.
     It loops over all authors and compares the last names in order
+    The last name is a practical choice, since the reference does not contain the full names
     :param gen_authors: a list of generated authors
     :param comp_authors: a list of comparison authors provided by the DOI request
     :return: a hallucination distance
     """
-    print(f"Comparing authors: {gen_authors} with {comp_authors}")
+
     gen_author_list = []
-    x = 0
+
+    #print(f"Comparing authors: {gen_authors} with {comp_authors}")
     # If there is no author in the generated reference, return hallucination indicator
     if not gen_authors.rstrip(".").split(","):
         return 1.1
 
+    skips_authors = False
+    if "…" in gen_authors or "..." in gen_authors:
+        skips_authors = True
+
     # Split up the authors of the generated reference
+    x = 0
     for author in gen_authors.rstrip(".").split(","):
         if x%2 == 0:
-            gen_author_list.append(author.lstrip(" & ").lstrip("& "))
+            name = author.lstrip(" & ").lstrip("& ")
+            # This part deals with van, de, etc.
+            if len(name.split(" ")) > 1:
+                name = name.split(" ")[-1]
+            gen_author_list.append(name)
         x += 1
+
+    print(gen_author_list)
+    print(comp_authors)
+
     # If there is no author(s) or the number of authors is not equal, return hallucination indicator
-    if isinstance(comp_authors, NoneType) or isinstance(gen_author_list, NoneType) or comp_authors == [] or gen_author_list == [] or len(gen_author_list) != len(comp_authors):
+    if isinstance(comp_authors, NoneType) or isinstance(gen_author_list, NoneType) or comp_authors == [] or gen_author_list == []:
         return 1.1
-    for gen_author, comp_author in zip(gen_author_list, comp_authors):
-        print(f"Comparing '{gen_author}' with '{comp_author}'")
-        # If one of the authors is not within a reasonable distance, return hallucination indicator
-        if not gen_author or not comp_author or not isinstance(comp_author.split(" ")[-1], str) or distance(gen_author.strip().lower(), comp_author.split(" ")[-1].lower()) > 3:
+
+    # Finally, here I check whether the authors match
+    for i in range(min(len(gen_author_list), len(comp_authors))):
+        print(f"Comparing '{gen_author_list[i]}' with '{comp_authors[i]}'")
+
+        # First, I verify, that they are not null/None, i.e. that there is a name
+        if not gen_author_list[i] or not comp_authors[i] or not isinstance(comp_authors[i].split(" ")[-1], str):
+            return 1.1
+
+        # Second, I check if we have reached the end for the generated authors, i.e. if some names were omitted due to the number of authors
+        if skips_authors:
+            last_author = gen_author_list[i].replace("…", "").replace("...", "")
+            if distance(last_author.lower(), comp_authors[i].split(" ")[-1].lower()) > 3:
+                return 1.1
+            else:
+                return 0
+        # Last, check for all other authors before the last one
+        if distance(gen_author_list[i].strip().lower(), comp_authors[i].split(" ")[-1].lower()) > 3:
             return 1.1
     # return no hallucination
     return 0
@@ -304,8 +357,14 @@ Calculates the hallucination distance between the generated information and the 
     :param comp_title: the comparison title provided by the DOI request
     :return: a hallucination distance
     """
-    # If there is no title in the generated reference or the distance is larger than 5, return hallucination indicator, else return no hallucination
-    return float(not isinstance(gen_title, str) or not isinstance(comp_title, str) or distance(gen_title.lower(), comp_title.lower()) > 5)*1.2
+    # If there is no title in the generated reference, return hallucination indicator
+    if not isinstance(gen_title, str) or not isinstance(comp_title, str):
+        return 1.2
+    # If the distance is between the shorter title (length n) and the first n characters of the other one larger than 3 return hallucination indicator,
+    # else return no hallucination
+    shorter_len = min(len(gen_title), len(comp_title))
+    return float(distance(gen_title.lower()[:shorter_len], comp_title.lower()[:shorter_len]) > 3)*1.2
+
 
 def get_journal_distance(gen_journal, comp_journal):
     """
@@ -315,7 +374,14 @@ Calculates the hallucination distance between the generated information and the 
     :return: a hallucination distance
     """
     # If there is no journal in the generated reference or the distance is larger than 5, return hallucination indicator, else return no hallucination
-    return float(not isinstance(gen_journal, str) or not isinstance(comp_journal, str) or distance(gen_journal.lower(), comp_journal.lower()) > 5)*1.4
+    # If there is no title in the generated reference, return hallucination indicator
+    if not isinstance(gen_journal, str) or not isinstance(comp_journal, str):
+        return 1.4
+    # If the distance is between the shorter title (length n) and the first n characters of the other one larger than 3 return hallucination indicator,
+    # else return no hallucination
+    shorter_len = min(len(gen_journal), len(comp_journal))
+    return float(distance(gen_journal.lower()[:shorter_len], comp_journal.lower()[:shorter_len]) > 3)*1.4
+    #return float(not isinstance(gen_journal, str) or not isinstance(comp_journal, str) or distance(gen_journal.lower(), comp_journal.lower()) > 5)*1.4
 
 
 
@@ -325,6 +391,7 @@ def save_generated_citations(generated_refs, source_id, llm):
     :param generated_refs: a list of reference dictionaries with the generated citation infos
     :param source_id: the ID of the source paper
     :param llm: the language model used to generate the citations
+    :return: the result of the database insertion
     :return: the result of the database insertion
     """
     citations_data = []
@@ -340,34 +407,10 @@ def save_generated_citations(generated_refs, source_id, llm):
             "OA Standard": ref["OA Standard"],
             "Index": ref["Index"],
             "Reference": ref["Reference"],
-            "Hallucination": ref["Hallucination"]
+            "Hallucination": ref["Hallucination"],
+            "StoreDate" : datetime.date.today().isoformat()
         }
         citations_data.append(citation)
     database = db.Database()
     return database.insert_generated(citations_data)
 
-
-#res = """R1 Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human biases. Science, 356(6334), 183–186.
-#
-#R2 Author, A. (Year). Title about LLMs in journalism. Journal Name, 1(1), 1–10. https://doi.org/10.0000/placeholder2
-#
-#R3 Author, B. (Year). Title about LLMs in copywriting. Journal Name, 2(1), 11–22. https://doi.org/10.0000/placeholder3
-#
-#R4 Author, C. (Year). Title about LLMs in academia. Journal Name, 3(1), 23–34. https://doi.org/10.0000/placeholder4
-#
-#R5 Author, D. (Year). Title about other writing tasks. Journal Name, 4(1), 35–46. https://doi.org/10.0000/placeholder5
-#
-#R6 OpenAI. (2023). ChatGPT: A language model accessible to the public. OpenAI Blog. https://openai.com/blog/chatgpt
-#
-#R7 Bartlett, F. C. (1932). Remembering: A study in experimental and social psychology. Cambridge, England: Cambridge University Press.
-#
-#R8 Boyd, R., & Richerson, P. J. (1985). Culture and the Evolutionary Process. Chicago, IL: University of Chicago Press.
-#
-#R9 Mesoudi, A. (2011). Cultural evolution: A review of the field. Trends in Cognitive Sciences, 15(6), 246–251.
-#
-#R10 Author, E. (Year). Transmission chain experiments in psychology: A methodological overview. Journal of Experimental Psychology: General, 110(2), 200–215.
-#
-#R11 Baumeister, R. F., Bratslavsky, E., Finkenauer, C., & Vohs, K. D. (2001). Bad is stronger than good. American Psychologist, 56(3), 323–329.
-#"""
-#
-#print(list(split_response(res)))

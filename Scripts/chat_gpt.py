@@ -17,6 +17,8 @@ class ChatGPT(LLMCommunicator):
             model = self.model,
             input = query,
             store = self.store,
+            max_output_tokens = 10_000,
+            temperature = self.temperature
         )
         return response.output_text
 

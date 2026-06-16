@@ -69,51 +69,68 @@ class MainWindow(qw.QMainWindow):
 
     def on_paper_submit(self, paragraph_layout, citations_layout):
 
+        try:
+            source_ref = paragraph_layout.itemAt(1).widget().toPlainText()
+            if not source_ref.strip():
+                self.send_error_message("Please enter a source reference.")
+                return
 
-        source_ref = paragraph_layout.itemAt(1).widget().toPlainText()
-        if not source_ref.strip():
-            self.send_error_message("Please enter a source reference.")
+            paragraph = paragraph_layout.itemAt(2).widget().toPlainText().replace("\n", " ")
+            if not paragraph.strip():
+                self.send_error_message("Please enter a paragraph.")
+                return
+
+            citations = citations_layout.itemAt(1).widget().toPlainText()
+            if not citations.strip():
+                self.send_error_message("Please enter citations.")
+                return
+
+            if self.duplication_check(source_ref):
+                qw.QMessageBox.information(self, "Warning", "Paper is already in the database")
+                self.clearInputFields(paragraph_layout, citations_layout)
+                return
+        except Exception as e:
+            print(f"Error during verifying citations: {e}")
             return
 
-        paragraph = paragraph_layout.itemAt(2).widget().toPlainText().replace("\n", " ")
-        if not paragraph.strip():
-            self.send_error_message("Please enter a paragraph.")
+        try:
+            pro_paragraph, pro_citations = pap.replace_citations_with_indices(paragraph, citations)
+            fin_citations = cip.has_apa_dois(pro_citations)
+        except Exception as e:
+            print(f"Error during citation indexing: {e}")
             return
 
-        citations = citations_layout.itemAt(1).widget().toPlainText()
-        if not citations.strip():
-            self.send_error_message("Please enter citations.")
+
+        try:
+            source = cip.get_apa_dois_from_text(source_ref)
+            source = cip.get_citation_infos_from_doi(source)
+        except Exception as e:
+            print(f"Error during source retrieval: {e}")
             return
-
-        if self.duplication_check(source_ref):
-            qw.QMessageBox.information(self, "Warning", "Paper is already in the database")
-            self.clearInputFields(paragraph_layout, citations_layout)
-            return
-
-        pro_paragraph, pro_citations = pap.replace_citations_with_indices(paragraph, citations)
-        pro_citations = cip.has_apa_dois(pro_citations)
-
-
-        source = cip.get_apa_dois_from_text(source_ref)
-        source = cip.get_citation_infos_from_doi(source, True)
 
         if not source:
             self.send_error_message("Error occurred. Please check your source reference input.")
             return
 
-        citation_infos = cip.get_citation_infos_from_dois(pro_citations)
+        try:
+            citation_infos = cip.get_citation_infos_from_dois(fin_citations)
+        except Exception as e:
+            print(f"Error during DOI lookup for citations: {e}")
         #print(cits)
         #citation_infos = cip.get_citation_infos(cits)
         if not citation_infos:
             self.send_error_message("Error occurred. Please check your citation input.")
             return
 
-
-        ref_id = cip.save_citation(source[0])
-        cit_ids = cip.save_citations(citation_infos)
-        para_id = cip.save_paragraph(pro_paragraph, ref_id, paragraph, citations)
-        cip.save_reference_citation_links(ref_id, cit_ids)
-        # cip.save_all_input_data(source[0], para_id, cit_ids)
+        try:
+            ref_id = cip.save_citation(source[0])
+            cit_ids = cip.save_citations(citation_infos)
+            para_id = cip.save_paragraph(pro_paragraph, ref_id, paragraph, citations)
+            cip.save_reference_citation_links(ref_id, cit_ids)
+            # cip.save_all_input_data(source[0], para_id, cit_ids)
+        except Exception as e:
+            print(f"Error during data saving process: {e}")
+            return
 
         qw.QMessageBox.information(self, "Success", "Paragraph and citations saved successfully!")
         self.clearInputFields(paragraph_layout, citations_layout)
@@ -150,7 +167,7 @@ class MainWindow(qw.QMainWindow):
         db = Database()
         try:
             for paper in paper_choices:
-                source = db.get_paper_by_title(paper)
+                source = db.get_source_paper_by_title(paper)
                 if source:
                     ref_count = db.get_citation_count(source["_id"])
                     if ref_count == 0:
@@ -171,8 +188,9 @@ class MainWindow(qw.QMainWindow):
         try:
             for llm in llm_choice:
                 for paper in papers:
-                    query = (f"Generate {paper['Count']} citations (incl. DOI) for the 'R[Number]' placeholders according to APA standards for the following paragraph: \n\n {paper['Paragraph']} "
-                             f"\n\n Just return the citations and indication for the placeholder 'R[Number] without any additional text.")
+                    query = (f"Generate {paper['Count']} references (incl. DOI) for the 'R[Number]' placeholders according to APA standards for the following paragraph: \n\n {paper['Paragraph']} "
+                             f"\n\nJust return the references and indication for the placeholder 'R[Number] without any additional text."
+                             f"\nIf the reference does not have a DOI, still provide a reference, but indicate 'NO DOI' instead of the DOI/the link")
                     if llm == "ChatGPT":
                         communicator = chat_gpt.ChatGPT()
                     elif llm == "Claude":
@@ -185,12 +203,14 @@ class MainWindow(qw.QMainWindow):
                         communicator = LLMCommunicator()
                     response = communicator.generate_response(query)
                     print(response)
+                    if response is None:
+                        continue
                     generated_refs = gep.split_response(response)
                     print(generated_refs)
                     references = gep.get_reference_parts(generated_refs)
-                    print(references)
+                    #print(references)
                     generated_infos = gep.get_citation_infos_from_dois(references)
-                    print(generated_infos)
+                    #print(generated_infos)
                     gep.save_generated_citations(generated_infos, paper["SourceID"], llm)
 
                     print(f"Generated citations for {paper['Title']} using {llm}: {response}")
@@ -205,7 +225,7 @@ class MainWindow(qw.QMainWindow):
         generate_layout = qw.QVBoxLayout()
         generate_label = qw.QLabel("Generate citations for one or multiple papers:")
         llm_multiple_choice = qw.QListWidget()
-        llm_multiple_choice.addItems(["ChatGPT", "Claude", "Gemini", "Perplexity"])
+        llm_multiple_choice.addItems(["ChatGPT", "Claude", "Gemini"]) #, "Perplexity"])
         llm_multiple_choice.setSelectionMode(qw.QAbstractItemView.SelectionMode.MultiSelection)
         paper_selection = qw.QListWidget()
         paper_selection.addItems(self.get_paragraph_options())
