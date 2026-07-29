@@ -121,6 +121,10 @@ class Database:
         authors = list(collection.find({"Authors": ['Unknown']}))
         return authors
 
+    def get_missing_cit_count(self):
+        collection = self.db["papers"]
+        papers = list(collection.find({"$and": [{"DOI": {'$exists': True}}, {"Citation Count": 0}]}))
+        return papers
 
     def update_missing_authors(self, papers):
         """
@@ -166,6 +170,16 @@ class Database:
                                    })
 
 
+    def update_citation_count(self, paper_id, count):
+        """
+        Updates the citation count for a given paper
+        :param paper_id: The ID of the paper to update
+        :param count: The new citation count
+        :return: None
+        """
+        collection = self.db["papers"]
+        collection.update_one({"_id": paper_id}, {"$set": {"Citation Count": count}})
+
 
     def get_paper_by_doi(self, doi):
         """
@@ -185,6 +199,16 @@ class Database:
         """
         collection = self.db["papers"]
         paper = collection.find_one({"Title": title, "Source": True})
+        return paper
+
+    def get_source_paper_by_id(self, paper_id):
+        """
+        Retrieves a single paper from the database based on ID
+        :param paper_id: The ID of the paper
+        :return: The paper matching the given ID, or None if no such paper exists
+        """
+        collection = self.db["papers"]
+        paper = collection.find_one({"_id": paper_id, "Source": True})
         return paper
 
     def get_paragraph_by_source_id(self, source_id):
@@ -248,14 +272,30 @@ class Database:
         return grouped
 
 
-    def get_all_gen_papers_grouped_by_source_and_llm(self):
+    def get_all_gen_papers_grouped_by_source_and_llm(self, iteration = 0):
         """
         Retrieves all references from the database and groups them by their source paper
         :return: A DataFrame containing all generated papers grouped by their source paper and the LLM used for generation
         """
         collection = self.db["generated"]
-        papers = pd.DataFrame(collection.find())
+        papers = pd.DataFrame(collection.find({"Iteration": iteration}))
         grouped = papers.groupby(["SourceID", "LLM"]).apply(lambda x: x.to_dict(orient="records"))
+        return grouped
+
+
+    def get_double_generation_papers(self, llm):
+        """
+        Retrieves all generated papers from the database, where the source paper has been used multiple times to generate citations
+        These can be found by looking at the Iteration field; If there are papers with Iteration = 1(+),
+        get the ID of the source paper and get all generated papers with the same source paper ID
+        :return: a DataFrame containing all generated papers grouped by their source paper and the LLM used for generation,
+                where the source paper has been used multiple times to generate citations
+        """
+        collection = self.db["generated"]
+        papers = pd.DataFrame(collection.find({"Iteration": {"$gt": 0}}))
+        source_ids = papers["SourceID"].unique().tolist()
+        papers = pd.DataFrame(collection.find({"SourceID": {"$in": source_ids}, "LLM": llm}))
+        grouped = papers.groupby(["SourceID"]).apply(lambda x: x.to_dict(orient="records"))
         return grouped
 
 

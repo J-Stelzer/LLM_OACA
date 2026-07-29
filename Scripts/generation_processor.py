@@ -2,9 +2,10 @@ import re
 from types import NoneType
 import datetime
 import db
-import doi_lookup as doi
+import doi_lookup as dl
 import unpaywall as upw
 from Levenshtein import distance
+
 
 def split_response(response):
     """
@@ -95,6 +96,7 @@ def get_citation_infos_from_dois(references):
     """
     try:
         citation_infos = []
+        doi_look = dl.DOILookup()
         for ref, info in references.items():
             #print(info)
             try:
@@ -109,7 +111,7 @@ def get_citation_infos_from_dois(references):
                     if result["oa_status"] == "UNPAYWALL API ERROR":
                         citation_infos.append(try_doi_workaround(info))
                         continue
-
+                    citation_count = doi_look.get_reference_count(doi)
                     # Second, get the author names from the API result
                     authors = []
                     if not isinstance(result["z_authors"], NoneType):
@@ -136,6 +138,7 @@ def get_citation_infos_from_dois(references):
                         "Index": info["index"],
                         "Reference": info["reference"],
                         "Hallucination": hallucination_score,
+                        "Citation Count": citation_count,
                         "StoreDate" : datetime.date.today().isoformat()
                     })
                     continue
@@ -155,6 +158,7 @@ def get_citation_infos_from_dois(references):
                         "Index": info["index"],
                         "Reference": info["reference"],
                         "Hallucination": -1,
+                        "Citation Count": None,
                         "StoreDate" : datetime.date.today().isoformat()
                     })
             except Exception as e:
@@ -176,7 +180,7 @@ def lookup_doi(citation, title):
     :param title: the title of the paper
     :return: the best matching entry from the Crossref API
     """
-    doi_lookup = doi.DOILookup()
+    doi_lookup = dl.DOILookup()
     result = doi_lookup.lookup(citation, title)
     return result
 
@@ -240,7 +244,6 @@ def try_doi_workaround(info):
                 "Open Access": result["is_oa"][0],
                 "OA Standard": result["oa_status"][0],
                 "URL": result["doi_url"][0],
-                "Source": False,
                 "Index": info["index"],
                 "Reference": info["reference"],
                 "Hallucination": hallucination_score,
@@ -269,10 +272,10 @@ def return_blank_ref(info):
         "Open Access": None,
         "OA Standard": None,
         "URL": None,
-        "Source": False,
         "Index": info["index"],
         "Reference": info["reference"],
         "Hallucination": 4,
+        "Citation Count": None,
         "StoreDate" : datetime.date.today().isoformat()
     }
 
@@ -408,6 +411,7 @@ def save_generated_citations(generated_refs, source_id, llm):
             "Index": ref["Index"],
             "Reference": ref["Reference"],
             "Hallucination": ref["Hallucination"],
+            "Citation Count": ref["Citation Count"],
             "StoreDate" : datetime.date.today().isoformat()
         }
         citations_data.append(citation)

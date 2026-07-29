@@ -1,0 +1,579 @@
+SourceID,Model,OA,OAS,Index
+6a4536972baed18e74d416fd,Gemini 3.1 Flash Lite,1,bronze,7
+6a4536972baed18e74d416fd,Ground Truth,1,bronze,7
+6a4536972baed18e74d416fd,Gemini 3.1 Flash Lite,1,green,42
+6a4536972baed18e74d416fd,Ground Truth,0,closed,42
+6a4536972baed18e74d416fd,Gemini 3.1 Flash Lite,0,closed,23
+6a4536972baed18e74d416fd,Ground Truth,1,bronze,23
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,0,closed,17
+6a45379f2baed18e74d41a77,Ground Truth,0,closed,17
+6a4538662baed18e74d41d99,Gemini 3.1 Flash Lite,1,green,11
+6a4538662baed18e74d41d99,Ground Truth,1,hybrid,11
+6a4538662baed18e74d41d99,Gemini 3.1 Flash Lite,1,gold,15
+6a4538662baed18e74d41d99,Ground Truth,1,gold,15
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,15
+6a45388e2baed18e74d41e27,Ground Truth,0,closed,15
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,25
+6a45388e2baed18e74d41e27,Ground Truth,0,closed,25
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,3
+6a45388e2baed18e74d41e27,Ground Truth,1,gold,3
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,17
+6a45388e2baed18e74d41e27,Ground Truth,0,closed,17
+6a4538cd2baed18e74d41f23,Gemini 3.1 Flash Lite,1,green,142
+6a4538cd2baed18e74d41f23,Ground Truth,0,closed,142
+6a4538cd2baed18e74d41f23,Gemini 3.1 Flash Lite,1,bronze,10
+6a4538cd2baed18e74d41f23,Ground Truth,0,closed,10
+6a4538cd2baed18e74d41f23,Gemini 3.1 Flash Lite,1,bronze,158
+6a4538cd2baed18e74d41f23,Ground Truth,0,closed,158
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,1,green,19
+6a453bee2baed18e74d42a61,Ground Truth,0,closed,19
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,1,gold,26
+6a453bee2baed18e74d42a61,Ground Truth,0,closed,26
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,0,closed,6
+6a453bee2baed18e74d42a61,Ground Truth,0,closed,6
+6a453d202baed18e74d42f11,Gemini 3.1 Flash Lite,0,closed,13
+6a453d202baed18e74d42f11,Ground Truth,0,closed,13
+6a453d202baed18e74d42f11,Gemini 3.1 Flash Lite,0,closed,17
+6a453d202baed18e74d42f11,Ground Truth,1,hybrid,17
+6a453d202baed18e74d42f11,Gemini 3.1 Flash Lite,0,closed,24
+6a453d202baed18e74d42f11,Ground Truth,0,closed,24
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,0,closed,52
+6a453e732baed18e74d433f9,Ground Truth,1,hybrid,52
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,0,closed,54
+6a453e732baed18e74d433f9,Ground Truth,0,closed,54
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,1,green,53
+6a453e732baed18e74d433f9,Ground Truth,0,closed,53
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,1,bronze,34
+6a453e732baed18e74d433f9,Ground Truth,1,gold,34
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,7
+6a453f552baed18e74d43729,Ground Truth,1,green,7
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,1,green,56
+6a453f552baed18e74d43729,Ground Truth,0,closed,56
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,58
+6a453f552baed18e74d43729,Ground Truth,0,closed,58
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,32
+6a453f552baed18e74d43729,Ground Truth,1,green,32
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,27
+6a453f552baed18e74d43729,Ground Truth,1,hybrid,27
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,53
+6a453f552baed18e74d43729,Ground Truth,0,closed,53
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,5
+6a453f552baed18e74d43729,Ground Truth,1,gold,5
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,1,gold,39
+6a453f552baed18e74d43729,Ground Truth,1,gold,39
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,26
+6a453f552baed18e74d43729,Ground Truth,0,closed,26
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,38
+6a453f552baed18e74d43729,Ground Truth,1,hybrid,38
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,1,gold,61
+6a453f552baed18e74d43729,Ground Truth,1,gold,61
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,15
+6a453f552baed18e74d43729,Ground Truth,1,bronze,15
+6a453f642baed18e74d4376d,Gemini 3.1 Flash Lite,0,closed,16
+6a453f642baed18e74d4376d,Ground Truth,0,closed,16
+6a453f642baed18e74d4376d,Gemini 3.1 Flash Lite,0,closed,66
+6a453f642baed18e74d4376d,Ground Truth,0,closed,66
+6a453f642baed18e74d4376d,Gemini 3.1 Flash Lite,1,green,54
+6a453f642baed18e74d4376d,Ground Truth,0,closed,54
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,gold,15
+6a453f972baed18e74d43809,Ground Truth,1,gold,15
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,35
+6a453f972baed18e74d43809,Ground Truth,0,closed,35
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,53
+6a453f972baed18e74d43809,Ground Truth,0,closed,53
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,62
+6a453f972baed18e74d43809,Ground Truth,0,closed,62
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,bronze,75
+6a453f972baed18e74d43809,Ground Truth,0,closed,75
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,57
+6a453f972baed18e74d43809,Ground Truth,1,gold,57
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,green,49
+6a453f972baed18e74d43809,Ground Truth,1,green,49
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,8
+6a453f972baed18e74d43809,Ground Truth,0,closed,8
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,17
+6a453f972baed18e74d43809,Ground Truth,0,closed,17
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,9
+6a453f972baed18e74d43809,Ground Truth,0,closed,9
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,47
+6a453f972baed18e74d43809,Ground Truth,0,closed,47
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,green,80
+6a453f972baed18e74d43809,Ground Truth,1,green,80
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,22
+6a453f972baed18e74d43809,Ground Truth,1,hybrid,22
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,32
+6a453f972baed18e74d43809,Ground Truth,1,green,32
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,52
+6a453f972baed18e74d43809,Ground Truth,0,closed,52
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,green,79
+6a453f972baed18e74d43809,Ground Truth,0,closed,79
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,23
+6a453f972baed18e74d43809,Ground Truth,0,closed,23
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,72
+6a453f972baed18e74d43809,Ground Truth,1,green,72
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,12
+6a453f972baed18e74d43809,Ground Truth,1,gold,12
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,18
+6a453f972baed18e74d43809,Ground Truth,0,closed,18
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,65
+6a453f972baed18e74d43809,Ground Truth,0,closed,65
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,24
+6a453f972baed18e74d43809,Ground Truth,0,closed,24
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,25
+6a453f972baed18e74d43809,Ground Truth,0,closed,25
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,5
+6a453f972baed18e74d43809,Ground Truth,0,closed,5
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,19
+6a453f972baed18e74d43809,Ground Truth,0,closed,19
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,58
+6a453f972baed18e74d43809,Ground Truth,1,gold,58
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,32
+6a453ff52baed18e74d4397b,Ground Truth,1,green,32
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,15
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,15
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,4
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,4
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,34
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,34
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,36
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,36
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,1,gold,20
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,20
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,52
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,52
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,28
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,28
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,10
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,10
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,27
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,27
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,54
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,54
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,1,gold,49
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,49
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,5
+6a453ff52baed18e74d4397b,Ground Truth,1,gold,5
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,45
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,45
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,16
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,16
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,1,gold,22
+6a453ff52baed18e74d4397b,Ground Truth,0,closed,22
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,12
+6a45407d2baed18e74d43b83,Ground Truth,0,closed,12
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,16
+6a45407d2baed18e74d43b83,Ground Truth,1,green,16
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,1,gold,30
+6a45407d2baed18e74d43b83,Ground Truth,0,closed,30
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,1,hybrid,19
+6a45407d2baed18e74d43b83,Ground Truth,1,hybrid,19
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,27
+6a45407d2baed18e74d43b83,Ground Truth,0,closed,27
+6a4540c82baed18e74d43c91,Gemini 3.1 Flash Lite,1,green,31
+6a4540c82baed18e74d43c91,Ground Truth,1,green,31
+6a4540c82baed18e74d43c91,Gemini 3.1 Flash Lite,0,closed,13
+6a4540c82baed18e74d43c91,Ground Truth,0,closed,13
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,15
+6a4aa8b03530b710d64ec91b,Ground Truth,1,bronze,15
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,bronze,13
+6a4aa8b03530b710d64ec91b,Ground Truth,1,bronze,13
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,green,9
+6a4aa8b03530b710d64ec91b,Ground Truth,1,green,9
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,74
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,74
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,12
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,12
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,71
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,71
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,37
+6a4aa8b03530b710d64ec91b,Ground Truth,1,gold,37
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,48
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,48
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,bronze,76
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,76
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,gold,67
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,67
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,33
+6a4aa8b03530b710d64ec91b,Ground Truth,1,bronze,33
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,59
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,59
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,28
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,28
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,64
+6a4aa8b03530b710d64ec91b,Ground Truth,1,hybrid,64
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,27
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,27
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,20
+6a4aa8b03530b710d64ec91b,Ground Truth,0,closed,20
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,25
+6a4aad253530b710d64ec9ce,Ground Truth,1,gold,25
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,bronze,8
+6a4aad253530b710d64ec9ce,Ground Truth,1,hybrid,8
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,3
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,3
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,15
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,15
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,26
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,26
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,4
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,4
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,2
+6a4aad253530b710d64ec9ce,Ground Truth,1,green,2
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,11
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,11
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,12
+6a4aad253530b710d64ec9ce,Ground Truth,1,green,12
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,16
+6a4aad253530b710d64ec9ce,Ground Truth,1,gold,16
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,5
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,5
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,7
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,7
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,24
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,24
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,31
+6a4aad253530b710d64ec9ce,Ground Truth,0,closed,31
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,28
+6a4aad253530b710d64ec9ce,Ground Truth,1,bronze,28
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,25
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,25
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,30
+6a4ac7c3675dd09855812723,Ground Truth,1,gold,30
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,41
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,41
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,3
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,3
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,4
+6a4ac7c3675dd09855812723,Ground Truth,1,hybrid,4
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,6
+6a4ac7c3675dd09855812723,Ground Truth,1,green,6
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,bronze,12
+6a4ac7c3675dd09855812723,Ground Truth,1,green,12
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,gold,19
+6a4ac7c3675dd09855812723,Ground Truth,1,hybrid,19
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,21
+6a4ac7c3675dd09855812723,Ground Truth,1,hybrid,21
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,47
+6a4ac7c3675dd09855812723,Ground Truth,1,green,47
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,13
+6a4ac7c3675dd09855812723,Ground Truth,1,green,13
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,bronze,15
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,15
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,26
+6a4ac7c3675dd09855812723,Ground Truth,1,hybrid,26
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,11
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,11
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,bronze,31
+6a4ac7c3675dd09855812723,Ground Truth,1,green,31
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,bronze,49
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,49
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,8
+6a4ac7c3675dd09855812723,Ground Truth,1,green,8
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,34
+6a4ac7c3675dd09855812723,Ground Truth,0,closed,34
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,7
+6a4ac835675dd09855812772,Ground Truth,0,closed,7
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,52
+6a4ac835675dd09855812772,Ground Truth,0,closed,52
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,10
+6a4ac835675dd09855812772,Ground Truth,1,green,10
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,9
+6a4ac835675dd09855812772,Ground Truth,0,closed,9
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,74
+6a4ac835675dd09855812772,Ground Truth,0,closed,74
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,1,green,84
+6a4ac835675dd09855812772,Ground Truth,0,closed,84
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,62
+6a4ac835675dd09855812772,Ground Truth,0,closed,62
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,80
+6a4ac835675dd09855812772,Ground Truth,0,closed,80
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,41
+6a4ac835675dd09855812772,Ground Truth,1,green,41
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,28
+6a4ac835675dd09855812772,Ground Truth,0,closed,28
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,16
+6a4ac835675dd09855812772,Ground Truth,0,closed,16
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,hybrid,90
+6a4aca12675dd098558128d4,Ground Truth,0,closed,90
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,54
+6a4aca12675dd098558128d4,Ground Truth,0,closed,54
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,gold,22
+6a4aca12675dd098558128d4,Ground Truth,0,closed,22
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,bronze,44
+6a4aca12675dd098558128d4,Ground Truth,0,closed,44
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,91
+6a4aca12675dd098558128d4,Ground Truth,1,hybrid,91
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,bronze,87
+6a4aca12675dd098558128d4,Ground Truth,0,closed,87
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,78
+6a4aca12675dd098558128d4,Ground Truth,0,closed,78
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,75
+6a4aca12675dd098558128d4,Ground Truth,0,closed,75
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,88
+6a4aca12675dd098558128d4,Ground Truth,0,closed,88
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,94
+6a4aca12675dd098558128d4,Ground Truth,0,closed,94
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,3
+6a4aca12675dd098558128d4,Ground Truth,0,closed,3
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,97
+6a4aca12675dd098558128d4,Ground Truth,1,green,97
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,93
+6a4aca12675dd098558128d4,Ground Truth,0,closed,93
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,77
+6a4aca12675dd098558128d4,Ground Truth,1,green,77
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,55
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,55
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,39
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,39
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,gold,35
+6a4acdb3675dd09855812ac7,Ground Truth,0,closed,35
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,36
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,36
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,37
+6a4acdb3675dd09855812ac7,Ground Truth,0,closed,37
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,bronze,46
+6a4acdb3675dd09855812ac7,Ground Truth,1,gold,46
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,17
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,17
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,48
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,48
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,11
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,11
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,52
+6a4acdb3675dd09855812ac7,Ground Truth,0,closed,52
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,71
+6a4acdb3675dd09855812ac7,Ground Truth,1,green,71
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,34
+6a4acdb3675dd09855812ac7,Ground Truth,1,hybrid,34
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,green,31
+6a4ad4956d9923824bc5af2b,Ground Truth,1,green,31
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,51
+6a4ad4956d9923824bc5af2b,Ground Truth,1,bronze,51
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,45
+6a4ad4956d9923824bc5af2b,Ground Truth,0,closed,45
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,green,11
+6a4ad4956d9923824bc5af2b,Ground Truth,1,green,11
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,green,80
+6a4ad4956d9923824bc5af2b,Ground Truth,0,closed,80
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,77
+6a4ad4956d9923824bc5af2b,Ground Truth,0,closed,77
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,76
+6a4ad4956d9923824bc5af2b,Ground Truth,0,closed,76
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,14
+6a4ad4956d9923824bc5af2b,Ground Truth,1,bronze,14
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,38
+6a4ad4956d9923824bc5af2b,Ground Truth,1,hybrid,38
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,bronze,79
+6a4ad4956d9923824bc5af2b,Ground Truth,1,gold,79
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,gold,66
+6a4ad4956d9923824bc5af2b,Ground Truth,1,green,66
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,15
+6a4ad4956d9923824bc5af2b,Ground Truth,0,closed,15
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,4
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,green,4
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,31
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,31
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,bronze,42
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,42
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,gold,24
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,hybrid,24
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,33
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,gold,33
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,gold,36
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,36
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,green,48
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,gold,48
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,27
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,27
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,65
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,65
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,8
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,green,8
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,13
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,13
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,1
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,1
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,44
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,44
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,47
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,47
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,bronze,11
+6a4ad6596d9923824bc5b0bd,Ground Truth,0,closed,11
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,25
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,bronze,25
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,6
+6a4ad6596d9923824bc5b0bd,Ground Truth,1,green,6
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,1,bronze,32
+6a4ad97c6d9923824bc5b2e7,Ground Truth,1,hybrid,32
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,5
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,5
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,49
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,49
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,30
+6a4ad97c6d9923824bc5b2e7,Ground Truth,1,green,30
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,27
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,27
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,40
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,40
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,1,gold,4
+6a4ad97c6d9923824bc5b2e7,Ground Truth,1,gold,4
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,10
+6a4ad97c6d9923824bc5b2e7,Ground Truth,1,gold,10
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,1,gold,8
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,8
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,0,closed,43
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,43
+6a4ad97c6d9923824bc5b2e7,Gemini 3.1 Flash Lite,1,gold,26
+6a4ad97c6d9923824bc5b2e7,Ground Truth,0,closed,26
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,53
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,53
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,13
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,13
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,29
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,gold,29
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,30
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,30
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,22
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,green,22
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,32
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,32
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,green,3
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,3
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,bronze,31
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,31
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,48
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,48
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,green,37
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,37
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,66
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,gold,66
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,5
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,5
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,6
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,bronze,6
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,41
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,41
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,11
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,11
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,7
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,7
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,68
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,gold,68
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,50
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,green,50
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,42
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,42
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,21
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,gold,21
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,4
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,green,4
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,2
+6a4ad9e16d9923824bc5b32a,Ground Truth,0,closed,2
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,24
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,green,24
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,green,35
+6a4ad9e16d9923824bc5b32a,Ground Truth,1,green,35
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,19
+6a4bff02d8ce85a6acd86fbc,Ground Truth,1,bronze,19
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,1,green,40
+6a4bff02d8ce85a6acd86fbc,Ground Truth,0,closed,40
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,3
+6a4bff02d8ce85a6acd86fbc,Ground Truth,0,closed,3
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,5
+6a4bff02d8ce85a6acd86fbc,Ground Truth,0,closed,5
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,21
+6a4bff02d8ce85a6acd86fbc,Ground Truth,0,closed,21
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,29
+6a4bff02d8ce85a6acd86fbc,Ground Truth,0,closed,29
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,11
+6a4bff02d8ce85a6acd86fbc,Ground Truth,0,closed,11
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,gold,45
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,45
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,42
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,green,42
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,7
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,7
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,bronze,34
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,bronze,34
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,38
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,38
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,56
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,bronze,56
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,green,33
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,gold,33
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,49
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,49
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,14
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,gold,14
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,4
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,4
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,gold,63
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,63
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,green,22
+6a4bff42d8ce85a6acd86fef,Ground Truth,0,closed,22
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,hybrid,44
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,hybrid,44
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,hybrid,23
+6a4bff42d8ce85a6acd86fef,Ground Truth,1,bronze,23
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,gold,12
+6a4c008dd8ce85a6acd87104,Ground Truth,1,gold,12
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,gold,26
+6a4c008dd8ce85a6acd87104,Ground Truth,0,closed,26
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,20
+6a4c008dd8ce85a6acd87104,Ground Truth,0,closed,20
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,34
+6a4c008dd8ce85a6acd87104,Ground Truth,0,closed,34
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,green,24
+6a4c008dd8ce85a6acd87104,Ground Truth,1,gold,24
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,bronze,11
+6a4c008dd8ce85a6acd87104,Ground Truth,0,closed,11
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,green,7
+6a4c008dd8ce85a6acd87104,Ground Truth,1,gold,7
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,23
+6a4c008dd8ce85a6acd87104,Ground Truth,1,gold,23
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,32
+6a4c008dd8ce85a6acd87104,Ground Truth,1,bronze,32
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,green,16
+6a4c008dd8ce85a6acd87104,Ground Truth,1,gold,16
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,8
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,8
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,37
+6a4c0406d8ce85a6acd87237,Ground Truth,1,bronze,37
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,6
+6a4c0406d8ce85a6acd87237,Ground Truth,1,bronze,6
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,29
+6a4c0406d8ce85a6acd87237,Ground Truth,0,closed,29
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,bronze,32
+6a4c0406d8ce85a6acd87237,Ground Truth,0,closed,32
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,59
+6a4c0406d8ce85a6acd87237,Ground Truth,1,green,59
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,52
+6a4c0406d8ce85a6acd87237,Ground Truth,1,hybrid,52
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,5
+6a4c0406d8ce85a6acd87237,Ground Truth,1,hybrid,5
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,58
+6a4c0406d8ce85a6acd87237,Ground Truth,0,closed,58
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,60
+6a4c0406d8ce85a6acd87237,Ground Truth,1,bronze,60
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,30
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,30
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,45
+6a4c0406d8ce85a6acd87237,Ground Truth,1,hybrid,45
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,21
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,21
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,bronze,51
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,51
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,49
+6a4c0406d8ce85a6acd87237,Ground Truth,1,hybrid,49
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,bronze,63
+6a4c0406d8ce85a6acd87237,Ground Truth,0,closed,63
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,41
+6a4c0406d8ce85a6acd87237,Ground Truth,0,closed,41
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,44
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,44
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,14
+6a4c0406d8ce85a6acd87237,Ground Truth,0,closed,14
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,20
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,20
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,bronze,27
+6a4c0406d8ce85a6acd87237,Ground Truth,1,gold,27

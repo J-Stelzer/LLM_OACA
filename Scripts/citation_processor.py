@@ -6,6 +6,7 @@ from typing_extensions import deprecated
 import datetime
 import doi_lookup as dl
 import unpaywall as upw
+from Scripts import doi_lookup
 from db import Database
 
 
@@ -63,12 +64,14 @@ def get_citation_infos_from_dois(references):
     :return: a list of citation infos ready to be stored to the database
     """
     try:
+        doi_lookup = dl.DOILookup()
         citation_infos = []
         for ref, info in references.items():
             #print(info)
             if info["has_doi"]:
                 doi = info["doi"]
                 unpaywall_result = lookup_unpaywall([doi])
+                citation_count = doi_lookup.get_reference_count(doi)
                 result = unpaywall_result.to_dict()
                 authors = []
                 if result["z_authors"] and not isinstance(result["z_authors"][0], NoneType):
@@ -86,7 +89,8 @@ def get_citation_infos_from_dois(references):
                     "Source": False,
                     "Index": info["index"],
                     "Reference": info["reference"],
-                    "StoreDate" : datetime.date.today().isoformat()
+                    "Citation Count": citation_count,
+                    "StoreDate" : datetime.date.today().isoformat(),
                 })
                 continue
 
@@ -102,6 +106,7 @@ def get_citation_infos_from_dois(references):
                 "Source": False,
                 "Index": info["index"],
                 "Reference": info["reference"],
+                "Citation Count": None,
                 "StoreDate" : datetime.date.today().isoformat()
             })
         return citation_infos
@@ -118,6 +123,7 @@ def get_citation_infos_from_doi(doi):
     :return: a list of citation infos ready to be stored to the database
     """
     try:
+        doi_lookup = dl.DOILookup()
         citation_infos = []
         unpaywall_results = lookup_unpaywall(doi)
         # this is a pd dataframe, we need to iterate over the rows
@@ -125,6 +131,7 @@ def get_citation_infos_from_doi(doi):
             result = row.to_dict()
             #print(result)
             if result:
+                citation_count = doi_lookup.get_reference_count(doi)
                 authors = []
                 if result["z_authors"]:
                     for author in result["z_authors"]:
@@ -141,6 +148,7 @@ def get_citation_infos_from_doi(doi):
                     "OA Standard": result["oa_status"],
                     "URL": result["doi_url"],
                     "Source": True,
+                    "Citation Count": citation_count,
                     "StoreDate" : datetime.date.today().isoformat()
                 })
 

@@ -15,11 +15,11 @@ UnpywallCredentials(UNPAYWALL_EMAIL)
 
 EMPTY_RESULT = pd.DataFrame()
 EMPTY_RESULT['is_oa'] = False
-EMPTY_RESULT["title"] = "Unknown"
-EMPTY_RESULT["journal_name"] = "Unknown"
-EMPTY_RESULT["published_date"] = "Unknown"
+EMPTY_RESULT["title"] = None
+EMPTY_RESULT["journal_name"] = None
+EMPTY_RESULT["published_date"] = None
 EMPTY_RESULT["oa_status"] = "UNPAYWALL API ERROR"
-EMPTY_RESULT["doi_url"] = "Unknown"
+EMPTY_RESULT["doi_url"] = None
 EMPTY_RESULT["z_authors"] = [[{"raw_author_name": "Unknown"}]]
 
 

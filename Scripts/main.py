@@ -185,9 +185,10 @@ class MainWindow(qw.QMainWindow):
             print(f"Error retrieving paper information: {e}")
             self.send_error_message("Error retrieving paper information. Please check the database connection and data integrity.")
             return
-        try:
-            for llm in llm_choice:
-                for paper in papers:
+
+        for llm in llm_choice:
+            for paper in papers:
+                try:
                     query = (f"Generate {paper['Count']} references (incl. DOI) for the 'R[Number]' placeholders according to APA standards for the following paragraph: \n\n {paper['Paragraph']} "
                              f"\n\nJust return the references and indication for the placeholder 'R[Number] without any additional text."
                              f"\nIf the reference does not have a DOI, still provide a reference, but indicate 'NO DOI' instead of the DOI/the link")
@@ -215,10 +216,10 @@ class MainWindow(qw.QMainWindow):
 
                     print(f"Generated citations for {paper['Title']} using {llm}: {response}")
 
-        except Exception as e:
-            print(f"Error generating citations: {e}")
-            self.send_error_message("Error generating citations. Please check the LLM responses and query formatting.")
-            return
+                except Exception as e:
+                    print(f"Error generating citations: {e}")
+                    #self.send_error_message("Error generating citations. Please check the LLM responses and query formatting.")
+                    continue
 
     def add_generate_section(self):
         generate_frame = qw.QFrame()

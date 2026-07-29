@@ -1,0 +1,2883 @@
+SourceID,Model,OA,OAS,Index
+6a4536972baed18e74d416fd,ChatGPT 5.2,1,green,4
+6a4536972baed18e74d416fd,Gemini 3.1 Flash Lite,1,bronze,4
+6a4536972baed18e74d416fd,ChatGPT 5.2,1,bronze,10
+6a4536972baed18e74d416fd,Gemini 3.1 Flash Lite,1,bronze,10
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,1,bronze,18
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,0,closed,18
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,1,hybrid,20
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,1,hybrid,20
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,1,green,21
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,1,gold,21
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,1,green,33
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,1,green,33
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,1,green,35
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,1,green,35
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,0,closed,56
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,0,closed,56
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,0,closed,70
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,0,closed,70
+6a4536bb2baed18e74d4173d,ChatGPT 5.2,0,closed,85
+6a4536bb2baed18e74d4173d,Gemini 3.1 Flash Lite,0,closed,85
+6a4536c92baed18e74d417a1,ChatGPT 5.2,0,closed,4
+6a4536c92baed18e74d417a1,Gemini 3.1 Flash Lite,0,closed,4
+6a4536c92baed18e74d417a1,ChatGPT 5.2,0,closed,9
+6a4536c92baed18e74d417a1,Gemini 3.1 Flash Lite,0,closed,9
+6a4536c92baed18e74d417a1,ChatGPT 5.2,1,bronze,11
+6a4536c92baed18e74d417a1,Gemini 3.1 Flash Lite,0,closed,11
+6a4536c92baed18e74d417a1,ChatGPT 5.2,0,closed,41
+6a4536c92baed18e74d417a1,Gemini 3.1 Flash Lite,0,closed,41
+6a4536c92baed18e74d417a1,ChatGPT 5.2,1,green,47
+6a4536c92baed18e74d417a1,Gemini 3.1 Flash Lite,1,green,47
+6a4536c92baed18e74d417a1,ChatGPT 5.2,1,green,51
+6a4536c92baed18e74d417a1,Gemini 3.1 Flash Lite,1,green,51
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,1
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,1
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,3
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,3
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,4
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,4
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,7
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,1,gold,7
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,13
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,13
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,1,bronze,14
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,1,bronze,14
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,18
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,18
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,1,bronze,26
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,1,bronze,26
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,1,green,35
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,35
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,40
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,40
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,1,green,47
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,1,green,47
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,50
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,50
+6a4536ea2baed18e74d417d1,ChatGPT 5.2,0,closed,65
+6a4536ea2baed18e74d417d1,Gemini 3.1 Flash Lite,0,closed,65
+6a4536fb2baed18e74d41843,ChatGPT 5.2,1,hybrid,13
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,13
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,16
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,16
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,19
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,1,bronze,19
+6a4536fb2baed18e74d41843,ChatGPT 5.2,1,green,21
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,21
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,26
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,26
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,28
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,28
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,49
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,1,green,49
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,60
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,60
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,62
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,62
+6a4536fb2baed18e74d41843,ChatGPT 5.2,1,green,65
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,65
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,68
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,68
+6a4536fb2baed18e74d41843,ChatGPT 5.2,0,closed,69
+6a4536fb2baed18e74d41843,Gemini 3.1 Flash Lite,0,closed,69
+6a4537052baed18e74d4187f,ChatGPT 5.2,0,closed,3
+6a4537052baed18e74d4187f,Gemini 3.1 Flash Lite,0,closed,3
+6a4537052baed18e74d4187f,ChatGPT 5.2,0,closed,12
+6a4537052baed18e74d4187f,Gemini 3.1 Flash Lite,0,closed,12
+6a4537052baed18e74d4187f,ChatGPT 5.2,1,gold,29
+6a4537052baed18e74d4187f,Gemini 3.1 Flash Lite,0,closed,29
+6a4537162baed18e74d418a1,ChatGPT 5.2,1,green,6
+6a4537162baed18e74d418a1,Gemini 3.1 Flash Lite,1,green,6
+6a4537162baed18e74d418a1,ChatGPT 5.2,1,bronze,9
+6a4537162baed18e74d418a1,Gemini 3.1 Flash Lite,0,closed,9
+6a4537162baed18e74d418a1,ChatGPT 5.2,1,green,50
+6a4537162baed18e74d418a1,Gemini 3.1 Flash Lite,1,green,50
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,2
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,2
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,bronze,3
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,3
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,green,10
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,10
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,25
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,25
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,green,26
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,26
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,32
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,32
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,33
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,33
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,34
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,34
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,37
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,37
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,42
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,42
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,green,44
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,44
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,green,52
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,52
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,green,65
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,green,65
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,82
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,bronze,82
+6a45372e2baed18e74d418d9,ChatGPT 5.2,0,closed,90
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,0,closed,90
+6a45372e2baed18e74d418d9,ChatGPT 5.2,1,green,93
+6a45372e2baed18e74d418d9,Gemini 3.1 Flash Lite,1,bronze,93
+6a4537472baed18e74d41963,ChatGPT 5.2,0,closed,2
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,1,bronze,2
+6a4537472baed18e74d41963,ChatGPT 5.2,0,closed,3
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,0,closed,3
+6a4537472baed18e74d41963,ChatGPT 5.2,0,closed,7
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,1,hybrid,7
+6a4537472baed18e74d41963,ChatGPT 5.2,1,gold,8
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,1,hybrid,8
+6a4537472baed18e74d41963,ChatGPT 5.2,0,closed,19
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,1,bronze,19
+6a4537472baed18e74d41963,ChatGPT 5.2,1,bronze,21
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,1,green,21
+6a4537472baed18e74d41963,ChatGPT 5.2,0,closed,26
+6a4537472baed18e74d41963,Gemini 3.1 Flash Lite,1,green,26
+6a45375a2baed18e74d4198b,ChatGPT 5.2,1,bronze,9
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,1,bronze,9
+6a45375a2baed18e74d4198b,ChatGPT 5.2,1,green,16
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,16
+6a45375a2baed18e74d4198b,ChatGPT 5.2,1,green,19
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,19
+6a45375a2baed18e74d4198b,ChatGPT 5.2,0,closed,22
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,1,gold,22
+6a45375a2baed18e74d4198b,ChatGPT 5.2,1,gold,31
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,1,gold,31
+6a45375a2baed18e74d4198b,ChatGPT 5.2,1,bronze,33
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,1,bronze,33
+6a45375a2baed18e74d4198b,ChatGPT 5.2,0,closed,43
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,1,bronze,43
+6a45375a2baed18e74d4198b,ChatGPT 5.2,0,closed,45
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,45
+6a45375a2baed18e74d4198b,ChatGPT 5.2,0,closed,55
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,55
+6a45375a2baed18e74d4198b,ChatGPT 5.2,1,green,60
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,60
+6a45375a2baed18e74d4198b,ChatGPT 5.2,0,closed,71
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,71
+6a45375a2baed18e74d4198b,ChatGPT 5.2,0,closed,73
+6a45375a2baed18e74d4198b,Gemini 3.1 Flash Lite,0,closed,73
+6a4537672baed18e74d419cd,ChatGPT 5.2,1,bronze,16
+6a4537672baed18e74d419cd,Gemini 3.1 Flash Lite,0,closed,16
+6a4537672baed18e74d419cd,ChatGPT 5.2,1,bronze,18
+6a4537672baed18e74d419cd,Gemini 3.1 Flash Lite,1,bronze,18
+6a4537672baed18e74d419cd,ChatGPT 5.2,0,closed,55
+6a4537672baed18e74d419cd,Gemini 3.1 Flash Lite,1,green,55
+6a45378d2baed18e74d419f5,ChatGPT 5.2,1,gold,4
+6a45378d2baed18e74d419f5,Gemini 3.1 Flash Lite,0,closed,4
+6a45378d2baed18e74d419f5,ChatGPT 5.2,0,closed,7
+6a45378d2baed18e74d419f5,Gemini 3.1 Flash Lite,1,green,7
+6a45378d2baed18e74d419f5,ChatGPT 5.2,1,bronze,17
+6a45378d2baed18e74d419f5,Gemini 3.1 Flash Lite,0,closed,17
+6a45378d2baed18e74d419f5,ChatGPT 5.2,0,closed,18
+6a45378d2baed18e74d419f5,Gemini 3.1 Flash Lite,1,green,18
+6a45378d2baed18e74d419f5,ChatGPT 5.2,1,bronze,19
+6a45378d2baed18e74d419f5,Gemini 3.1 Flash Lite,1,green,19
+6a45378d2baed18e74d419f5,ChatGPT 5.2,0,closed,22
+6a45378d2baed18e74d419f5,Gemini 3.1 Flash Lite,0,closed,22
+6a45379f2baed18e74d41a77,ChatGPT 5.2,1,bronze,6
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,1,bronze,6
+6a45379f2baed18e74d41a77,ChatGPT 5.2,1,green,7
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,1,green,7
+6a45379f2baed18e74d41a77,ChatGPT 5.2,0,closed,15
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,1,bronze,15
+6a45379f2baed18e74d41a77,ChatGPT 5.2,1,bronze,17
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,0,closed,17
+6a45379f2baed18e74d41a77,ChatGPT 5.2,1,bronze,22
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,1,bronze,22
+6a45379f2baed18e74d41a77,ChatGPT 5.2,1,bronze,24
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,1,bronze,24
+6a45379f2baed18e74d41a77,ChatGPT 5.2,0,closed,41
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,1,bronze,41
+6a45379f2baed18e74d41a77,ChatGPT 5.2,0,closed,54
+6a45379f2baed18e74d41a77,Gemini 3.1 Flash Lite,0,closed,54
+6a4537ac2baed18e74d41ab5,ChatGPT 5.2,0,closed,2
+6a4537ac2baed18e74d41ab5,Gemini 3.1 Flash Lite,0,closed,2
+6a4537ac2baed18e74d41ab5,ChatGPT 5.2,0,closed,22
+6a4537ac2baed18e74d41ab5,Gemini 3.1 Flash Lite,0,closed,22
+6a4537ac2baed18e74d41ab5,ChatGPT 5.2,0,closed,23
+6a4537ac2baed18e74d41ab5,Gemini 3.1 Flash Lite,0,closed,23
+6a4537b42baed18e74d41add,ChatGPT 5.2,0,closed,1
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,0,closed,1
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,bronze,3
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,bronze,3
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,bronze,13
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,bronze,13
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,green,15
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,green,15
+6a4537b42baed18e74d41add,ChatGPT 5.2,0,closed,21
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,bronze,21
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,bronze,29
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,bronze,29
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,bronze,34
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,gold,34
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,gold,36
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,1,bronze,36
+6a4537b42baed18e74d41add,ChatGPT 5.2,1,green,37
+6a4537b42baed18e74d41add,Gemini 3.1 Flash Lite,0,closed,37
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,1
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,0,closed,1
+6a4537c62baed18e74d41afd,ChatGPT 5.2,1,green,3
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,hybrid,3
+6a4537c62baed18e74d41afd,ChatGPT 5.2,1,green,18
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,gold,18
+6a4537c62baed18e74d41afd,ChatGPT 5.2,1,bronze,19
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,bronze,19
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,20
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,0,closed,20
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,23
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,green,23
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,26
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,0,closed,26
+6a4537c62baed18e74d41afd,ChatGPT 5.2,1,bronze,27
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,bronze,27
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,28
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,0,closed,28
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,34
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,bronze,34
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,42
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,bronze,42
+6a4537c62baed18e74d41afd,ChatGPT 5.2,1,bronze,43
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,1,green,43
+6a4537c62baed18e74d41afd,ChatGPT 5.2,0,closed,56
+6a4537c62baed18e74d41afd,Gemini 3.1 Flash Lite,0,closed,56
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,8
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,8
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,12
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,12
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,14
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,14
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,15
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,15
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,17
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,17
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,19
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,19
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,22
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,22
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,28
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,28
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,29
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,29
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,31
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,31
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,37
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,0,closed,37
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,48
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,1,bronze,48
+6a4537d62baed18e74d41b3b,ChatGPT 5.2,0,closed,49
+6a4537d62baed18e74d41b3b,Gemini 3.1 Flash Lite,1,hybrid,49
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,4
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,1,green,4
+6a4537e72baed18e74d41b75,ChatGPT 5.2,1,green,14
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,1,bronze,14
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,19
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,19
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,20
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,20
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,22
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,22
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,25
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,25
+6a4537e72baed18e74d41b75,ChatGPT 5.2,1,bronze,28
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,1,green,28
+6a4537e72baed18e74d41b75,ChatGPT 5.2,1,green,29
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,1,gold,29
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,30
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,30
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,31
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,31
+6a4537e72baed18e74d41b75,ChatGPT 5.2,1,green,35
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,35
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,37
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,37
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,42
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,42
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,48
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,48
+6a4537e72baed18e74d41b75,ChatGPT 5.2,1,hybrid,51
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,1,gold,51
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,58
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,58
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,63
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,63
+6a4537e72baed18e74d41b75,ChatGPT 5.2,0,closed,64
+6a4537e72baed18e74d41b75,Gemini 3.1 Flash Lite,0,closed,64
+6a4537fb2baed18e74d41bc3,ChatGPT 5.2,1,green,31
+6a4537fb2baed18e74d41bc3,Gemini 3.1 Flash Lite,0,closed,31
+6a4537fb2baed18e74d41bc3,ChatGPT 5.2,0,closed,45
+6a4537fb2baed18e74d41bc3,Gemini 3.1 Flash Lite,0,closed,45
+6a4537fb2baed18e74d41bc3,ChatGPT 5.2,0,closed,57
+6a4537fb2baed18e74d41bc3,Gemini 3.1 Flash Lite,0,closed,57
+6a4538042baed18e74d41c11,ChatGPT 5.2,0,closed,2
+6a4538042baed18e74d41c11,Gemini 3.1 Flash Lite,1,gold,2
+6a4538042baed18e74d41c11,ChatGPT 5.2,1,green,9
+6a4538042baed18e74d41c11,Gemini 3.1 Flash Lite,0,closed,9
+6a4538042baed18e74d41c11,ChatGPT 5.2,0,closed,19
+6a4538042baed18e74d41c11,Gemini 3.1 Flash Lite,0,closed,19
+6a4538042baed18e74d41c11,ChatGPT 5.2,1,hybrid,21
+6a4538042baed18e74d41c11,Gemini 3.1 Flash Lite,0,closed,21
+6a4538042baed18e74d41c11,ChatGPT 5.2,1,bronze,23
+6a4538042baed18e74d41c11,Gemini 3.1 Flash Lite,1,bronze,23
+6a4538042baed18e74d41c11,ChatGPT 5.2,0,closed,25
+6a4538042baed18e74d41c11,Gemini 3.1 Flash Lite,0,closed,25
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,2
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,2
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,3
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,3
+6a45381a2baed18e74d41c37,ChatGPT 5.2,1,green,5
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,1,green,5
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,10
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,10
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,17
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,17
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,19
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,19
+6a45381a2baed18e74d41c37,ChatGPT 5.2,1,green,28
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,28
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,31
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,31
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,33
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,33
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,34
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,34
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,35
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,35
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,36
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,36
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,37
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,37
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,45
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,1,green,45
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,48
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,48
+6a45381a2baed18e74d41c37,ChatGPT 5.2,1,bronze,51
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,51
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,55
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,55
+6a45381a2baed18e74d41c37,ChatGPT 5.2,1,gold,59
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,1,gold,59
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,62
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,62
+6a45381a2baed18e74d41c37,ChatGPT 5.2,0,closed,65
+6a45381a2baed18e74d41c37,Gemini 3.1 Flash Lite,0,closed,65
+6a4538242baed18e74d41c9d,ChatGPT 5.2,1,gold,8
+6a4538242baed18e74d41c9d,Gemini 3.1 Flash Lite,0,closed,8
+6a4538242baed18e74d41c9d,ChatGPT 5.2,0,closed,12
+6a4538242baed18e74d41c9d,Gemini 3.1 Flash Lite,0,closed,12
+6a4538242baed18e74d41c9d,ChatGPT 5.2,0,closed,14
+6a4538242baed18e74d41c9d,Gemini 3.1 Flash Lite,0,closed,14
+6a4538242baed18e74d41c9d,ChatGPT 5.2,0,closed,15
+6a4538242baed18e74d41c9d,Gemini 3.1 Flash Lite,0,closed,15
+6a4538242baed18e74d41c9d,ChatGPT 5.2,0,closed,16
+6a4538242baed18e74d41c9d,Gemini 3.1 Flash Lite,0,closed,16
+6a4538242baed18e74d41c9d,ChatGPT 5.2,0,closed,20
+6a4538242baed18e74d41c9d,Gemini 3.1 Flash Lite,0,closed,20
+6a45382d2baed18e74d41cc5,ChatGPT 5.2,0,closed,1
+6a45382d2baed18e74d41cc5,Gemini 3.1 Flash Lite,0,closed,1
+6a45382d2baed18e74d41cc5,ChatGPT 5.2,1,green,13
+6a45382d2baed18e74d41cc5,Gemini 3.1 Flash Lite,1,green,13
+6a45382d2baed18e74d41cc5,ChatGPT 5.2,0,closed,19
+6a45382d2baed18e74d41cc5,Gemini 3.1 Flash Lite,1,bronze,19
+6a45382d2baed18e74d41cc5,ChatGPT 5.2,1,bronze,33
+6a45382d2baed18e74d41cc5,Gemini 3.1 Flash Lite,0,closed,33
+6a45383b2baed18e74d41ce3,ChatGPT 5.2,1,gold,11
+6a45383b2baed18e74d41ce3,Gemini 3.1 Flash Lite,0,closed,11
+6a45383b2baed18e74d41ce3,ChatGPT 5.2,1,bronze,29
+6a45383b2baed18e74d41ce3,Gemini 3.1 Flash Lite,0,closed,29
+6a45383b2baed18e74d41ce3,ChatGPT 5.2,0,closed,30
+6a45383b2baed18e74d41ce3,Gemini 3.1 Flash Lite,0,closed,30
+6a45383b2baed18e74d41ce3,ChatGPT 5.2,1,bronze,33
+6a45383b2baed18e74d41ce3,Gemini 3.1 Flash Lite,0,closed,33
+6a45383b2baed18e74d41ce3,ChatGPT 5.2,0,closed,48
+6a45383b2baed18e74d41ce3,Gemini 3.1 Flash Lite,1,green,48
+6a45383b2baed18e74d41ce3,ChatGPT 5.2,1,hybrid,55
+6a45383b2baed18e74d41ce3,Gemini 3.1 Flash Lite,1,bronze,55
+6a45384e2baed18e74d41d17,ChatGPT 5.2,0,closed,26
+6a45384e2baed18e74d41d17,Gemini 3.1 Flash Lite,0,closed,26
+6a45384e2baed18e74d41d17,ChatGPT 5.2,1,green,30
+6a45384e2baed18e74d41d17,Gemini 3.1 Flash Lite,1,gold,30
+6a45384e2baed18e74d41d17,ChatGPT 5.2,1,green,38
+6a45384e2baed18e74d41d17,Gemini 3.1 Flash Lite,1,green,38
+6a45384e2baed18e74d41d17,ChatGPT 5.2,0,closed,43
+6a45384e2baed18e74d41d17,Gemini 3.1 Flash Lite,0,closed,43
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,1
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,1
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,8
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,8
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,16
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,16
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,22
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,22
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,1,bronze,32
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,32
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,36
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,1,gold,36
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,42
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,42
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,1,bronze,47
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,47
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,48
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,48
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,57
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,57
+6a45385f2baed18e74d41d5d,ChatGPT 5.2,0,closed,60
+6a45385f2baed18e74d41d5d,Gemini 3.1 Flash Lite,0,closed,60
+6a45386f2baed18e74d41db1,ChatGPT 5.2,1,bronze,12
+6a45386f2baed18e74d41db1,Gemini 3.1 Flash Lite,1,bronze,12
+6a45386f2baed18e74d41db1,ChatGPT 5.2,1,green,13
+6a45386f2baed18e74d41db1,Gemini 3.1 Flash Lite,0,closed,13
+6a45386f2baed18e74d41db1,ChatGPT 5.2,0,closed,16
+6a45386f2baed18e74d41db1,Gemini 3.1 Flash Lite,1,gold,16
+6a45386f2baed18e74d41db1,ChatGPT 5.2,0,closed,20
+6a45386f2baed18e74d41db1,Gemini 3.1 Flash Lite,0,closed,20
+6a4538772baed18e74d41dd1,ChatGPT 5.2,0,closed,21
+6a4538772baed18e74d41dd1,Gemini 3.1 Flash Lite,0,closed,21
+6a4538772baed18e74d41dd1,ChatGPT 5.2,0,closed,24
+6a4538772baed18e74d41dd1,Gemini 3.1 Flash Lite,0,closed,24
+6a4538772baed18e74d41dd1,ChatGPT 5.2,0,closed,27
+6a4538772baed18e74d41dd1,Gemini 3.1 Flash Lite,0,closed,27
+6a4538772baed18e74d41dd1,ChatGPT 5.2,0,closed,28
+6a4538772baed18e74d41dd1,Gemini 3.1 Flash Lite,0,closed,28
+6a4538772baed18e74d41dd1,ChatGPT 5.2,0,closed,39
+6a4538772baed18e74d41dd1,Gemini 3.1 Flash Lite,0,closed,39
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,3
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,3
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,6
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,6
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,10
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,10
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,12
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,12
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,18
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,18
+6a4538882baed18e74d41def,ChatGPT 5.2,1,hybrid,32
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,1,bronze,32
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,46
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,46
+6a4538882baed18e74d41def,ChatGPT 5.2,1,bronze,47
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,47
+6a4538882baed18e74d41def,ChatGPT 5.2,0,closed,61
+6a4538882baed18e74d41def,Gemini 3.1 Flash Lite,0,closed,61
+6a45388e2baed18e74d41e27,ChatGPT 5.2,0,closed,3
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,3
+6a45388e2baed18e74d41e27,ChatGPT 5.2,0,closed,15
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,15
+6a45388e2baed18e74d41e27,ChatGPT 5.2,0,closed,17
+6a45388e2baed18e74d41e27,Gemini 3.1 Flash Lite,0,closed,17
+6a4538992baed18e74d41e43,ChatGPT 5.2,1,bronze,9
+6a4538992baed18e74d41e43,Gemini 3.1 Flash Lite,1,bronze,9
+6a4538992baed18e74d41e43,ChatGPT 5.2,0,closed,15
+6a4538992baed18e74d41e43,Gemini 3.1 Flash Lite,0,closed,15
+6a4538992baed18e74d41e43,ChatGPT 5.2,0,closed,22
+6a4538992baed18e74d41e43,Gemini 3.1 Flash Lite,0,closed,22
+6a4538992baed18e74d41e43,ChatGPT 5.2,1,bronze,58
+6a4538992baed18e74d41e43,Gemini 3.1 Flash Lite,1,bronze,58
+6a4538992baed18e74d41e43,ChatGPT 5.2,0,closed,76
+6a4538992baed18e74d41e43,Gemini 3.1 Flash Lite,0,closed,76
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,1
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,1
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,9
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,9
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,11
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,11
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,12
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,12
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,16
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,16
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,1,bronze,30
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,1,bronze,30
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,49
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,1,gold,49
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,50
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,50
+6a4538a72baed18e74d41e6f,ChatGPT 5.2,0,closed,58
+6a4538a72baed18e74d41e6f,Gemini 3.1 Flash Lite,0,closed,58
+6a4538b32baed18e74d41ea5,ChatGPT 5.2,0,closed,154
+6a4538b32baed18e74d41ea5,Gemini 3.1 Flash Lite,0,closed,154
+6a4538b32baed18e74d41ea5,ChatGPT 5.2,0,closed,30
+6a4538b32baed18e74d41ea5,Gemini 3.1 Flash Lite,0,closed,30
+6a4538c12baed18e74d41ed7,ChatGPT 5.2,1,bronze,106
+6a4538c12baed18e74d41ed7,Gemini 3.1 Flash Lite,1,bronze,106
+6a4538c12baed18e74d41ed7,ChatGPT 5.2,0,closed,108
+6a4538c12baed18e74d41ed7,Gemini 3.1 Flash Lite,0,closed,108
+6a4538c12baed18e74d41ed7,ChatGPT 5.2,1,green,148
+6a4538c12baed18e74d41ed7,Gemini 3.1 Flash Lite,0,closed,148
+6a4538c72baed18e74d41f07,ChatGPT 5.2,0,closed,100
+6a4538c72baed18e74d41f07,Gemini 3.1 Flash Lite,0,closed,100
+6a4538c72baed18e74d41f07,ChatGPT 5.2,0,closed,5
+6a4538c72baed18e74d41f07,Gemini 3.1 Flash Lite,0,closed,5
+6a4538c72baed18e74d41f07,ChatGPT 5.2,0,closed,70
+6a4538c72baed18e74d41f07,Gemini 3.1 Flash Lite,0,closed,70
+6a4538cd2baed18e74d41f23,ChatGPT 5.2,1,bronze,158
+6a4538cd2baed18e74d41f23,Gemini 3.1 Flash Lite,1,bronze,158
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,hybrid,11
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,11
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,14
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,1,bronze,14
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,18
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,18
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,19
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,19
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,green,22
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,22
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,bronze,25
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,25
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,26
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,26
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,green,32
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,32
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,green,33
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,1,green,33
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,36
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,1,green,36
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,39
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,39
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,bronze,45
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,1,bronze,45
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,46
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,1,bronze,46
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,1,green,51
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,1,bronze,51
+6a4538e82baed18e74d41f3b,ChatGPT 5.2,0,closed,60
+6a4538e82baed18e74d41f3b,Gemini 3.1 Flash Lite,0,closed,60
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,2
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,0,closed,2
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,20
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,0,closed,20
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,27
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,1,hybrid,27
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,30
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,1,green,30
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,32
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,0,closed,32
+6a4539322baed18e74d4207d,ChatGPT 5.2,1,green,40
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,1,bronze,40
+6a4539322baed18e74d4207d,ChatGPT 5.2,1,bronze,46
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,0,closed,46
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,47
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,0,closed,47
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,51
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,1,green,51
+6a4539322baed18e74d4207d,ChatGPT 5.2,0,closed,64
+6a4539322baed18e74d4207d,Gemini 3.1 Flash Lite,0,closed,64
+6a4539602baed18e74d4210d,ChatGPT 5.2,0,closed,6
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,1,bronze,6
+6a4539602baed18e74d4210d,ChatGPT 5.2,1,green,8
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,0,closed,8
+6a4539602baed18e74d4210d,ChatGPT 5.2,0,closed,12
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,0,closed,12
+6a4539602baed18e74d4210d,ChatGPT 5.2,0,closed,19
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,0,closed,19
+6a4539602baed18e74d4210d,ChatGPT 5.2,0,closed,24
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,1,bronze,24
+6a4539602baed18e74d4210d,ChatGPT 5.2,1,green,29
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,1,green,29
+6a4539602baed18e74d4210d,ChatGPT 5.2,1,gold,41
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,0,closed,41
+6a4539602baed18e74d4210d,ChatGPT 5.2,0,closed,44
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,0,closed,44
+6a4539602baed18e74d4210d,ChatGPT 5.2,1,green,57
+6a4539602baed18e74d4210d,Gemini 3.1 Flash Lite,0,closed,57
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,10
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,0,closed,10
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,11
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,1,gold,11
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,21
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,1,bronze,21
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,27
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,0,closed,27
+6a4539712baed18e74d42151,ChatGPT 5.2,1,bronze,28
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,0,closed,28
+6a4539712baed18e74d42151,ChatGPT 5.2,1,bronze,31
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,1,bronze,31
+6a4539712baed18e74d42151,ChatGPT 5.2,1,green,33
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,1,hybrid,33
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,38
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,1,gold,38
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,55
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,0,closed,55
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,56
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,0,closed,56
+6a4539712baed18e74d42151,ChatGPT 5.2,0,closed,61
+6a4539712baed18e74d42151,Gemini 3.1 Flash Lite,0,closed,61
+6a45397b2baed18e74d4218f,ChatGPT 5.2,0,closed,23
+6a45397b2baed18e74d4218f,Gemini 3.1 Flash Lite,1,green,23
+6a45397b2baed18e74d4218f,ChatGPT 5.2,0,closed,31
+6a45397b2baed18e74d4218f,Gemini 3.1 Flash Lite,0,closed,31
+6a45397b2baed18e74d4218f,ChatGPT 5.2,0,closed,41
+6a45397b2baed18e74d4218f,Gemini 3.1 Flash Lite,0,closed,41
+6a45397b2baed18e74d4218f,ChatGPT 5.2,0,closed,45
+6a45397b2baed18e74d4218f,Gemini 3.1 Flash Lite,0,closed,45
+6a4539952baed18e74d421b3,ChatGPT 5.2,1,bronze,1
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,1,bronze,1
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,4
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,4
+6a4539952baed18e74d421b3,ChatGPT 5.2,1,bronze,10
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,1,bronze,10
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,11
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,11
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,17
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,1,bronze,17
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,24
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,24
+6a4539952baed18e74d421b3,ChatGPT 5.2,1,green,26
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,26
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,29
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,29
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,32
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,32
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,42
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,42
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,57
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,1,green,57
+6a4539952baed18e74d421b3,ChatGPT 5.2,0,closed,90
+6a4539952baed18e74d421b3,Gemini 3.1 Flash Lite,0,closed,90
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,gold,23
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,1,hybrid,23
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,green,25
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,25
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,green,26
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,1,green,26
+6a4539a72baed18e74d4220d,ChatGPT 5.2,0,closed,36
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,36
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,gold,37
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,37
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,hybrid,38
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,1,gold,38
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,bronze,43
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,43
+6a4539a72baed18e74d4220d,ChatGPT 5.2,0,closed,46
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,46
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,bronze,48
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,48
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,bronze,50
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,1,bronze,50
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,gold,51
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,0,closed,51
+6a4539a72baed18e74d4220d,ChatGPT 5.2,1,gold,56
+6a4539a72baed18e74d4220d,Gemini 3.1 Flash Lite,1,gold,56
+6a4539f92baed18e74d42327,ChatGPT 5.2,1,green,1
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,1
+6a4539f92baed18e74d42327,ChatGPT 5.2,1,hybrid,2
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,2
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,12
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,12
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,14
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,14
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,16
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,16
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,17
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,17
+6a4539f92baed18e74d42327,ChatGPT 5.2,1,bronze,20
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,1,green,20
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,38
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,38
+6a4539f92baed18e74d42327,ChatGPT 5.2,1,green,40
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,40
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,41
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,41
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,44
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,44
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,50
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,50
+6a4539f92baed18e74d42327,ChatGPT 5.2,0,closed,52
+6a4539f92baed18e74d42327,Gemini 3.1 Flash Lite,0,closed,52
+6a453a702baed18e74d424f1,ChatGPT 5.2,0,closed,6
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,6
+6a453a702baed18e74d424f1,ChatGPT 5.2,1,bronze,8
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,8
+6a453a702baed18e74d424f1,ChatGPT 5.2,0,closed,9
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,1,green,9
+6a453a702baed18e74d424f1,ChatGPT 5.2,1,bronze,31
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,31
+6a453a702baed18e74d424f1,ChatGPT 5.2,0,closed,41
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,41
+6a453a702baed18e74d424f1,ChatGPT 5.2,1,green,45
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,45
+6a453a702baed18e74d424f1,ChatGPT 5.2,0,closed,53
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,53
+6a453a702baed18e74d424f1,ChatGPT 5.2,0,closed,62
+6a453a702baed18e74d424f1,Gemini 3.1 Flash Lite,0,closed,62
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,bronze,2
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,bronze,2
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,3
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,3
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,gold,9
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,9
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,11
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,11
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,13
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,13
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,14
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,14
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,gold,17
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,gold,17
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,19
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,19
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,bronze,21
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,bronze,21
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,23
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,23
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,24
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,green,24
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,28
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,28
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,bronze,30
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,30
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,31
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,31
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,36
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,green,36
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,40
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,40
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,green,42
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,green,42
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,gold,43
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,43
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,44
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,44
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,50
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,50
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,53
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,53
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,55
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,green,55
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,bronze,56
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,56
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,57
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,57
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,63
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,63
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,65
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,65
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,67
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,67
+6a453aaa2baed18e74d42583,ChatGPT 5.2,1,green,69
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,0,closed,69
+6a453aaa2baed18e74d42583,ChatGPT 5.2,0,closed,70
+6a453aaa2baed18e74d42583,Gemini 3.1 Flash Lite,1,bronze,70
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,14
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,14
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,15
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,15
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,bronze,32
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,1,hybrid,32
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,34
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,34
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,36
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,36
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,37
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,37
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,44
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,44
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,gold,45
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,45
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,46
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,1,bronze,46
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,hybrid,49
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,49
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,52
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,52
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,green,54
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,54
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,hybrid,57
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,57
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,green,65
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,1,green,65
+6a453ae82baed18e74d42669,ChatGPT 5.2,1,hybrid,66
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,66
+6a453ae82baed18e74d42669,ChatGPT 5.2,0,closed,71
+6a453ae82baed18e74d42669,Gemini 3.1 Flash Lite,0,closed,71
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,hybrid,2
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,bronze,2
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,gold,6
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,0,closed,6
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,bronze,10
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,bronze,10
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,green,11
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,bronze,11
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,bronze,13
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,bronze,13
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,bronze,19
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,green,19
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,gold,26
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,gold,26
+6a453b052baed18e74d426ef,ChatGPT 5.2,0,closed,27
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,gold,27
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,hybrid,35
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,hybrid,35
+6a453b052baed18e74d426ef,ChatGPT 5.2,1,bronze,42
+6a453b052baed18e74d426ef,Gemini 3.1 Flash Lite,1,hybrid,42
+6a453b662baed18e74d4284d,ChatGPT 5.2,1,bronze,1
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,bronze,1
+6a453b662baed18e74d4284d,ChatGPT 5.2,1,gold,10
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,bronze,10
+6a453b662baed18e74d4284d,ChatGPT 5.2,1,gold,12
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,gold,12
+6a453b662baed18e74d4284d,ChatGPT 5.2,0,closed,17
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,green,17
+6a453b662baed18e74d4284d,ChatGPT 5.2,1,gold,18
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,gold,18
+6a453b662baed18e74d4284d,ChatGPT 5.2,0,closed,25
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,0,closed,25
+6a453b662baed18e74d4284d,ChatGPT 5.2,0,closed,32
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,bronze,32
+6a453b662baed18e74d4284d,ChatGPT 5.2,1,green,37
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,0,closed,37
+6a453b662baed18e74d4284d,ChatGPT 5.2,1,gold,45
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,0,closed,45
+6a453b662baed18e74d4284d,ChatGPT 5.2,0,closed,46
+6a453b662baed18e74d4284d,Gemini 3.1 Flash Lite,1,green,46
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,4
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,4
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,5
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,5
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,7
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,7
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,19
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,19
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,22
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,22
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,27
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,27
+6a453b712baed18e74d4288b,ChatGPT 5.2,1,bronze,28
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,28
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,32
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,32
+6a453b712baed18e74d4288b,ChatGPT 5.2,1,green,47
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,47
+6a453b712baed18e74d4288b,ChatGPT 5.2,0,closed,50
+6a453b712baed18e74d4288b,Gemini 3.1 Flash Lite,0,closed,50
+6a453bee2baed18e74d42a61,ChatGPT 5.2,0,closed,6
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,0,closed,6
+6a453bee2baed18e74d42a61,ChatGPT 5.2,1,gold,13
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,0,closed,13
+6a453bee2baed18e74d42a61,ChatGPT 5.2,1,green,25
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,1,bronze,25
+6a453bee2baed18e74d42a61,ChatGPT 5.2,0,closed,26
+6a453bee2baed18e74d42a61,Gemini 3.1 Flash Lite,0,closed,26
+6a453bf82baed18e74d42a8d,ChatGPT 5.2,0,closed,35
+6a453bf82baed18e74d42a8d,Gemini 3.1 Flash Lite,1,gold,35
+6a453c012baed18e74d42ab3,ChatGPT 5.2,0,closed,5
+6a453c012baed18e74d42ab3,Gemini 3.1 Flash Lite,0,closed,5
+6a453c012baed18e74d42ab3,ChatGPT 5.2,0,closed,10
+6a453c012baed18e74d42ab3,Gemini 3.1 Flash Lite,0,closed,10
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,0,closed,15
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,0,closed,15
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,1,green,18
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,1,gold,18
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,0,closed,22
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,1,gold,22
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,1,green,27
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,0,closed,27
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,0,closed,28
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,1,green,28
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,0,closed,35
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,0,closed,35
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,1,bronze,40
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,0,closed,40
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,0,closed,42
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,0,closed,42
+6a453c2b2baed18e74d42b3d,ChatGPT 5.2,0,closed,47
+6a453c2b2baed18e74d42b3d,Gemini 3.1 Flash Lite,1,gold,47
+6a453c342baed18e74d42b75,ChatGPT 5.2,1,green,25
+6a453c342baed18e74d42b75,Gemini 3.1 Flash Lite,1,gold,25
+6a453c342baed18e74d42b75,ChatGPT 5.2,0,closed,39
+6a453c342baed18e74d42b75,Gemini 3.1 Flash Lite,0,closed,39
+6a453c342baed18e74d42b75,ChatGPT 5.2,0,closed,41
+6a453c342baed18e74d42b75,Gemini 3.1 Flash Lite,1,green,41
+6a453c342baed18e74d42b75,ChatGPT 5.2,0,closed,65
+6a453c342baed18e74d42b75,Gemini 3.1 Flash Lite,1,green,65
+6a453c652baed18e74d42bf5,ChatGPT 5.2,0,closed,8
+6a453c652baed18e74d42bf5,Gemini 3.1 Flash Lite,0,closed,8
+6a453c652baed18e74d42bf5,ChatGPT 5.2,0,closed,17
+6a453c652baed18e74d42bf5,Gemini 3.1 Flash Lite,0,closed,17
+6a453c652baed18e74d42bf5,ChatGPT 5.2,1,green,24
+6a453c652baed18e74d42bf5,Gemini 3.1 Flash Lite,0,closed,24
+6a453c652baed18e74d42bf5,ChatGPT 5.2,0,closed,28
+6a453c652baed18e74d42bf5,Gemini 3.1 Flash Lite,0,closed,28
+6a453c712baed18e74d42c43,ChatGPT 5.2,1,green,43
+6a453c712baed18e74d42c43,Gemini 3.1 Flash Lite,0,closed,43
+6a453c712baed18e74d42c43,ChatGPT 5.2,1,green,48
+6a453c712baed18e74d42c43,Gemini 3.1 Flash Lite,0,closed,48
+6a453c712baed18e74d42c43,ChatGPT 5.2,0,closed,51
+6a453c712baed18e74d42c43,Gemini 3.1 Flash Lite,0,closed,51
+6a453c712baed18e74d42c43,ChatGPT 5.2,1,green,54
+6a453c712baed18e74d42c43,Gemini 3.1 Flash Lite,1,green,54
+6a453caa2baed18e74d42d31,ChatGPT 5.2,0,closed,8
+6a453caa2baed18e74d42d31,Gemini 3.1 Flash Lite,0,closed,8
+6a453caa2baed18e74d42d31,ChatGPT 5.2,1,bronze,15
+6a453caa2baed18e74d42d31,Gemini 3.1 Flash Lite,1,bronze,15
+6a453caa2baed18e74d42d31,ChatGPT 5.2,0,closed,26
+6a453caa2baed18e74d42d31,Gemini 3.1 Flash Lite,0,closed,26
+6a453caa2baed18e74d42d31,ChatGPT 5.2,0,closed,28
+6a453caa2baed18e74d42d31,Gemini 3.1 Flash Lite,0,closed,28
+6a453caa2baed18e74d42d31,ChatGPT 5.2,1,gold,51
+6a453caa2baed18e74d42d31,Gemini 3.1 Flash Lite,1,bronze,51
+6a453caa2baed18e74d42d31,ChatGPT 5.2,0,closed,52
+6a453caa2baed18e74d42d31,Gemini 3.1 Flash Lite,0,closed,52
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,1,bronze,1
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,1,bronze,1
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,0,closed,11
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,0,closed,11
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,0,closed,29
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,0,closed,29
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,1,bronze,32
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,0,closed,32
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,1,bronze,36
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,0,closed,36
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,0,closed,43
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,0,closed,43
+6a453cbf2baed18e74d42d67,ChatGPT 5.2,1,gold,55
+6a453cbf2baed18e74d42d67,Gemini 3.1 Flash Lite,0,closed,55
+6a453cec2baed18e74d42e27,ChatGPT 5.2,0,closed,3
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,0,closed,3
+6a453cec2baed18e74d42e27,ChatGPT 5.2,0,closed,13
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,0,closed,13
+6a453cec2baed18e74d42e27,ChatGPT 5.2,0,closed,28
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,0,closed,28
+6a453cec2baed18e74d42e27,ChatGPT 5.2,1,gold,30
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,1,gold,30
+6a453cec2baed18e74d42e27,ChatGPT 5.2,0,closed,35
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,0,closed,35
+6a453cec2baed18e74d42e27,ChatGPT 5.2,0,closed,37
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,0,closed,37
+6a453cec2baed18e74d42e27,ChatGPT 5.2,0,closed,43
+6a453cec2baed18e74d42e27,Gemini 3.1 Flash Lite,0,closed,43
+6a453d202baed18e74d42f11,ChatGPT 5.2,0,closed,31
+6a453d202baed18e74d42f11,Gemini 3.1 Flash Lite,0,closed,31
+6a453d272baed18e74d42f35,ChatGPT 5.2,0,closed,1
+6a453d272baed18e74d42f35,Gemini 3.1 Flash Lite,0,closed,1
+6a453d272baed18e74d42f35,ChatGPT 5.2,1,green,19
+6a453d272baed18e74d42f35,Gemini 3.1 Flash Lite,0,closed,19
+6a453d272baed18e74d42f35,ChatGPT 5.2,0,closed,28
+6a453d272baed18e74d42f35,Gemini 3.1 Flash Lite,1,gold,28
+6a453d432baed18e74d42f8d,ChatGPT 5.2,0,closed,66
+6a453d432baed18e74d42f8d,Gemini 3.1 Flash Lite,0,closed,66
+6a453d432baed18e74d42f8d,ChatGPT 5.2,1,green,77
+6a453d432baed18e74d42f8d,Gemini 3.1 Flash Lite,0,closed,77
+6a453d7c2baed18e74d4304f,ChatGPT 5.2,1,bronze,35
+6a453d7c2baed18e74d4304f,Gemini 3.1 Flash Lite,0,closed,35
+6a453d7c2baed18e74d4304f,ChatGPT 5.2,0,closed,52
+6a453d7c2baed18e74d4304f,Gemini 3.1 Flash Lite,0,closed,52
+6a453d7c2baed18e74d4304f,ChatGPT 5.2,0,closed,55
+6a453d7c2baed18e74d4304f,Gemini 3.1 Flash Lite,0,closed,55
+6a453d8c2baed18e74d4308b,ChatGPT 5.2,0,closed,11
+6a453d8c2baed18e74d4308b,Gemini 3.1 Flash Lite,0,closed,11
+6a453d8c2baed18e74d4308b,ChatGPT 5.2,1,green,12
+6a453d8c2baed18e74d4308b,Gemini 3.1 Flash Lite,0,closed,12
+6a453d8c2baed18e74d4308b,ChatGPT 5.2,1,gold,16
+6a453d8c2baed18e74d4308b,Gemini 3.1 Flash Lite,1,gold,16
+6a453d8c2baed18e74d4308b,ChatGPT 5.2,1,gold,17
+6a453d8c2baed18e74d4308b,Gemini 3.1 Flash Lite,1,gold,17
+6a453d8c2baed18e74d4308b,ChatGPT 5.2,1,bronze,27
+6a453d8c2baed18e74d4308b,Gemini 3.1 Flash Lite,1,green,27
+6a453d8c2baed18e74d4308b,ChatGPT 5.2,0,closed,30
+6a453d8c2baed18e74d4308b,Gemini 3.1 Flash Lite,1,gold,30
+6a453dc62baed18e74d43147,ChatGPT 5.2,1,bronze,8
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,0,closed,8
+6a453dc62baed18e74d43147,ChatGPT 5.2,1,bronze,10
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,0,closed,10
+6a453dc62baed18e74d43147,ChatGPT 5.2,0,closed,11
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,0,closed,11
+6a453dc62baed18e74d43147,ChatGPT 5.2,1,bronze,16
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,1,bronze,16
+6a453dc62baed18e74d43147,ChatGPT 5.2,0,closed,55
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,0,closed,55
+6a453dc62baed18e74d43147,ChatGPT 5.2,1,gold,57
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,0,closed,57
+6a453dc62baed18e74d43147,ChatGPT 5.2,0,closed,60
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,1,bronze,60
+6a453dc62baed18e74d43147,ChatGPT 5.2,0,closed,64
+6a453dc62baed18e74d43147,Gemini 3.1 Flash Lite,0,closed,64
+6a453dd42baed18e74d4319b,ChatGPT 5.2,0,closed,6
+6a453dd42baed18e74d4319b,Gemini 3.1 Flash Lite,0,closed,6
+6a453dd42baed18e74d4319b,ChatGPT 5.2,1,bronze,17
+6a453dd42baed18e74d4319b,Gemini 3.1 Flash Lite,1,bronze,17
+6a453dd42baed18e74d4319b,ChatGPT 5.2,0,closed,27
+6a453dd42baed18e74d4319b,Gemini 3.1 Flash Lite,0,closed,27
+6a453dd42baed18e74d4319b,ChatGPT 5.2,0,closed,28
+6a453dd42baed18e74d4319b,Gemini 3.1 Flash Lite,1,green,28
+6a453dd42baed18e74d4319b,ChatGPT 5.2,0,closed,35
+6a453dd42baed18e74d4319b,Gemini 3.1 Flash Lite,0,closed,35
+6a453de52baed18e74d431f9,ChatGPT 5.2,1,green,22
+6a453de52baed18e74d431f9,Gemini 3.1 Flash Lite,1,green,22
+6a453e082baed18e74d4325f,ChatGPT 5.2,0,closed,8
+6a453e082baed18e74d4325f,Gemini 3.1 Flash Lite,1,bronze,8
+6a453e082baed18e74d4325f,ChatGPT 5.2,0,closed,12
+6a453e082baed18e74d4325f,Gemini 3.1 Flash Lite,0,closed,12
+6a453e082baed18e74d4325f,ChatGPT 5.2,1,gold,14
+6a453e082baed18e74d4325f,Gemini 3.1 Flash Lite,1,bronze,14
+6a453e082baed18e74d4325f,ChatGPT 5.2,0,closed,36
+6a453e082baed18e74d4325f,Gemini 3.1 Flash Lite,1,green,36
+6a453e082baed18e74d4325f,ChatGPT 5.2,0,closed,59
+6a453e082baed18e74d4325f,Gemini 3.1 Flash Lite,0,closed,59
+6a453e122baed18e74d43293,ChatGPT 5.2,0,closed,2
+6a453e122baed18e74d43293,Gemini 3.1 Flash Lite,0,closed,2
+6a453e122baed18e74d43293,ChatGPT 5.2,1,green,9
+6a453e122baed18e74d43293,Gemini 3.1 Flash Lite,1,green,9
+6a453e122baed18e74d43293,ChatGPT 5.2,0,closed,18
+6a453e122baed18e74d43293,Gemini 3.1 Flash Lite,1,gold,18
+6a453e122baed18e74d43293,ChatGPT 5.2,0,closed,30
+6a453e122baed18e74d43293,Gemini 3.1 Flash Lite,0,closed,30
+6a453e462baed18e74d43363,ChatGPT 5.2,0,closed,2
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,1,green,2
+6a453e462baed18e74d43363,ChatGPT 5.2,1,bronze,11
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,1,bronze,11
+6a453e462baed18e74d43363,ChatGPT 5.2,0,closed,14
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,0,closed,14
+6a453e462baed18e74d43363,ChatGPT 5.2,0,closed,16
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,0,closed,16
+6a453e462baed18e74d43363,ChatGPT 5.2,1,green,20
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,1,green,20
+6a453e462baed18e74d43363,ChatGPT 5.2,0,closed,26
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,0,closed,26
+6a453e462baed18e74d43363,ChatGPT 5.2,0,closed,27
+6a453e462baed18e74d43363,Gemini 3.1 Flash Lite,0,closed,27
+6a453e732baed18e74d433f9,ChatGPT 5.2,1,green,2
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,1,green,2
+6a453e732baed18e74d433f9,ChatGPT 5.2,0,closed,37
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,1,bronze,37
+6a453e732baed18e74d433f9,ChatGPT 5.2,1,gold,39
+6a453e732baed18e74d433f9,Gemini 3.1 Flash Lite,1,gold,39
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,3
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,3
+6a453e832baed18e74d43427,ChatGPT 5.2,1,green,15
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,1,green,15
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,21
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,21
+6a453e832baed18e74d43427,ChatGPT 5.2,1,green,26
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,1,green,26
+6a453e832baed18e74d43427,ChatGPT 5.2,1,bronze,29
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,29
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,32
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,32
+6a453e832baed18e74d43427,ChatGPT 5.2,1,bronze,34
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,34
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,38
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,38
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,39
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,39
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,46
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,46
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,49
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,1,bronze,49
+6a453e832baed18e74d43427,ChatGPT 5.2,0,closed,51
+6a453e832baed18e74d43427,Gemini 3.1 Flash Lite,0,closed,51
+6a453e8a2baed18e74d43465,ChatGPT 5.2,0,closed,4
+6a453e8a2baed18e74d43465,Gemini 3.1 Flash Lite,0,closed,4
+6a453e8a2baed18e74d43465,ChatGPT 5.2,0,closed,8
+6a453e8a2baed18e74d43465,Gemini 3.1 Flash Lite,0,closed,8
+6a453e8a2baed18e74d43465,ChatGPT 5.2,1,green,15
+6a453e8a2baed18e74d43465,Gemini 3.1 Flash Lite,1,green,15
+6a453e8a2baed18e74d43465,ChatGPT 5.2,1,hybrid,24
+6a453e8a2baed18e74d43465,Gemini 3.1 Flash Lite,1,bronze,24
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,10
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,10
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,12
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,12
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,15
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,15
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,17
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,17
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,24
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,24
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,25
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,25
+6a453ea32baed18e74d4347f,ChatGPT 5.2,1,green,30
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,1,bronze,30
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,39
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,1,bronze,39
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,57
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,57
+6a453ea32baed18e74d4347f,ChatGPT 5.2,1,green,60
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,60
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,71
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,71
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,75
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,75
+6a453ea32baed18e74d4347f,ChatGPT 5.2,0,closed,83
+6a453ea32baed18e74d4347f,Gemini 3.1 Flash Lite,0,closed,83
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,1
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,1
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,10
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,10
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,15
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,15
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,31
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,1,green,31
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,35
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,35
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,52
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,52
+6a453eb32baed18e74d434d9,ChatGPT 5.2,1,bronze,58
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,58
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,60
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,0,closed,60
+6a453eb32baed18e74d434d9,ChatGPT 5.2,0,closed,66
+6a453eb32baed18e74d434d9,Gemini 3.1 Flash Lite,1,hybrid,66
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,13
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,13
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,18
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,18
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,21
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,21
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,30
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,30
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,32
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,32
+6a453ec62baed18e74d4350f,ChatGPT 5.2,1,green,36
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,36
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,41
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,41
+6a453ec62baed18e74d4350f,ChatGPT 5.2,1,green,48
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,48
+6a453ec62baed18e74d4350f,ChatGPT 5.2,1,gold,71
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,1,gold,71
+6a453ec62baed18e74d4350f,ChatGPT 5.2,1,bronze,75
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,75
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,76
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,76
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,77
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,77
+6a453ec62baed18e74d4350f,ChatGPT 5.2,0,closed,89
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,89
+6a453ec62baed18e74d4350f,ChatGPT 5.2,1,green,90
+6a453ec62baed18e74d4350f,Gemini 3.1 Flash Lite,0,closed,90
+6a453ed02baed18e74d43553,ChatGPT 5.2,0,closed,13
+6a453ed02baed18e74d43553,Gemini 3.1 Flash Lite,1,bronze,13
+6a453ed02baed18e74d43553,ChatGPT 5.2,0,closed,14
+6a453ed02baed18e74d43553,Gemini 3.1 Flash Lite,0,closed,14
+6a453ed02baed18e74d43553,ChatGPT 5.2,0,closed,44
+6a453ed02baed18e74d43553,Gemini 3.1 Flash Lite,1,hybrid,44
+6a453ed02baed18e74d43553,ChatGPT 5.2,0,closed,56
+6a453ed02baed18e74d43553,Gemini 3.1 Flash Lite,1,gold,56
+6a453ef42baed18e74d4357d,ChatGPT 5.2,1,green,10
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,1,gold,10
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,11
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,0,closed,11
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,14
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,0,closed,14
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,18
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,0,closed,18
+6a453ef42baed18e74d4357d,ChatGPT 5.2,1,green,22
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,1,green,22
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,29
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,1,green,29
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,31
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,1,gold,31
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,45
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,0,closed,45
+6a453ef42baed18e74d4357d,ChatGPT 5.2,1,green,47
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,1,bronze,47
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,59
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,0,closed,59
+6a453ef42baed18e74d4357d,ChatGPT 5.2,0,closed,60
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,1,green,60
+6a453ef42baed18e74d4357d,ChatGPT 5.2,1,green,65
+6a453ef42baed18e74d4357d,Gemini 3.1 Flash Lite,0,closed,65
+6a453f032baed18e74d435f9,ChatGPT 5.2,1,gold,8
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,0,closed,8
+6a453f032baed18e74d435f9,ChatGPT 5.2,0,closed,13
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,0,closed,13
+6a453f032baed18e74d435f9,ChatGPT 5.2,0,closed,16
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,1,gold,16
+6a453f032baed18e74d435f9,ChatGPT 5.2,1,hybrid,27
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,1,green,27
+6a453f032baed18e74d435f9,ChatGPT 5.2,0,closed,34
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,1,bronze,34
+6a453f032baed18e74d435f9,ChatGPT 5.2,0,closed,59
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,0,closed,59
+6a453f032baed18e74d435f9,ChatGPT 5.2,1,gold,62
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,0,closed,62
+6a453f032baed18e74d435f9,ChatGPT 5.2,1,green,63
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,1,hybrid,63
+6a453f032baed18e74d435f9,ChatGPT 5.2,1,gold,68
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,1,green,68
+6a453f032baed18e74d435f9,ChatGPT 5.2,1,green,86
+6a453f032baed18e74d435f9,Gemini 3.1 Flash Lite,0,closed,86
+6a453f112baed18e74d43637,ChatGPT 5.2,0,closed,18
+6a453f112baed18e74d43637,Gemini 3.1 Flash Lite,0,closed,18
+6a453f1a2baed18e74d4366d,ChatGPT 5.2,1,bronze,76
+6a453f1a2baed18e74d4366d,Gemini 3.1 Flash Lite,1,hybrid,76
+6a453f1a2baed18e74d4366d,ChatGPT 5.2,1,gold,78
+6a453f1a2baed18e74d4366d,Gemini 3.1 Flash Lite,1,gold,78
+6a453f292baed18e74d43699,ChatGPT 5.2,0,closed,10
+6a453f292baed18e74d43699,Gemini 3.1 Flash Lite,0,closed,10
+6a453f292baed18e74d43699,ChatGPT 5.2,1,green,11
+6a453f292baed18e74d43699,Gemini 3.1 Flash Lite,1,green,11
+6a453f292baed18e74d43699,ChatGPT 5.2,1,bronze,19
+6a453f292baed18e74d43699,Gemini 3.1 Flash Lite,1,hybrid,19
+6a453f292baed18e74d43699,ChatGPT 5.2,0,closed,52
+6a453f292baed18e74d43699,Gemini 3.1 Flash Lite,1,green,52
+6a453f292baed18e74d43699,ChatGPT 5.2,0,closed,55
+6a453f292baed18e74d43699,Gemini 3.1 Flash Lite,1,green,55
+6a453f3a2baed18e74d436cd,ChatGPT 5.2,0,closed,6
+6a453f3a2baed18e74d436cd,Gemini 3.1 Flash Lite,0,closed,6
+6a453f3a2baed18e74d436cd,ChatGPT 5.2,1,green,14
+6a453f3a2baed18e74d436cd,Gemini 3.1 Flash Lite,0,closed,14
+6a453f3a2baed18e74d436cd,ChatGPT 5.2,0,closed,28
+6a453f3a2baed18e74d436cd,Gemini 3.1 Flash Lite,1,gold,28
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,3
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,0,closed,3
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,22
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,0,closed,22
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,47
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,1,green,47
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,53
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,0,closed,53
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,57
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,0,closed,57
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,58
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,1,gold,58
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,60
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,0,closed,60
+6a453f432baed18e74d43705,ChatGPT 5.2,0,closed,63
+6a453f432baed18e74d43705,Gemini 3.1 Flash Lite,1,green,63
+6a453f552baed18e74d43729,ChatGPT 5.2,1,green,7
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,7
+6a453f552baed18e74d43729,ChatGPT 5.2,0,closed,26
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,26
+6a453f552baed18e74d43729,ChatGPT 5.2,0,closed,27
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,27
+6a453f552baed18e74d43729,ChatGPT 5.2,0,closed,32
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,32
+6a453f552baed18e74d43729,ChatGPT 5.2,0,closed,36
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,36
+6a453f552baed18e74d43729,ChatGPT 5.2,0,closed,38
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,38
+6a453f552baed18e74d43729,ChatGPT 5.2,1,gold,39
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,1,gold,39
+6a453f552baed18e74d43729,ChatGPT 5.2,0,closed,52
+6a453f552baed18e74d43729,Gemini 3.1 Flash Lite,0,closed,52
+6a453f642baed18e74d4376d,ChatGPT 5.2,0,closed,5
+6a453f642baed18e74d4376d,Gemini 3.1 Flash Lite,0,closed,5
+6a453f642baed18e74d4376d,ChatGPT 5.2,0,closed,69
+6a453f642baed18e74d4376d,Gemini 3.1 Flash Lite,1,green,69
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,3
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,3
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,1,green,5
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,5
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,7
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,7
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,1,green,13
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,13
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,15
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,15
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,17
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,17
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,20
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,20
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,22
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,22
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,67
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,67
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,69
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,69
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,70
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,70
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,74
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,74
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,1,green,81
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,81
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,92
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,92
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,94
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,94
+6a453f7f2baed18e74d4379d,ChatGPT 5.2,0,closed,103
+6a453f7f2baed18e74d4379d,Gemini 3.1 Flash Lite,0,closed,103
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,3
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,gold,3
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,9
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,9
+6a453f972baed18e74d43809,ChatGPT 5.2,1,hybrid,16
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,hybrid,16
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,17
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,17
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,19
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,green,19
+6a453f972baed18e74d43809,ChatGPT 5.2,1,green,25
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,25
+6a453f972baed18e74d43809,ChatGPT 5.2,1,bronze,28
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,28
+6a453f972baed18e74d43809,ChatGPT 5.2,1,green,32
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,32
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,36
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,36
+6a453f972baed18e74d43809,ChatGPT 5.2,1,bronze,47
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,47
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,52
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,52
+6a453f972baed18e74d43809,ChatGPT 5.2,1,green,60
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,60
+6a453f972baed18e74d43809,ChatGPT 5.2,1,green,61
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,green,61
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,62
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,62
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,63
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,1,green,63
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,65
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,65
+6a453f972baed18e74d43809,ChatGPT 5.2,0,closed,71
+6a453f972baed18e74d43809,Gemini 3.1 Flash Lite,0,closed,71
+6a453fa82baed18e74d4385f,ChatGPT 5.2,0,closed,1
+6a453fa82baed18e74d4385f,Gemini 3.1 Flash Lite,1,gold,1
+6a453fa82baed18e74d4385f,ChatGPT 5.2,0,closed,15
+6a453fa82baed18e74d4385f,Gemini 3.1 Flash Lite,0,closed,15
+6a453fa82baed18e74d4385f,ChatGPT 5.2,0,closed,35
+6a453fa82baed18e74d4385f,Gemini 3.1 Flash Lite,0,closed,35
+6a453fa82baed18e74d4385f,ChatGPT 5.2,0,closed,48
+6a453fa82baed18e74d4385f,Gemini 3.1 Flash Lite,0,closed,48
+6a453fb62baed18e74d4389d,ChatGPT 5.2,0,closed,2
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,0,closed,2
+6a453fb62baed18e74d4389d,ChatGPT 5.2,1,green,13
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,1,green,13
+6a453fb62baed18e74d4389d,ChatGPT 5.2,0,closed,14
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,0,closed,14
+6a453fb62baed18e74d4389d,ChatGPT 5.2,0,closed,21
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,0,closed,21
+6a453fb62baed18e74d4389d,ChatGPT 5.2,0,closed,22
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,0,closed,22
+6a453fb62baed18e74d4389d,ChatGPT 5.2,1,green,32
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,0,closed,32
+6a453fb62baed18e74d4389d,ChatGPT 5.2,0,closed,37
+6a453fb62baed18e74d4389d,Gemini 3.1 Flash Lite,0,closed,37
+6a453fc82baed18e74d438cf,ChatGPT 5.2,0,closed,1
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,0,closed,1
+6a453fc82baed18e74d438cf,ChatGPT 5.2,1,bronze,5
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,1,gold,5
+6a453fc82baed18e74d438cf,ChatGPT 5.2,0,closed,6
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,0,closed,6
+6a453fc82baed18e74d438cf,ChatGPT 5.2,1,green,7
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,0,closed,7
+6a453fc82baed18e74d438cf,ChatGPT 5.2,1,gold,8
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,0,closed,8
+6a453fc82baed18e74d438cf,ChatGPT 5.2,1,green,37
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,0,closed,37
+6a453fc82baed18e74d438cf,ChatGPT 5.2,1,bronze,45
+6a453fc82baed18e74d438cf,Gemini 3.1 Flash Lite,0,closed,45
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,green,7
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,7
+6a453fd52baed18e74d43911,ChatGPT 5.2,0,closed,8
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,8
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,gold,14
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,1,gold,14
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,gold,28
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,1,bronze,28
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,bronze,33
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,33
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,bronze,34
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,34
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,green,36
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,1,green,36
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,green,40
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,1,green,40
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,green,41
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,1,green,41
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,gold,42
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,42
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,green,49
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,49
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,bronze,53
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,1,green,53
+6a453fd52baed18e74d43911,ChatGPT 5.2,1,green,54
+6a453fd52baed18e74d43911,Gemini 3.1 Flash Lite,0,closed,54
+6a453fe62baed18e74d4393f,ChatGPT 5.2,1,green,16
+6a453fe62baed18e74d4393f,Gemini 3.1 Flash Lite,0,closed,16
+6a453fe62baed18e74d4393f,ChatGPT 5.2,1,green,20
+6a453fe62baed18e74d4393f,Gemini 3.1 Flash Lite,0,closed,20
+6a453fe62baed18e74d4393f,ChatGPT 5.2,0,closed,22
+6a453fe62baed18e74d4393f,Gemini 3.1 Flash Lite,0,closed,22
+6a453fe62baed18e74d4393f,ChatGPT 5.2,0,closed,38
+6a453fe62baed18e74d4393f,Gemini 3.1 Flash Lite,0,closed,38
+6a453fe62baed18e74d4393f,ChatGPT 5.2,0,closed,43
+6a453fe62baed18e74d4393f,Gemini 3.1 Flash Lite,0,closed,43
+6a453fe62baed18e74d4393f,ChatGPT 5.2,0,closed,48
+6a453fe62baed18e74d4393f,Gemini 3.1 Flash Lite,1,green,48
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,4
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,4
+6a453ff52baed18e74d4397b,ChatGPT 5.2,1,green,10
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,1,green,10
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,15
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,15
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,16
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,16
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,20
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,20
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,27
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,27
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,28
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,28
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,29
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,29
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,31
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,31
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,32
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,32
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,36
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,36
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,45
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,0,closed,45
+6a453ff52baed18e74d4397b,ChatGPT 5.2,0,closed,49
+6a453ff52baed18e74d4397b,Gemini 3.1 Flash Lite,1,gold,49
+6a4540082baed18e74d439b5,ChatGPT 5.2,0,closed,1
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,1
+6a4540082baed18e74d439b5,ChatGPT 5.2,1,green,4
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,4
+6a4540082baed18e74d439b5,ChatGPT 5.2,0,closed,5
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,5
+6a4540082baed18e74d439b5,ChatGPT 5.2,0,closed,7
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,7
+6a4540082baed18e74d439b5,ChatGPT 5.2,1,green,9
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,1,green,9
+6a4540082baed18e74d439b5,ChatGPT 5.2,1,bronze,12
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,12
+6a4540082baed18e74d439b5,ChatGPT 5.2,0,closed,21
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,21
+6a4540082baed18e74d439b5,ChatGPT 5.2,1,green,35
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,35
+6a4540082baed18e74d439b5,ChatGPT 5.2,1,green,38
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,1,bronze,38
+6a4540082baed18e74d439b5,ChatGPT 5.2,1,green,44
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,1,gold,44
+6a4540082baed18e74d439b5,ChatGPT 5.2,0,closed,45
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,0,closed,45
+6a4540082baed18e74d439b5,ChatGPT 5.2,0,closed,48
+6a4540082baed18e74d439b5,Gemini 3.1 Flash Lite,1,green,48
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,4
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,4
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,8
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,8
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,12
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,12
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,16
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,1,bronze,16
+6a45401b2baed18e74d439f9,ChatGPT 5.2,1,green,17
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,17
+6a45401b2baed18e74d439f9,ChatGPT 5.2,1,bronze,19
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,19
+6a45401b2baed18e74d439f9,ChatGPT 5.2,1,green,20
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,1,bronze,20
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,25
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,25
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,36
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,36
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,39
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,39
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,41
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,41
+6a45401b2baed18e74d439f9,ChatGPT 5.2,0,closed,45
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,45
+6a45401b2baed18e74d439f9,ChatGPT 5.2,1,green,51
+6a45401b2baed18e74d439f9,Gemini 3.1 Flash Lite,0,closed,51
+6a45402a2baed18e74d43a57,ChatGPT 5.2,1,gold,4
+6a45402a2baed18e74d43a57,Gemini 3.1 Flash Lite,0,closed,4
+6a45402a2baed18e74d43a57,ChatGPT 5.2,0,closed,12
+6a45402a2baed18e74d43a57,Gemini 3.1 Flash Lite,0,closed,12
+6a45402a2baed18e74d43a57,ChatGPT 5.2,0,closed,24
+6a45402a2baed18e74d43a57,Gemini 3.1 Flash Lite,0,closed,24
+6a45404b2baed18e74d43aaf,ChatGPT 5.2,0,closed,11
+6a45404b2baed18e74d43aaf,Gemini 3.1 Flash Lite,0,closed,11
+6a45404b2baed18e74d43aaf,ChatGPT 5.2,0,closed,25
+6a45404b2baed18e74d43aaf,Gemini 3.1 Flash Lite,0,closed,25
+6a45404b2baed18e74d43aaf,ChatGPT 5.2,0,closed,31
+6a45404b2baed18e74d43aaf,Gemini 3.1 Flash Lite,0,closed,31
+6a45404b2baed18e74d43aaf,ChatGPT 5.2,0,closed,48
+6a45404b2baed18e74d43aaf,Gemini 3.1 Flash Lite,0,closed,48
+6a45405d2baed18e74d43af5,ChatGPT 5.2,1,gold,34
+6a45405d2baed18e74d43af5,Gemini 3.1 Flash Lite,0,closed,34
+6a45405d2baed18e74d43af5,ChatGPT 5.2,0,closed,35
+6a45405d2baed18e74d43af5,Gemini 3.1 Flash Lite,1,green,35
+6a45405d2baed18e74d43af5,ChatGPT 5.2,1,gold,53
+6a45405d2baed18e74d43af5,Gemini 3.1 Flash Lite,0,closed,53
+6a45405d2baed18e74d43af5,ChatGPT 5.2,0,closed,56
+6a45405d2baed18e74d43af5,Gemini 3.1 Flash Lite,0,closed,56
+6a45405d2baed18e74d43af5,ChatGPT 5.2,0,closed,61
+6a45405d2baed18e74d43af5,Gemini 3.1 Flash Lite,1,gold,61
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,9
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,9
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,13
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,13
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,14
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,14
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,24
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,24
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,25
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,25
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,26
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,26
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,30
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,30
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,32
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,32
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,37
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,37
+6a4540732baed18e74d43b35,ChatGPT 5.2,1,green,41
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,41
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,44
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,44
+6a4540732baed18e74d43b35,ChatGPT 5.2,0,closed,55
+6a4540732baed18e74d43b35,Gemini 3.1 Flash Lite,0,closed,55
+6a45407d2baed18e74d43b83,ChatGPT 5.2,1,green,5
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,1,green,5
+6a45407d2baed18e74d43b83,ChatGPT 5.2,0,closed,12
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,12
+6a45407d2baed18e74d43b83,ChatGPT 5.2,0,closed,16
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,16
+6a45407d2baed18e74d43b83,ChatGPT 5.2,0,closed,27
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,27
+6a45407d2baed18e74d43b83,ChatGPT 5.2,1,gold,30
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,1,gold,30
+6a45407d2baed18e74d43b83,ChatGPT 5.2,0,closed,38
+6a45407d2baed18e74d43b83,Gemini 3.1 Flash Lite,0,closed,38
+6a4540852baed18e74d43bad,ChatGPT 5.2,1,bronze,10
+6a4540852baed18e74d43bad,Gemini 3.1 Flash Lite,0,closed,10
+6a4540852baed18e74d43bad,ChatGPT 5.2,0,closed,11
+6a4540852baed18e74d43bad,Gemini 3.1 Flash Lite,0,closed,11
+6a4540852baed18e74d43bad,ChatGPT 5.2,0,closed,13
+6a4540852baed18e74d43bad,Gemini 3.1 Flash Lite,0,closed,13
+6a4540852baed18e74d43bad,ChatGPT 5.2,0,closed,26
+6a4540852baed18e74d43bad,Gemini 3.1 Flash Lite,0,closed,26
+6a45408f2baed18e74d43bcb,ChatGPT 5.2,0,closed,8
+6a45408f2baed18e74d43bcb,Gemini 3.1 Flash Lite,0,closed,8
+6a45408f2baed18e74d43bcb,ChatGPT 5.2,0,closed,21
+6a45408f2baed18e74d43bcb,Gemini 3.1 Flash Lite,1,gold,21
+6a45408f2baed18e74d43bcb,ChatGPT 5.2,0,closed,30
+6a45408f2baed18e74d43bcb,Gemini 3.1 Flash Lite,0,closed,30
+6a45409e2baed18e74d43bf3,ChatGPT 5.2,0,closed,2
+6a45409e2baed18e74d43bf3,Gemini 3.1 Flash Lite,0,closed,2
+6a45409e2baed18e74d43bf3,ChatGPT 5.2,0,closed,5
+6a45409e2baed18e74d43bf3,Gemini 3.1 Flash Lite,0,closed,5
+6a45409e2baed18e74d43bf3,ChatGPT 5.2,1,bronze,53
+6a45409e2baed18e74d43bf3,Gemini 3.1 Flash Lite,0,closed,53
+6a45409e2baed18e74d43bf3,ChatGPT 5.2,0,closed,59
+6a45409e2baed18e74d43bf3,Gemini 3.1 Flash Lite,1,green,59
+6a45409e2baed18e74d43bf3,ChatGPT 5.2,0,closed,81
+6a45409e2baed18e74d43bf3,Gemini 3.1 Flash Lite,0,closed,81
+6a4540ae2baed18e74d43c2b,ChatGPT 5.2,0,closed,4
+6a4540ae2baed18e74d43c2b,Gemini 3.1 Flash Lite,0,closed,4
+6a4540ae2baed18e74d43c2b,ChatGPT 5.2,0,closed,35
+6a4540ae2baed18e74d43c2b,Gemini 3.1 Flash Lite,0,closed,35
+6a4540ae2baed18e74d43c2b,ChatGPT 5.2,0,closed,51
+6a4540ae2baed18e74d43c2b,Gemini 3.1 Flash Lite,0,closed,51
+6a4540ae2baed18e74d43c2b,ChatGPT 5.2,0,closed,53
+6a4540ae2baed18e74d43c2b,Gemini 3.1 Flash Lite,0,closed,53
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,2
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,2
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,1,bronze,12
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,12
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,20
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,20
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,23
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,23
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,26
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,26
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,29
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,29
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,1,bronze,33
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,33
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,41
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,41
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,1,gold,42
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,42
+6a4540bc2baed18e74d43c5f,ChatGPT 5.2,0,closed,57
+6a4540bc2baed18e74d43c5f,Gemini 3.1 Flash Lite,0,closed,57
+6a4540c82baed18e74d43c91,ChatGPT 5.2,0,closed,13
+6a4540c82baed18e74d43c91,Gemini 3.1 Flash Lite,0,closed,13
+6a4540c82baed18e74d43c91,ChatGPT 5.2,1,green,31
+6a4540c82baed18e74d43c91,Gemini 3.1 Flash Lite,1,green,31
+6a4540e62baed18e74d43cb5,ChatGPT 5.2,1,green,18
+6a4540e62baed18e74d43cb5,Gemini 3.1 Flash Lite,1,green,18
+6a4540e62baed18e74d43cb5,ChatGPT 5.2,1,hybrid,24
+6a4540e62baed18e74d43cb5,Gemini 3.1 Flash Lite,1,hybrid,24
+6a4540e62baed18e74d43cb5,ChatGPT 5.2,0,closed,106
+6a4540e62baed18e74d43cb5,Gemini 3.1 Flash Lite,0,closed,106
+6a4540e62baed18e74d43cb5,ChatGPT 5.2,0,closed,115
+6a4540e62baed18e74d43cb5,Gemini 3.1 Flash Lite,0,closed,115
+6a4aa81c3530b710d64ec8c0,ChatGPT 5.2,0,closed,5
+6a4aa81c3530b710d64ec8c0,Gemini 3.1 Flash Lite,0,closed,5
+6a4aa81c3530b710d64ec8c0,ChatGPT 5.2,0,closed,37
+6a4aa81c3530b710d64ec8c0,Gemini 3.1 Flash Lite,0,closed,37
+6a4aa81c3530b710d64ec8c0,ChatGPT 5.2,1,gold,22
+6a4aa81c3530b710d64ec8c0,Gemini 3.1 Flash Lite,0,closed,22
+6a4aa81c3530b710d64ec8c0,ChatGPT 5.2,0,closed,38
+6a4aa81c3530b710d64ec8c0,Gemini 3.1 Flash Lite,1,bronze,38
+6a4aa81c3530b710d64ec8c0,ChatGPT 5.2,0,closed,63
+6a4aa81c3530b710d64ec8c0,Gemini 3.1 Flash Lite,0,closed,63
+6a4aa81c3530b710d64ec8c0,ChatGPT 5.2,1,green,27
+6a4aa81c3530b710d64ec8c0,Gemini 3.1 Flash Lite,0,closed,27
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,0,closed,18
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,18
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,hybrid,71
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,71
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,green,9
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,green,9
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,0,closed,12
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,12
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,gold,15
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,green,15
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,gold,11
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,11
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,bronze,13
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,bronze,13
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,green,27
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,0,closed,27
+6a4aa8b03530b710d64ec91b,ChatGPT 5.2,1,bronze,39
+6a4aa8b03530b710d64ec91b,Gemini 3.1 Flash Lite,1,hybrid,39
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,16
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,16
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,39
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,39
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,50
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,50
+6a4aace23530b710d64ec983,ChatGPT 5.2,1,bronze,7
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,7
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,18
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,18
+6a4aace23530b710d64ec983,ChatGPT 5.2,1,green,59
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,59
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,35
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,35
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,49
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,49
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,9
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,9
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,43
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,43
+6a4aace23530b710d64ec983,ChatGPT 5.2,1,green,11
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,1,green,11
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,54
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,54
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,27
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,27
+6a4aace23530b710d64ec983,ChatGPT 5.2,0,closed,47
+6a4aace23530b710d64ec983,Gemini 3.1 Flash Lite,0,closed,47
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,11
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,11
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,1,green,13
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,13
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,7
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,7
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,6
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,6
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,1,green,2
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,2
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,15
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,15
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,26
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,26
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,14
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,14
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,1,green,21
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,21
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,1,green,29
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,29
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,30
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,30
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,0,closed,31
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,0,closed,31
+6a4aad253530b710d64ec9ce,ChatGPT 5.2,1,green,12
+6a4aad253530b710d64ec9ce,Gemini 3.1 Flash Lite,1,green,12
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,17
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,17
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,22
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,22
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,1,green,10
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,1,green,10
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,19
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,19
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,4
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,4
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,13
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,13
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,5
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,5
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,29
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,29
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,30
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,30
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,23
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,23
+6a4ab1753530b710d64eca0d,ChatGPT 5.2,0,closed,25
+6a4ab1753530b710d64eca0d,Gemini 3.1 Flash Lite,0,closed,25
+6a4ab1f03530b710d64eca50,ChatGPT 5.2,0,closed,41
+6a4ab1f03530b710d64eca50,Gemini 3.1 Flash Lite,0,closed,41
+6a4ab1f03530b710d64eca50,ChatGPT 5.2,0,closed,4
+6a4ab1f03530b710d64eca50,Gemini 3.1 Flash Lite,0,closed,4
+6a4ab1f03530b710d64eca50,ChatGPT 5.2,0,closed,38
+6a4ab1f03530b710d64eca50,Gemini 3.1 Flash Lite,0,closed,38
+6a4ab1f03530b710d64eca50,ChatGPT 5.2,1,green,49
+6a4ab1f03530b710d64eca50,Gemini 3.1 Flash Lite,0,closed,49
+6a4ab1f03530b710d64eca50,ChatGPT 5.2,1,green,7
+6a4ab1f03530b710d64eca50,Gemini 3.1 Flash Lite,0,closed,7
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,62
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,1,green,62
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,11
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,11
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,1,green,56
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,56
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,10
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,10
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,22
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,22
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,36
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,36
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,1,green,68
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,68
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,37
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,37
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,45
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,45
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,1,bronze,51
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,51
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,95
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,1,gold,95
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,1,bronze,9
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,9
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,3
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,3
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,34
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,34
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,14
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,14
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,26
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,1,bronze,26
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,1,bronze,79
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,1,green,79
+6a4ab3453530b710d64ecaa5,ChatGPT 5.2,0,closed,35
+6a4ab3453530b710d64ecaa5,Gemini 3.1 Flash Lite,0,closed,35
+6a4ab3813530b710d64ecafc,ChatGPT 5.2,1,green,4
+6a4ab3813530b710d64ecafc,Gemini 3.1 Flash Lite,1,green,4
+6a4ab3813530b710d64ecafc,ChatGPT 5.2,0,closed,10
+6a4ab3813530b710d64ecafc,Gemini 3.1 Flash Lite,0,closed,10
+6a4ab3813530b710d64ecafc,ChatGPT 5.2,0,closed,21
+6a4ab3813530b710d64ecafc,Gemini 3.1 Flash Lite,0,closed,21
+6a4ab3813530b710d64ecafc,ChatGPT 5.2,0,closed,23
+6a4ab3813530b710d64ecafc,Gemini 3.1 Flash Lite,0,closed,23
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,35
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,0,closed,35
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,34
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,0,closed,34
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,27
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,0,closed,27
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,1,green,47
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,0,closed,47
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,1
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,1,bronze,1
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,26
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,0,closed,26
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,45
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,1,green,45
+6a4ab4073530b710d64ecb21,ChatGPT 5.2,0,closed,48
+6a4ab4073530b710d64ecb21,Gemini 3.1 Flash Lite,0,closed,48
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,80
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,80
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,1,bronze,73
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,73
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,68
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,68
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,1,bronze,26
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,26
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,51
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,51
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,24
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,24
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,30
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,30
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,64
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,1,green,64
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,42
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,42
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,1,gold,78
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,78
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,52
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,52
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,77
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,77
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,1,hybrid,88
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,1,bronze,88
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,1,bronze,89
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,89
+6a4ab4743530b710d64ecb66,ChatGPT 5.2,0,closed,4
+6a4ab4743530b710d64ecb66,Gemini 3.1 Flash Lite,0,closed,4
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,0,closed,13
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,13
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,0,closed,15
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,15
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,0,closed,22
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,22
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,0,closed,25
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,25
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,0,closed,9
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,9
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,1,green,37
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,37
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,1,green,35
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,1,green,35
+6a4ab5873530b710d64ecbbb,ChatGPT 5.2,0,closed,16
+6a4ab5873530b710d64ecbbb,Gemini 3.1 Flash Lite,0,closed,16
+6a4ab5ec3530b710d64ecbf0,ChatGPT 5.2,0,closed,39
+6a4ab5ec3530b710d64ecbf0,Gemini 3.1 Flash Lite,0,closed,39
+6a4ab5ec3530b710d64ecbf0,ChatGPT 5.2,0,closed,55
+6a4ab5ec3530b710d64ecbf0,Gemini 3.1 Flash Lite,0,closed,55
+6a4ab6633530b710d64ecc17,ChatGPT 5.2,0,closed,2
+6a4ab6633530b710d64ecc17,Gemini 3.1 Flash Lite,0,closed,2
+6a4ab6633530b710d64ecc17,ChatGPT 5.2,0,closed,4
+6a4ab6633530b710d64ecc17,Gemini 3.1 Flash Lite,0,closed,4
+6a4ab6633530b710d64ecc17,ChatGPT 5.2,1,bronze,8
+6a4ab6633530b710d64ecc17,Gemini 3.1 Flash Lite,0,closed,8
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,12
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,12
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,21
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,21
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,40
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,40
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,36
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,36
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,19
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,1,green,19
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,67
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,67
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,70
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,1,bronze,70
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,0,closed,71
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,71
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,1,gold,35
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,0,closed,35
+6a4ab6b73530b710d64ecc4a,ChatGPT 5.2,1,hybrid,13
+6a4ab6b73530b710d64ecc4a,Gemini 3.1 Flash Lite,1,hybrid,13
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,58
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,58
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,bronze,89
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,1,green,89
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,94
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,94
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,8
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,8
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,5
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,5
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,green,62
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,62
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,66
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,1,bronze,66
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,green,81
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,1,green,81
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,bronze,31
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,31
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,gold,51
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,1,gold,51
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,green,74
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,74
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,bronze,71
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,1,green,71
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,bronze,4
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,4
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,36
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,36
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,green,97
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,97
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,17
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,17
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,67
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,67
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,75
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,1,bronze,75
+6a4ac741675dd098558126d0,ChatGPT 5.2,1,gold,39
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,39
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,98
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,98
+6a4ac741675dd098558126d0,ChatGPT 5.2,0,closed,106
+6a4ac741675dd098558126d0,Gemini 3.1 Flash Lite,0,closed,106
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,hybrid,28
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,28
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,bronze,31
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,31
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,12
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,bronze,12
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,41
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,41
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,24
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,24
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,37
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,37
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,1
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,1
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,18
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,18
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,10
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,10
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,47
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,47
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,5
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,5
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,34
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,34
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,green,21
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,21
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,43
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,43
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,green,20
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,green,20
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,hybrid,30
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,bronze,30
+6a4ac7c3675dd09855812723,ChatGPT 5.2,0,closed,11
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,11
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,gold,19
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,1,gold,19
+6a4ac7c3675dd09855812723,ChatGPT 5.2,1,green,13
+6a4ac7c3675dd09855812723,Gemini 3.1 Flash Lite,0,closed,13
+6a4ac835675dd09855812772,ChatGPT 5.2,0,closed,16
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,16
+6a4ac835675dd09855812772,ChatGPT 5.2,0,closed,81
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,81
+6a4ac835675dd09855812772,ChatGPT 5.2,0,closed,7
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,7
+6a4ac835675dd09855812772,ChatGPT 5.2,0,closed,9
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,9
+6a4ac835675dd09855812772,ChatGPT 5.2,0,closed,41
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,1,green,41
+6a4ac835675dd09855812772,ChatGPT 5.2,0,closed,10
+6a4ac835675dd09855812772,Gemini 3.1 Flash Lite,0,closed,10
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,16
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,1,bronze,16
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,1
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,1
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,44
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,44
+6a4ac898675dd098558127ef,ChatGPT 5.2,1,hybrid,38
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,38
+6a4ac898675dd098558127ef,ChatGPT 5.2,1,green,3
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,3
+6a4ac898675dd098558127ef,ChatGPT 5.2,1,bronze,24
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,1,bronze,24
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,61
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,61
+6a4ac898675dd098558127ef,ChatGPT 5.2,1,gold,41
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,41
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,4
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,4
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,8
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,1,hybrid,8
+6a4ac898675dd098558127ef,ChatGPT 5.2,0,closed,59
+6a4ac898675dd098558127ef,Gemini 3.1 Flash Lite,0,closed,59
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,9
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,9
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,29
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,29
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,12
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,12
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,23
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,23
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,24
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,1,bronze,24
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,34
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,34
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,38
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,38
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,21
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,21
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,13
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,13
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,49
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,49
+6a4ac92a675dd09855812842,ChatGPT 5.2,1,bronze,1
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,1
+6a4ac92a675dd09855812842,ChatGPT 5.2,0,closed,69
+6a4ac92a675dd09855812842,Gemini 3.1 Flash Lite,0,closed,69
+6a4ac985675dd0985581289d,ChatGPT 5.2,1,bronze,17
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,1,bronze,17
+6a4ac985675dd0985581289d,ChatGPT 5.2,1,gold,41
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,0,closed,41
+6a4ac985675dd0985581289d,ChatGPT 5.2,0,closed,45
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,1,gold,45
+6a4ac985675dd0985581289d,ChatGPT 5.2,0,closed,8
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,0,closed,8
+6a4ac985675dd0985581289d,ChatGPT 5.2,1,bronze,21
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,1,green,21
+6a4ac985675dd0985581289d,ChatGPT 5.2,1,bronze,47
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,0,closed,47
+6a4ac985675dd0985581289d,ChatGPT 5.2,1,green,1
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,1,bronze,1
+6a4ac985675dd0985581289d,ChatGPT 5.2,0,closed,37
+6a4ac985675dd0985581289d,Gemini 3.1 Flash Lite,0,closed,37
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,59
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,bronze,59
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,64
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,64
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,93
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,93
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,80
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,80
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,gold,84
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,84
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,3
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,3
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,green,10
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,10
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,50
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,50
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,gold,91
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,hybrid,91
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,green,40
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,40
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,green,81
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,1,green,81
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,gold,88
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,88
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,green,68
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,68
+6a4aca12675dd098558128d4,ChatGPT 5.2,0,closed,21
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,21
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,green,37
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,37
+6a4aca12675dd098558128d4,ChatGPT 5.2,1,green,55
+6a4aca12675dd098558128d4,Gemini 3.1 Flash Lite,0,closed,55
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,57
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,57
+6a4aca96675dd09855812935,ChatGPT 5.2,1,bronze,47
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,47
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,70
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,70
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,11
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,11
+6a4aca96675dd09855812935,ChatGPT 5.2,1,green,62
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,1,green,62
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,14
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,14
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,56
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,56
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,12
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,12
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,54
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,54
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,59
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,0,closed,59
+6a4aca96675dd09855812935,ChatGPT 5.2,0,closed,44
+6a4aca96675dd09855812935,Gemini 3.1 Flash Lite,1,green,44
+6a4acb33675dd09855812968,ChatGPT 5.2,0,closed,36
+6a4acb33675dd09855812968,Gemini 3.1 Flash Lite,0,closed,36
+6a4acb74675dd0985581299d,ChatGPT 5.2,1,green,3
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,0,closed,3
+6a4acb74675dd0985581299d,ChatGPT 5.2,0,closed,21
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,0,closed,21
+6a4acb74675dd0985581299d,ChatGPT 5.2,0,closed,19
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,0,closed,19
+6a4acb74675dd0985581299d,ChatGPT 5.2,0,closed,31
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,0,closed,31
+6a4acb74675dd0985581299d,ChatGPT 5.2,0,closed,12
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,0,closed,12
+6a4acb74675dd0985581299d,ChatGPT 5.2,0,closed,44
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,1,bronze,44
+6a4acb74675dd0985581299d,ChatGPT 5.2,0,closed,13
+6a4acb74675dd0985581299d,Gemini 3.1 Flash Lite,0,closed,13
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,100
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,1,bronze,100
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,28
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,28
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,49
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,49
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,41
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,41
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,117
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,117
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,19
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,19
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,62
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,62
+6a4acbfd675dd098558129ce,ChatGPT 5.2,1,bronze,81
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,1,green,81
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,89
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,89
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,24
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,24
+6a4acbfd675dd098558129ce,ChatGPT 5.2,1,bronze,6
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,1,bronze,6
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,22
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,22
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,34
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,34
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,90
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,90
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,93
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,93
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,31
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,31
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,63
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,1,bronze,63
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,94
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,94
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,52
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,52
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,97
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,97
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,4
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,4
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,9
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,9
+6a4acbfd675dd098558129ce,ChatGPT 5.2,0,closed,13
+6a4acbfd675dd098558129ce,Gemini 3.1 Flash Lite,0,closed,13
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,9
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,0,closed,9
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,14
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,1,bronze,14
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,26
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,0,closed,26
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,50
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,0,closed,50
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,13
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,0,closed,13
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,33
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,1,bronze,33
+6a4acc42675dd09855812a57,ChatGPT 5.2,0,closed,32
+6a4acc42675dd09855812a57,Gemini 3.1 Flash Lite,0,closed,32
+6a4acd58675dd09855812a8a,ChatGPT 5.2,0,closed,107
+6a4acd58675dd09855812a8a,Gemini 3.1 Flash Lite,1,bronze,107
+6a4acd58675dd09855812a8a,ChatGPT 5.2,0,closed,71
+6a4acd58675dd09855812a8a,Gemini 3.1 Flash Lite,0,closed,71
+6a4acd58675dd09855812a8a,ChatGPT 5.2,0,closed,66
+6a4acd58675dd09855812a8a,Gemini 3.1 Flash Lite,0,closed,66
+6a4acd58675dd09855812a8a,ChatGPT 5.2,1,bronze,106
+6a4acd58675dd09855812a8a,Gemini 3.1 Flash Lite,0,closed,106
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,green,41
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,41
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,green,34
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,34
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,13
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,13
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,green,36
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,36
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,56
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,56
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,17
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,17
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,bronze,55
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,55
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,39
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,39
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,18
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,18
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,green,71
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,green,71
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,15
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,15
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,46
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,bronze,46
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,52
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,52
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,gold,59
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,hybrid,59
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,37
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,37
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,bronze,30
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,30
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,0,closed,48
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,48
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,hybrid,65
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,65
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,bronze,11
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,0,closed,11
+6a4acdb3675dd09855812ac7,ChatGPT 5.2,1,bronze,67
+6a4acdb3675dd09855812ac7,Gemini 3.1 Flash Lite,1,bronze,67
+6a4ace19675dd09855812b14,ChatGPT 5.2,1,green,16
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,16
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,53
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,53
+6a4ace19675dd09855812b14,ChatGPT 5.2,1,hybrid,47
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,47
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,20
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,20
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,78
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,78
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,17
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,17
+6a4ace19675dd09855812b14,ChatGPT 5.2,1,bronze,43
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,43
+6a4ace19675dd09855812b14,ChatGPT 5.2,1,green,44
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,1,bronze,44
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,23
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,23
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,28
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,1,bronze,28
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,45
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,45
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,42
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,1,hybrid,42
+6a4ace19675dd09855812b14,ChatGPT 5.2,0,closed,40
+6a4ace19675dd09855812b14,Gemini 3.1 Flash Lite,0,closed,40
+6a4ace76675dd09855812b81,ChatGPT 5.2,1,green,45
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,bronze,45
+6a4ace76675dd09855812b81,ChatGPT 5.2,1,bronze,31
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,bronze,31
+6a4ace76675dd09855812b81,ChatGPT 5.2,1,green,36
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,0,closed,36
+6a4ace76675dd09855812b81,ChatGPT 5.2,0,closed,17
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,gold,17
+6a4ace76675dd09855812b81,ChatGPT 5.2,1,green,25
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,green,25
+6a4ace76675dd09855812b81,ChatGPT 5.2,1,green,28
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,0,closed,28
+6a4ace76675dd09855812b81,ChatGPT 5.2,0,closed,29
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,green,29
+6a4ace76675dd09855812b81,ChatGPT 5.2,1,green,11
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,0,closed,11
+6a4ace76675dd09855812b81,ChatGPT 5.2,0,closed,18
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,bronze,18
+6a4ace76675dd09855812b81,ChatGPT 5.2,0,closed,22
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,0,closed,22
+6a4ace76675dd09855812b81,ChatGPT 5.2,0,closed,24
+6a4ace76675dd09855812b81,Gemini 3.1 Flash Lite,1,green,24
+6a4acef6675dd09855812bb8,ChatGPT 5.2,0,closed,83
+6a4acef6675dd09855812bb8,Gemini 3.1 Flash Lite,0,closed,83
+6a4acef6675dd09855812bb8,ChatGPT 5.2,0,closed,16
+6a4acef6675dd09855812bb8,Gemini 3.1 Flash Lite,0,closed,16
+6a4acef6675dd09855812bb8,ChatGPT 5.2,1,green,23
+6a4acef6675dd09855812bb8,Gemini 3.1 Flash Lite,0,closed,23
+6a4acef6675dd09855812bb8,ChatGPT 5.2,1,green,49
+6a4acef6675dd09855812bb8,Gemini 3.1 Flash Lite,0,closed,49
+6a4acef6675dd09855812bb8,ChatGPT 5.2,0,closed,34
+6a4acef6675dd09855812bb8,Gemini 3.1 Flash Lite,0,closed,34
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,42
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,1,green,42
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,1,hybrid,50
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,1,hybrid,50
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,4
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,0,closed,4
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,33
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,0,closed,33
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,18
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,0,closed,18
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,3
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,0,closed,3
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,22
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,0,closed,22
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,47
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,1,bronze,47
+6a4acf9c675dd09855812bcd,ChatGPT 5.2,0,closed,39
+6a4acf9c675dd09855812bcd,Gemini 3.1 Flash Lite,0,closed,39
+6a4ad4326d9923824bc5aef6,ChatGPT 5.2,0,closed,67
+6a4ad4326d9923824bc5aef6,Gemini 3.1 Flash Lite,0,closed,67
+6a4ad4326d9923824bc5aef6,ChatGPT 5.2,1,green,31
+6a4ad4326d9923824bc5aef6,Gemini 3.1 Flash Lite,1,green,31
+6a4ad4326d9923824bc5aef6,ChatGPT 5.2,1,green,29
+6a4ad4326d9923824bc5aef6,Gemini 3.1 Flash Lite,0,closed,29
+6a4ad4326d9923824bc5aef6,ChatGPT 5.2,1,bronze,36
+6a4ad4326d9923824bc5aef6,Gemini 3.1 Flash Lite,0,closed,36
+6a4ad4326d9923824bc5aef6,ChatGPT 5.2,0,closed,61
+6a4ad4326d9923824bc5aef6,Gemini 3.1 Flash Lite,1,green,61
+6a4ad4326d9923824bc5aef6,ChatGPT 5.2,0,closed,62
+6a4ad4326d9923824bc5aef6,Gemini 3.1 Flash Lite,0,closed,62
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,39
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,bronze,39
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,1,bronze,60
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,60
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,14
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,14
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,38
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,38
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,45
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,45
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,79
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,green,79
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,1,green,31
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,green,31
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,23
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,23
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,50
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,1,green,50
+6a4ad4956d9923824bc5af2b,ChatGPT 5.2,0,closed,15
+6a4ad4956d9923824bc5af2b,Gemini 3.1 Flash Lite,0,closed,15
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,green,20
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,1,green,20
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,13
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,1,green,13
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,16
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,16
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,bronze,27
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,1,bronze,27
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,1
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,1
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,green,41
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,41
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,15
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,15
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,green,31
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,31
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,bronze,43
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,43
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,green,37
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,37
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,9
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,9
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,36
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,36
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,1,bronze,44
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,44
+6a4ad4f36d9923824bc5af76,ChatGPT 5.2,0,closed,21
+6a4ad4f36d9923824bc5af76,Gemini 3.1 Flash Lite,0,closed,21
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,45
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,45
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,1,bronze,77
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,77
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,34
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,1,green,34
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,16
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,16
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,58
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,58
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,44
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,44
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,1,gold,22
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,22
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,7
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,7
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,1,gold,13
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,1,gold,13
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,25
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,25
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,43
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,43
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,57
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,57
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,19
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,19
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,8
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,8
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,63
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,63
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,5
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,1,hybrid,5
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,83
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,83
+6a4ad5856d9923824bc5afbb,ChatGPT 5.2,0,closed,15
+6a4ad5856d9923824bc5afbb,Gemini 3.1 Flash Lite,0,closed,15
+6a4ad5e86d9923824bc5b048,ChatGPT 5.2,1,gold,63
+6a4ad5e86d9923824bc5b048,Gemini 3.1 Flash Lite,1,green,63
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,11
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,bronze,11
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,13
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,13
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,27
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,27
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,1,bronze,33
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,33
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,60
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,60
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,1
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,1
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,1,green,48
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,1,green,48
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,25
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,25
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,57
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,57
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,0,closed,15
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,15
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,1,bronze,47
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,47
+6a4ad6596d9923824bc5b0bd,ChatGPT 5.2,1,bronze,49
+6a4ad6596d9923824bc5b0bd,Gemini 3.1 Flash Lite,0,closed,49
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,bronze,3
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,green,3
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,0,closed,6
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,0,closed,6
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,0,closed,11
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,0,closed,11
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,green,12
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,green,12
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,0,closed,44
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,bronze,44
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,0,closed,31
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,bronze,31
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,0,closed,33
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,green,33
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,gold,10
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,0,closed,10
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,green,13
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,green,13
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,green,17
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,hybrid,17
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,bronze,43
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,bronze,43
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,green,18
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,0,closed,18
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,green,51
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,gold,51
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,green,36
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,0,closed,36
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,hybrid,41
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,hybrid,41
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,gold,45
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,bronze,45
+6a4ad6a86d9923824bc5b10e,ChatGPT 5.2,1,gold,26
+6a4ad6a86d9923824bc5b10e,Gemini 3.1 Flash Lite,1,gold,26
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,0,closed,59
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,0,closed,59
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,0,closed,34
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,0,closed,34
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,1,bronze,79
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,0,closed,79
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,0,closed,14
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,0,closed,14
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,0,closed,36
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,0,closed,36
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,0,closed,50
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,1,bronze,50
+6a4ad6f76d9923824bc5b159,ChatGPT 5.2,1,bronze,48
+6a4ad6f76d9923824bc5b159,Gemini 3.1 Flash Lite,0,closed,48
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,0,closed,14
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,14
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,1,bronze,41
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,1,hybrid,41
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,1,green,27
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,27
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,0,closed,57
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,57
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,0,closed,49
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,1,green,49
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,0,closed,78
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,78
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,0,closed,67
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,67
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,0,closed,52
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,52
+6a4ad77d6d9923824bc5b196,ChatGPT 5.2,1,gold,76
+6a4ad77d6d9923824bc5b196,Gemini 3.1 Flash Lite,0,closed,76
+6a4ad7da6d9923824bc5b201,ChatGPT 5.2,1,bronze,33
+6a4ad7da6d9923824bc5b201,Gemini 3.1 Flash Lite,1,bronze,33
+6a4ad7da6d9923824bc5b201,ChatGPT 5.2,0,closed,18
+6a4ad7da6d9923824bc5b201,Gemini 3.1 Flash Lite,0,closed,18
+6a4ad7da6d9923824bc5b201,ChatGPT 5.2,0,closed,46
+6a4ad7da6d9923824bc5b201,Gemini 3.1 Flash Lite,0,closed,46
+6a4ad7da6d9923824bc5b201,ChatGPT 5.2,0,closed,31
+6a4ad7da6d9923824bc5b201,Gemini 3.1 Flash Lite,1,bronze,31
+6a4ad7da6d9923824bc5b201,ChatGPT 5.2,0,closed,23
+6a4ad7da6d9923824bc5b201,Gemini 3.1 Flash Lite,0,closed,23
+6a4ad7da6d9923824bc5b201,ChatGPT 5.2,0,closed,39
+6a4ad7da6d9923824bc5b201,Gemini 3.1 Flash Lite,0,closed,39
+6a4ad8136d9923824bc5b244,ChatGPT 5.2,0,closed,4
+6a4ad8136d9923824bc5b244,Gemini 3.1 Flash Lite,0,closed,4
+6a4ad8136d9923824bc5b244,ChatGPT 5.2,0,closed,1
+6a4ad8136d9923824bc5b244,Gemini 3.1 Flash Lite,1,bronze,1
+6a4ad8136d9923824bc5b244,ChatGPT 5.2,1,gold,21
+6a4ad8136d9923824bc5b244,Gemini 3.1 Flash Lite,1,bronze,21
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,1,bronze,8
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,0,closed,8
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,0,closed,80
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,1,bronze,80
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,0,closed,20
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,0,closed,20
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,0,closed,70
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,0,closed,70
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,1,green,52
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,0,closed,52
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,1,green,9
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,1,green,9
+6a4ad8a26d9923824bc5b277,ChatGPT 5.2,1,green,28
+6a4ad8a26d9923824bc5b277,Gemini 3.1 Flash Lite,0,closed,28
+6a4ad9306d9923824bc5b2c4,ChatGPT 5.2,0,closed,6
+6a4ad9306d9923824bc5b2c4,Gemini 3.1 Flash Lite,0,closed,6
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,29
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,29
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,1,green,11
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,green,11
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,1,green,35
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,green,35
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,63
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,63
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,41
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,1,green,41
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,30
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,30
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,48
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,48
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,64
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,64
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,7
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,7
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,4
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,4
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,33
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,33
+6a4ad9e16d9923824bc5b32a,ChatGPT 5.2,0,closed,44
+6a4ad9e16d9923824bc5b32a,Gemini 3.1 Flash Lite,0,closed,44
+6a4ada146d9923824bc5b38f,ChatGPT 5.2,0,closed,7
+6a4ada146d9923824bc5b38f,Gemini 3.1 Flash Lite,0,closed,7
+6a4ada146d9923824bc5b38f,ChatGPT 5.2,1,bronze,31
+6a4ada146d9923824bc5b38f,Gemini 3.1 Flash Lite,0,closed,31
+6a4ada146d9923824bc5b38f,ChatGPT 5.2,1,gold,30
+6a4ada146d9923824bc5b38f,Gemini 3.1 Flash Lite,0,closed,30
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,5
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,5
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,12
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,12
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,35
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,35
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,3
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,3
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,1,bronze,7
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,7
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,1,green,6
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,1,green,6
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,19
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,19
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,1,gold,22
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,22
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,24
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,1,bronze,24
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,1,green,38
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,38
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,40
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,40
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,14
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,14
+6a4bff02d8ce85a6acd86fbc,ChatGPT 5.2,0,closed,21
+6a4bff02d8ce85a6acd86fbc,Gemini 3.1 Flash Lite,0,closed,21
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,bronze,33
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,green,33
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,0,closed,7
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,7
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,green,22
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,green,22
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,0,closed,34
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,hybrid,34
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,gold,4
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,gold,4
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,hybrid,63
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,63
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,gold,23
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,gold,23
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,bronze,44
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,hybrid,44
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,bronze,14
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,0,closed,14
+6a4bff42d8ce85a6acd86fef,ChatGPT 5.2,1,gold,42
+6a4bff42d8ce85a6acd86fef,Gemini 3.1 Flash Lite,1,gold,42
+6a4bffd2d8ce85a6acd87055,ChatGPT 5.2,0,closed,45
+6a4bffd2d8ce85a6acd87055,Gemini 3.1 Flash Lite,0,closed,45
+6a4c000cd8ce85a6acd8709c,ChatGPT 5.2,0,closed,18
+6a4c000cd8ce85a6acd8709c,Gemini 3.1 Flash Lite,0,closed,18
+6a4c000cd8ce85a6acd8709c,ChatGPT 5.2,0,closed,5
+6a4c000cd8ce85a6acd8709c,Gemini 3.1 Flash Lite,0,closed,5
+6a4c000cd8ce85a6acd8709c,ChatGPT 5.2,0,closed,13
+6a4c000cd8ce85a6acd8709c,Gemini 3.1 Flash Lite,1,bronze,13
+6a4c000cd8ce85a6acd8709c,ChatGPT 5.2,1,bronze,49
+6a4c000cd8ce85a6acd8709c,Gemini 3.1 Flash Lite,0,closed,49
+6a4c000cd8ce85a6acd8709c,ChatGPT 5.2,0,closed,34
+6a4c000cd8ce85a6acd8709c,Gemini 3.1 Flash Lite,0,closed,34
+6a4c000cd8ce85a6acd8709c,ChatGPT 5.2,0,closed,33
+6a4c000cd8ce85a6acd8709c,Gemini 3.1 Flash Lite,1,hybrid,33
+6a4c0043d8ce85a6acd870d5,ChatGPT 5.2,1,bronze,16
+6a4c0043d8ce85a6acd870d5,Gemini 3.1 Flash Lite,1,gold,16
+6a4c0043d8ce85a6acd870d5,ChatGPT 5.2,1,green,50
+6a4c0043d8ce85a6acd870d5,Gemini 3.1 Flash Lite,1,gold,50
+6a4c0043d8ce85a6acd870d5,ChatGPT 5.2,0,closed,10
+6a4c0043d8ce85a6acd870d5,Gemini 3.1 Flash Lite,1,bronze,10
+6a4c0043d8ce85a6acd870d5,ChatGPT 5.2,1,hybrid,38
+6a4c0043d8ce85a6acd870d5,Gemini 3.1 Flash Lite,1,hybrid,38
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,1,gold,12
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,hybrid,12
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,24
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,green,24
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,21
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,21
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,11
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,bronze,11
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,1,green,20
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,20
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,30
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,bronze,30
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,1,green,16
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,green,16
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,1,gold,22
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,gold,22
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,31
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,31
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,34
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,34
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,1,bronze,32
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,32
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,1,green,7
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,1,green,7
+6a4c008dd8ce85a6acd87104,ChatGPT 5.2,0,closed,23
+6a4c008dd8ce85a6acd87104,Gemini 3.1 Flash Lite,0,closed,23
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,1,green,1
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,0,closed,1
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,1,green,71
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,1,gold,71
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,0,closed,78
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,0,closed,78
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,0,closed,93
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,1,gold,93
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,0,closed,6
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,0,closed,6
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,0,closed,58
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,0,closed,58
+6a4c00e8d8ce85a6acd8712f,ChatGPT 5.2,0,closed,28
+6a4c00e8d8ce85a6acd8712f,Gemini 3.1 Flash Lite,0,closed,28
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,1,hybrid,49
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,0,closed,49
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,0,closed,3
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,0,closed,3
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,1,bronze,22
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,0,closed,22
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,1,green,11
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,0,closed,11
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,0,closed,23
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,0,closed,23
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,0,closed,5
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,0,closed,5
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,0,closed,2
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,1,bronze,2
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,0,closed,45
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,1,green,45
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,1,hybrid,16
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,1,hybrid,16
+6a4c017dd8ce85a6acd87190,ChatGPT 5.2,0,closed,50
+6a4c017dd8ce85a6acd87190,Gemini 3.1 Flash Lite,1,hybrid,50
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,1,green,13
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,bronze,13
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,57
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,57
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,55
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,55
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,31
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,green,31
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,50
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,50
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,6
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,6
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,9
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,9
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,76
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,76
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,1
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,green,1
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,20
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,20
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,69
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,69
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,5
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,5
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,12
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,12
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,27
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,27
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,1,green,83
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,green,83
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,1,gold,73
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,green,73
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,14
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,green,14
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,1,green,61
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,1,green,61
+6a4c031fd8ce85a6acd871c5,ChatGPT 5.2,0,closed,46
+6a4c031fd8ce85a6acd871c5,Gemini 3.1 Flash Lite,0,closed,46
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,5
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,0,closed,5
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,32
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,0,closed,32
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,29
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,0,closed,29
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,40
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,0,closed,40
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,45
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,1,bronze,45
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,4
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,0,closed,4
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,31
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,0,closed,31
+6a4c039ed8ce85a6acd8720e,ChatGPT 5.2,0,closed,37
+6a4c039ed8ce85a6acd8720e,Gemini 3.1 Flash Lite,1,gold,37
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,1,green,5
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,5
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,1,green,14
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,14
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,1,green,52
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,52
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,21
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,21
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,1,green,59
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,59
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,20
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,20
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,29
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,29
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,17
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,17
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,67
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,67
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,63
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,bronze,63
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,1,green,49
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,49
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,44
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,44
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,1,green,32
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,0,closed,32
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,37
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,37
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,28
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,bronze,28
+6a4c0406d8ce85a6acd87237,ChatGPT 5.2,0,closed,58
+6a4c0406d8ce85a6acd87237,Gemini 3.1 Flash Lite,1,green,58
+6a4c044ad8ce85a6acd87282,ChatGPT 5.2,0,closed,39
+6a4c044ad8ce85a6acd87282,Gemini 3.1 Flash Lite,1,green,39
+6a4c044ad8ce85a6acd87282,ChatGPT 5.2,0,closed,17
+6a4c044ad8ce85a6acd87282,Gemini 3.1 Flash Lite,0,closed,17
+6a4c044ad8ce85a6acd87282,ChatGPT 5.2,1,green,28
+6a4c044ad8ce85a6acd87282,Gemini 3.1 Flash Lite,0,closed,28
+6a4c044ad8ce85a6acd87282,ChatGPT 5.2,0,closed,15
+6a4c044ad8ce85a6acd87282,Gemini 3.1 Flash Lite,0,closed,15
+6a4c044ad8ce85a6acd87282,ChatGPT 5.2,0,closed,25
+6a4c044ad8ce85a6acd87282,Gemini 3.1 Flash Lite,0,closed,25
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,6
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,1,gold,6
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,1,bronze,7
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,1,gold,7
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,20
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,20
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,9
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,9
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,10
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,1,green,10
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,11
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,11
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,2
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,2
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,1,green,18
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,1,gold,18
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,8
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,8
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,3
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,3
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,1,gold,15
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,1,gold,15
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,1,gold,17
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,17
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,4
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,4
+6a4c04bed8ce85a6acd872b7,ChatGPT 5.2,0,closed,13
+6a4c04bed8ce85a6acd872b7,Gemini 3.1 Flash Lite,0,closed,13
+6a4c0502d8ce85a6acd872ea,ChatGPT 5.2,0,closed,3
+6a4c0502d8ce85a6acd872ea,Gemini 3.1 Flash Lite,0,closed,3
+6a4c0502d8ce85a6acd872ea,ChatGPT 5.2,0,closed,5
+6a4c0502d8ce85a6acd872ea,Gemini 3.1 Flash Lite,0,closed,5
+6a4c0502d8ce85a6acd872ea,ChatGPT 5.2,0,closed,23
+6a4c0502d8ce85a6acd872ea,Gemini 3.1 Flash Lite,0,closed,23
+6a4c0502d8ce85a6acd872ea,ChatGPT 5.2,1,green,28
+6a4c0502d8ce85a6acd872ea,Gemini 3.1 Flash Lite,1,green,28
+6a4c0502d8ce85a6acd872ea,ChatGPT 5.2,0,closed,25
+6a4c0502d8ce85a6acd872ea,Gemini 3.1 Flash Lite,0,closed,25
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,2
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,2
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,14
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,bronze,14
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,25
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,25
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,62
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,62
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,24
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,green,24
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,17
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,17
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,57
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,57
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,1,gold,27
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,gold,27
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,1,green,5
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,green,5
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,36
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,gold,36
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,53
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,53
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,1,hybrid,56
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,56
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,44
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,44
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,49
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,49
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,1,green,33
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,green,33
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,22
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,0,closed,22
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,0,closed,29
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,gold,29
+6a4c055ad8ce85a6acd87309,ChatGPT 5.2,1,bronze,47
+6a4c055ad8ce85a6acd87309,Gemini 3.1 Flash Lite,1,gold,47
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,gold,9
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,9
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,53
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,green,53
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,55
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,55
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,82
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,82
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,68
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,68
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,bronze,74
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,74
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,gold,46
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,gold,46
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,97
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,bronze,97
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,gold,3
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,3
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,hybrid,98
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,hybrid,98
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,111
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,111
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,green,12
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,gold,12
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,26
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,26
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,8
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,8
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,101
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,101
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,64
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,64
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,gold,36
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,gold,36
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,hybrid,108
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,108
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,bronze,41
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,bronze,41
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,green,88
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,88
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,0,closed,14
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,0,closed,14
+6a4c05bad8ce85a6acd8735c,ChatGPT 5.2,1,green,51
+6a4c05bad8ce85a6acd8735c,Gemini 3.1 Flash Lite,1,green,51
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,0,closed,30
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,0,closed,30
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,0,closed,36
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,0,closed,36
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,0,closed,9
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,0,closed,9
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,0,closed,24
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,0,closed,24
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,0,closed,40
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,0,closed,40
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,0,closed,41
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,1,green,41
+6a4c060bd8ce85a6acd873c7,ChatGPT 5.2,1,green,42
+6a4c060bd8ce85a6acd873c7,Gemini 3.1 Flash Lite,0,closed,42
+6a4c0685d8ce85a6acd87402,ChatGPT 5.2,0,closed,66
+6a4c0685d8ce85a6acd87402,Gemini 3.1 Flash Lite,1,green,66
+6a4c0685d8ce85a6acd87402,ChatGPT 5.2,1,hybrid,35
+6a4c0685d8ce85a6acd87402,Gemini 3.1 Flash Lite,0,closed,35
+6a4c0685d8ce85a6acd87402,ChatGPT 5.2,1,green,21
+6a4c0685d8ce85a6acd87402,Gemini 3.1 Flash Lite,0,closed,21
+6a4c0685d8ce85a6acd87402,ChatGPT 5.2,0,closed,7
+6a4c0685d8ce85a6acd87402,Gemini 3.1 Flash Lite,0,closed,7
+6a4c0685d8ce85a6acd87402,ChatGPT 5.2,0,closed,3
+6a4c0685d8ce85a6acd87402,Gemini 3.1 Flash Lite,1,green,3
+6a4c0685d8ce85a6acd87402,ChatGPT 5.2,0,closed,72
+6a4c0685d8ce85a6acd87402,Gemini 3.1 Flash Lite,0,closed,72

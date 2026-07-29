@@ -1,0 +1,629 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r, include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+install.packages("readr")
+library(readr)
+install.packages("lme4")
+library(lme4)
+install.packages("tidyr")
+library(tidyr)
+install.packages("dplyr")
+library(dplyr)
+install.packages("caret")
+library(caret)
+install.packages("brms")
+library(brms)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter0.csv")
+df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.627438))
+lower <- exp(-0.627438 - 1.96 * 0.050733)
+upper <- exp(-0.627438 + 1.96 * 0.050733)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Claude_Iter0.csv")
+df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.43180))
+lower <- exp(-0.43180 - 1.96 * 0.04951)
+upper <- exp(-0.43180 + 1.96 * 0.04951)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Gemini_Iter0.csv")
+df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.80760))
+lower <- exp(-0.80760 - 1.96 * 0.05989)
+upper <- exp(-0.80760 + 1.96 * 0.05989)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT-Claude_Iter0.csv")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(0.14615))
+lower <- exp(0.14615 - 1.96 * 0.05320)
+upper <- exp(0.14615 + 1.96 * 0.05320)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT-Gemini_Iter0.csv")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.19994))
+lower <- exp(-0.19994 - 1.96 * 0.05320)
+upper <- exp(-0.19994 + 1.96 * 0.05320)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude-Gemini_Iter0.csv")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.36675))
+lower <- exp(-0.36675 - 1.96 * 0.06243)
+upper <- exp(-0.36675 + 1.96 * 0.06243)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter1.csv")
+df$Model <- relevel(factor(df$Model), ref = "ChatGPT 5.2 Iter 0")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.06419))
+lower <- exp(-0.06419 - 1.96 * 0.13517)
+upper <- exp(-0.06419 + 1.96 * 0.13517)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude_Iter0_Iter1.csv")
+df$Model <- relevel(factor(df$Model), ref = "Claude Opus 4.6 Iter 0")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.05622))
+lower <- exp(-0.05622 - 1.96 * 0.12654)
+upper <- exp(-0.05622 + 1.96 * 0.12654)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter1.csv")
+df$Model <- relevel(factor(df$Model), ref = "Gemini 3.1 Flash Lite Iter 0")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(0.01471))
+lower <- exp(0.01471 - 1.96 * 0.17123)
+upper <- exp(0.01471 + 1.96 * 0.17123)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter2.csv")
+df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.1847))
+lower <- exp(-0.1847 - 1.96 * 0.1241)
+upper <- exp(-0.1847 + 1.96 * 0.1241)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Claude_Iter2.csv")
+df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.2387))
+lower <- exp(-0.2387 - 1.96 * 0.1222)
+upper <- exp(-0.2387 + 1.96 * 0.1222)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Gemini_Iter2.csv")
+df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.3744))
+lower <- exp(-0.3744 - 1.96 * 0.1408)
+upper <- exp(-0.3744 + 1.96 * 0.1408)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter2.csv")
+df$Model <- relevel(factor(df$Model), ref = "ChatGPT 5.2 Iter 0")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(0.2542))
+lower <- exp(0.2542 - 1.96 * 0.1325)
+upper <- exp(0.2542 + 1.96 * 0.1325)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude_Iter0_Iter2.csv")
+df$Model <- relevel(factor(df$Model), ref = "Claude Opus 4.6 Iter 0")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(-0.09184))
+lower <- exp(-0.09184 - 1.96 * 0.12364)
+upper <- exp(-0.09184 + 1.96 * 0.12364)
+print(lower)
+print(upper)
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter2.csv")
+df$Model <- relevel(factor(df$Model), ref = "Gemini 3.1 Flash Lite Iter 0")
+model <- glmer(
+    OA ~ Model + (1 | SourceID),
+    data = df,
+    family = binomial
+)
+
+summary(model)
+```
+
+```{r}
+print(exp(0.1465))
+lower <- exp(0.1465 - 1.96 * 0.1709)
+upper <- exp(0.1465 + 1.96 * 0.1709)
+print(lower)
+print(upper)
+```
+
+```{r}
+confsionMatrixMaker <- \(df, model_name, gt_name) {
+  df_wide <- df %>%
+    select(SourceID, Index, Model, OAS) %>%
+    pivot_wider(
+      names_from = Model,
+      values_from = OAS
+    )
+
+  colnames(df_wide)[colnames(df_wide) == gt_name] <- "GT"
+  colnames(df_wide)[colnames(df_wide) == model_name] <- "LLM"
+
+  df_wide <- df_wide[!(df_wide$GT == "closed" | df_wide$LLM == "closed"), ]
+
+  df_wide$GT  <- factor(df_wide$GT,
+                        levels = c("gold", "green", "hybrid", "bronze"))
+
+  df_wide$LLM <- factor(df_wide$LLM,
+                        levels = levels(df_wide$GT))
+
+  cm <- confusionMatrix(
+    data = df_wide$LLM,
+    reference = df_wide$GT
+  )
+
+  return(cm)
+}
+
+multiModelMaker <- \(df, gt_name){
+df <- df[!(df$OAS == "closed"), ]
+df$Model <- relevel(factor(df$Model), ref = gt_name)
+
+df$OAS <- factor(df$OAS, levels = c("gold", "green", "hybrid", "bronze"))
+
+model <- brm(
+  OAS ~ Model + (1 | SourceID),
+  data = df,
+  family = categorical()
+)
+
+return(model)(model)
+
+}
+```
+
+```{r}
+plotMaker <- \(mm, title){
+  ce <- conditional_effects(mm, categorical = TRUE)
+  p <- plot(ce, plot = FALSE)[[1]]
+
+  return(p +
+    labs(
+      title = paste("Predicted Open Access Ussage:", title),
+      x = "Source",
+      colour = "OA Standard",
+      fill = "OA Standard"
+    ) +
+    scale_color_manual(values = c(
+      gold   = "#ffd700",
+      green  = "#008000",
+      hybrid = "#add8e6",
+      bronze = "#cd853f"
+    )) +
+    scale_fill_manual(values = c(
+      gold   = "#ffd700",
+      green  = "#008000",
+      hybrid = "#add8e6",
+      bronze = "#cd853f"
+  )) +
+  theme_minimal(base_size = 20))
+}
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter0.csv")
+cm <- confsionMatrixMaker(df, "ChatGPT 5.2", "Ground Truth")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter0.csv")
+mm <- multiModelMaker(df, "Ground Truth")
+summary(mm)
+```
+```{r}
+plotMaker(mm, "Ground Truth vs ChatGPT")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Claude_Iter0.csv")
+cm <- confsionMatrixMaker(df, "Claude Opus 4.6", "Ground Truth")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Claude_Iter0.csv")
+mm <- multiModelMaker(df, "Ground Truth")
+summary(mm)
+```
+```{r}
+plotMaker(mm, "Ground Truth vs Claude")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Gemini_Iter0.csv")
+cm <- confsionMatrixMaker(df, "Gemini 3.1 Flash Lite", "Ground Truth")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Gemini_Iter0.csv")
+mm <- multiModelMaker(df, "Ground Truth")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Ground Truth vs Gemini")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT-Claude_Iter0.csv")
+cm <- confsionMatrixMaker(df, "Claude Opus 4.6", "ChatGPT 5.2")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT-Claude_Iter0.csv")
+mm <- multiModelMaker(df, "ChatGPT 5.2")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "ChatGPT vs Claude")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT-Gemini_Iter0.csv")
+cm <- confsionMatrixMaker(df, "Gemini 3.1 Flash Lite", "ChatGPT 5.2")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT-Gemini_Iter0.csv")
+mm <- multiModelMaker(df, "ChatGPT 5.2")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "ChatGPT vs Gemini")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude-Gemini_Iter0.csv")
+cm <- confsionMatrixMaker(df, "Claude Opus 4.6", "Gemini 3.1 Flash Lite")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude-Gemini_Iter0.csv")
+mm <- multiModelMaker(df, "Claude Opus 4.6")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Claude vs Gemini")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter1.csv")
+cm <- confsionMatrixMaker(df, "ChatGPT 5.2 Iter 1", "ChatGPT 5.2 Iter 0")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter1.csv")
+mm <- multiModelMaker(df, "ChatGPT 5.2 Iter 0")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "ChatGPT Neutral Iter. 1 vs Iter. 2")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude_Iter0_Iter1.csv")
+cm <- confsionMatrixMaker(df, "Claude Opus 4.6 Iter 1", "Claude Opus 4.6 Iter 0")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude_Iter0_Iter1.csv")
+mm <- multiModelMaker(df, "Claude Opus 4.6 Iter 0")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Claude Neutral Iter. 1 vs Iter. 2")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter1.csv")
+cm <- confsionMatrixMaker(df, "Gemini 3.1 Flash Lite Iter 1", "Gemini 3.1 Flash Lite Iter 0")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter1.csv")
+mm <- multiModelMaker(df, "Gemini 3.1 Flash Lite Iter 0")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Gemini Neutral Iter. 1 vs Iter. 2")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter2.csv")
+cm <- confsionMatrixMaker(df, "ChatGPT 5.2", "Ground Truth")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter2.csv")
+mm <- multiModelMaker(df, "Ground Truth")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Ground Truth vs ChatGPT Biased")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Claude_Iter2.csv")
+cm <- confsionMatrixMaker(df, "Claude Opus 4.6", "Ground Truth")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Claude_Iter2.csv")
+mm <- multiModelMaker(df, "Ground Truth")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Ground Truth vs Claude Biased")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Gemini_Iter2.csv")
+cm <- confsionMatrixMaker(df, "Gemini 3.1 Flash Lite", "Ground Truth")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Ground-Gemini_Iter2.csv")
+mm <- multiModelMaker(df, "Ground Truth")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Ground Truth vs Gemini Biased")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter2.csv")
+cm <- confsionMatrixMaker(df, "ChatGPT 5.2 Iter 1", "ChatGPT 5.2 Iter 0")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter2.csv")
+mm <- multiModelMaker(df, "ChatGPT 5.2 Iter 0")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "ChatGPT Neutral vs Biased")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude_Iter0_Iter2.csv")
+cm <- confsionMatrixMaker(df, "Claude Opus 4.6 Iter 1", "Claude Opus 4.6 Iter 0")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Claude_Iter0_Iter2.csv")
+mm <- multiModelMaker(df, "Claude Opus 4.6 Iter 0")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Claude Neutral vs Biased")
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter2.csv")
+cm <- confsionMatrixMaker(df, "Gemini 3.1 Flash Lite Iter 1", "Gemini 3.1 Flash Lite Iter 0")
+cm
+```
+
+```{r}
+df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter2.csv")
+mm <- multiModelMaker(df, "Gemini 3.1 Flash Lite Iter 0")
+summary(mm)
+```
+
+```{r}
+plotMaker(mm, "Gemini Neutral vs Biased")
+```
+
+
