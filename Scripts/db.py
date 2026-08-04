@@ -12,6 +12,7 @@ class Database:
         self.client = MongoClient(uri, server_api=ServerApi('1'))
         self.db = self.client["oaca"]
 
+
     def insert_paper(self, paper_data):
         """
         Saves a single paper into the database
@@ -21,6 +22,7 @@ class Database:
         collection = self.db["papers"]
         result = collection.insert_one(paper_data)
         return result.inserted_id
+
 
     def insert_papers(self, papers_data):
         """
@@ -32,6 +34,7 @@ class Database:
         result = collection.insert_many(papers_data)
         return result.inserted_ids
 
+
     def get_source_papers(self):
         """
         Retrieves all source papers from the database
@@ -40,6 +43,7 @@ class Database:
         collection = self.db["papers"]
         papers = list(collection.find({"Source": True}))
         return papers
+
 
     def insert_paragraph(self, paragraph_data):
         """
@@ -51,6 +55,7 @@ class Database:
         result = collection.insert_one(paragraph_data)
         return result.inserted_id
 
+
     def insert_references(self, references_data):
         """
         Saves multiple references into the database
@@ -61,6 +66,7 @@ class Database:
         result = collection.insert_many(references_data)
         return result.inserted_ids
 
+
     def get_citation_count(self, source_id):
         """
         Retrieves the citation count for the given source_id
@@ -70,6 +76,7 @@ class Database:
         collection = self.db["references"]
         count = collection.count_documents({"SourceID": source_id})
         return count
+
 
     def get_sources(self):
         """
@@ -121,10 +128,16 @@ class Database:
         authors = list(collection.find({"Authors": ['Unknown']}))
         return authors
 
+
     def get_missing_cit_count(self):
+        """
+        Retrieves all papers from the database that have a missing citation count (i.e. Citation Count is 0)
+        :return: A list of papers with missing citation counts
+        """
         collection = self.db["papers"]
         papers = list(collection.find({"$and": [{"DOI": {'$exists': True}}, {"Citation Count": 0}]}))
         return papers
+
 
     def update_missing_authors(self, papers):
         """
@@ -191,6 +204,7 @@ class Database:
         paper = collection.find_one({"DOI": doi})
         return paper
 
+
     def get_source_paper_by_title(self, title):
         """
         Retrieves a single paper from the database based on Title
@@ -200,6 +214,7 @@ class Database:
         collection = self.db["papers"]
         paper = collection.find_one({"Title": title, "Source": True})
         return paper
+
 
     def get_source_paper_by_id(self, paper_id):
         """
@@ -211,6 +226,7 @@ class Database:
         paper = collection.find_one({"_id": paper_id, "Source": True})
         return paper
 
+
     def get_paragraph_by_source_id(self, source_id):
         """
         Retrieves a single paragraph from the database based on SourceID
@@ -220,6 +236,7 @@ class Database:
         collection = self.db["paragraphs"]
         paragraph = collection.find_one({"SourceID": source_id})
         return paragraph
+
 
     def insert__all_input_data(self, source_data, paragraph_data, citations_data):
         """
@@ -300,5 +317,10 @@ class Database:
 
 
     def update_paragraph_info(self, paragraph):
+        """
+        Updates the paragraph information in the database
+        :param paragraph: A dictionary containing the paragraph data to be updated, including the "_id" field to identify the paragraph
+        :return: None
+        """
         collection = self.db["paragraphs"]
         collection.update_one({"_id": paragraph["_id"]}, {"$set": {"Paragraph": paragraph["Paragraph"]}})

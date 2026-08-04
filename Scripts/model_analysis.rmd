@@ -18,6 +18,9 @@ install.packages("brms")
 library(brms)
 ```
 
+## Logistic mixed effects models
+They all follow the same structure, read data, make model, print summary and calculate odds ratio and confidence intervals.
+
 ```{r}
 df <- read.csv("./Sub_Sets/Ground-ChatGPT_Iter0.csv")
 df$Model <- relevel(factor(df$Model), ref = "Ground Truth")
@@ -315,6 +318,13 @@ print(lower)
 print(upper)
 ```
 
+## Confusion Matrix and Mixed-Effects Multinomial Logistic Regression Models
+Confusion matrix has not been used in the end, since it does not consider the random effect of the source.
+The results of mixed-effects multinomial logistic regression models are used to compare the models, and the results are visualized using conditional effects plots.
+
+The structure for this part is as follows:
+First, the functions for the confusion matrix, mixed-effects multinomial logistic regression models and conditional effects plots are defined. Then, the functions are called for each model comparison and the results are printed and visualized.
+
 ```{r}
 confsionMatrixMaker <- \(df, model_name, gt_name) {
   df_wide <- df %>%
@@ -344,16 +354,22 @@ confsionMatrixMaker <- \(df, model_name, gt_name) {
 }
 
 multiModelMaker <- \(df, gt_name){
-df <- df[!(df$OAS == "closed"), ]
-df$Model <- relevel(factor(df$Model), ref = gt_name)
+  df <- df[!(df$OAS == "closed"), ]
+  df$Model <- relevel(factor(df$Model), ref = gt_name)
 
-df$OAS <- factor(df$OAS, levels = c("gold", "green", "hybrid", "bronze"))
+  df$OAS <- recode(df$OAS,
+                  "gold" = "Gold",
+                  "green" = "Green",
+                  "hybrid" = "Hybrid",
+                  "bronze" = "Bronze")
 
-model <- brm(
-  OAS ~ Model + (1 | SourceID),
-  data = df,
-  family = categorical()
-)
+  df$OAS <- factor(df$OAS, levels = c("Gold", "Green", "Hybrid", "Bronze"))
+
+  model <- brm(
+    OAS ~ Model + (1 | SourceID),
+    data = df,
+    family = categorical()
+  )
 
 return(model)(model)
 
@@ -367,22 +383,22 @@ plotMaker <- \(mm, title){
 
   return(p +
     labs(
-      title = paste("Predicted Open Access Ussage:", title),
+      title = paste("Predicted Open Access Usage:", title),
       x = "Source",
-      colour = "OA Standard",
-      fill = "OA Standard"
+      colour = "Standard",
+      fill = "Standard"
     ) +
     scale_color_manual(values = c(
-      gold   = "#ffd700",
-      green  = "#008000",
-      hybrid = "#add8e6",
-      bronze = "#cd853f"
+      Gold   = "#ffd700",
+      Green  = "#008000",
+      Hybrid = "#add8e6",
+      Bronze = "#cd853f"
     )) +
     scale_fill_manual(values = c(
-      gold   = "#ffd700",
-      green  = "#008000",
-      hybrid = "#add8e6",
-      bronze = "#cd853f"
+      Gold   = "#ffd700",
+      Green  = "#008000",
+      Hybrid = "#add8e6",
+      Bronze = "#cd853f"
   )) +
   theme_minimal(base_size = 20))
 }
@@ -586,7 +602,10 @@ cm
 
 ```{r}
 df <- read.csv("./Sub_Sets/ChatGPT_Iter0_Iter2.csv")
-mm <- multiModelMaker(df, "ChatGPT 5.2 Iter 0")
+df$Model <- recode(df$Model,
+                    "ChatGPT 5.2 Iter 0" = "ChatGPT 5.2 Neutral",
+                    "ChatGPT 5.2 Iter 1" = "ChatGPT 5.2 Biased")
+mm <- multiModelMaker(df, "ChatGPT 5.2 Neutral")
 summary(mm)
 ```
 
@@ -596,13 +615,17 @@ plotMaker(mm, "ChatGPT Neutral vs Biased")
 
 ```{r}
 df <- read.csv("./Sub_Sets/Claude_Iter0_Iter2.csv")
+
 cm <- confsionMatrixMaker(df, "Claude Opus 4.6 Iter 1", "Claude Opus 4.6 Iter 0")
 cm
 ```
 
 ```{r}
 df <- read.csv("./Sub_Sets/Claude_Iter0_Iter2.csv")
-mm <- multiModelMaker(df, "Claude Opus 4.6 Iter 0")
+df$Model <- recode(df$Model,
+                    "Claude Opus 4.6 Iter 0" = "Claude Opus 4.6 Neutral",
+                    "Claude Opus 4.6 Iter 1" = "Claude Opus 4.6 Biased")
+mm <- multiModelMaker(df, "Claude Opus 4.6 Neutral")
 summary(mm)
 ```
 
@@ -618,7 +641,10 @@ cm
 
 ```{r}
 df <- read.csv("./Sub_Sets/Gemini_Iter0_Iter2.csv")
-mm <- multiModelMaker(df, "Gemini 3.1 Flash Lite Iter 0")
+df$Model <- recode(df$Model,
+                    "Gemini 3.1 Flash Lite Iter 0" = "Gemini 3.1 Flash Lite Neutral",
+                    "Gemini 3.1 Flash Lite Iter 1" = "Gemini 3.1 Flash Lite Biased")
+mm <- multiModelMaker(df, "Gemini 3.1 Flash Lite Neutral")
 summary(mm)
 ```
 

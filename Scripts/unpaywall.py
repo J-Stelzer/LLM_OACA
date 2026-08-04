@@ -32,12 +32,14 @@ def lookup_api(doi):
     """
     try:
         response = requests.get("https://api.unpaywall.org/v2/" + doi[0].rstrip(". ") + "?email=" + UNPAYWALL_EMAIL)
+        # Handling exception if no result was found, returns empty result
         if response.status_code == 404:
             result_df = EMPTY_RESULT
             result_df['doi'] = doi[0]
             logging.warning("Error during lookup for DOI: " + doi[0] + "\nThere was no result found for that DOI.")
             return result_df
 
+        # Convert results to JSON and then to a DataFrame, ensuring that a result has been found
         result = json.loads(response.content)
         if isinstance(result, NoneType):
             result_df = EMPTY_RESULT

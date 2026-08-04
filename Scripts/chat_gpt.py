@@ -21,8 +21,3 @@ class ChatGPT(LLMCommunicator):
             temperature = self.temperature
         )
         return response.output_text
-
-
-#test = ChatGPT()
-#response = test.request("Explain how AI works in a few words")
-#print(response)

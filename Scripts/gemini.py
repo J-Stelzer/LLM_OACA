@@ -27,6 +27,8 @@ class Gemini(LLMCommunicator):
                 config = self.config
             )
 
+        # If an error occurs, up to 5 retries are made to get a response from the model; If no response is received after 5 retries, None is returned
+        # Catches Error in case the model is currently experiencing too much traffic; Automatically retries after 60 seconds
         except Exception as e:
             print(e)
             if "503 UNAVAILABLE." in str(e):
@@ -36,6 +38,7 @@ class Gemini(LLMCommunicator):
 
             return None
 
+        # Catches Error in case the model throws a "Recitation Error"; Seems to be automatic prevention system; Automatically retries after 5 seconds
         if response.text is None:
             print("Recitation Error")
             if iteration <= 5:
@@ -45,8 +48,4 @@ class Gemini(LLMCommunicator):
             return None
 
         return response.text
-
-#test = Gemini()
-#response = test.request("Explain how AI works in a few words")
-#print(response)
 
